@@ -1,0 +1,142 @@
+1
+
+Annex 3.2 – Declaration of Honour
+CONSORTIUM DECLARATION OF HONOUR
+Proposal Title: ____________________________________________________________________________
+Proposal Acronym: _______________________________________________________________________
+
+BETWEEN
+______________________________________________________________ [Company/ organisation
+name] established in ____________________________________________________, [Official address],
+VAT number ____________________, represented for the purposes of signing and submitting the
+proposal and the Consortium Declaration of Honour by ___________________________________
+[Name of legal representative];
+AND
+______________________________________________________________ [Company/ organisation
+name] established in ____________________________________________________, [Official address],
+VAT number ____________________, represented for the purposes of signing and submitting the
+proposal and the Consortium Declaration of Honour by ___________________________________
+[Name of legal representative];
+It is hereby agreed that:
+• All information provided is true and legally binding.
+• Partner ___________________________________________________ [Consortium leader name]
+is acting on behalf the following partner(s) as the consortium leader:
+o Partner 2: __________________________________________ [Company/ organisation
+name]
+• The consortium entities have agreed on their roles and budget shares.
+• The consortium leader is solely responsible for distributing the budget shares to the
+other consortium partners in accordance with this Consortium Declaration of Honour.
+• The [%PROJECT_NAME %] consortium bears no responsibility in case a partner of this
+project consortium violates the mutual agreement set in this Consortium Declaration of
+Honour.
+• The [%PROJECT_NAME %] consortium bears no responsibility in the case of dispute
+among consortium partners regarding intellectual property rights.
+
+2
+
+•
+
+•
+
+•
+•
+
+●
+
+By signing this Consortium Declaration of Honour, all consortium partners declare that
+they – individually or as a consortium – may have up to two proposals evaluated under
+this open call, but only one will be – if successfully evaluated – accepted for funding.
+Any entity, applying solely or as part of a consortium, may only be funded for one project.
+By signing this Consortium Declaration of Honour, all consortium partners declare that
+they are not members of any other competitive consortium in the DeployAI Funding
+Programme. In case, an applicant participates in more than one consortium, both
+consortia will be excluded.
+By signing and submitting this Consortium Declaration of Honour, the consortium
+partners accept all the rules explained in Annex 1 – Guide for Applicants:
+All partners declare not being in one of the following situations:
+a) it is bankrupt or being wound up, is having its affairs administered by the courts,
+has entered into an arrangement with creditors, has suspended business
+activities, is the subject of proceedings concerning those matters, or is in any
+analogous situation arising from a similar procedure provided for in national
+legislation or regulations;
+b) it or persons having powers of representation, decision making or control over
+it have been convicted of an offence concerning their professional conduct by
+a judgment which has the force of res judicata;
+c) it has been guilty of grave professional misconduct proven by any means which
+the contracting authority can justify including by decisions of the European
+Investment Bank and international organizations;
+d) it is not in compliance with its obligations relating to the payment of social
+security contributions or the payment of taxes in accordance with the legal
+provisions of the country in which it is established or with those of the country
+of the contracting authority or those of the country where the contract is to be
+performed;
+e) it or persons having powers of representation, decision making or control over
+it have been the subject of a judgment which has the force of res judicata for
+fraud, corruption, involvement in a criminal organization or any other illegal
+activity, where such illegal activity is detrimental to the Union’s financial
+interests;
+f) is subject to an administrative penalty for being guilty of misrepresenting the
+information required by the contracting authority as a condition of participation
+in a grant award procedure or another procurement procedure or failing to
+supply this information or having been declared to be in serious breach of its
+obligations under contracts or grants covered by the Union's budget.
+Each partner declares that:
+a) is not subject to a conflict of interest;
+b) has not made false declarations in supplying the information required by the as
+a condition of participation in the DeployAI Funding Programme or does not fail
+to supply this information;
+
+3
+
+●
+
+c) is not in one of the situations of exclusion, referred to in the abovementioned
+points a) to f).
+d) Is aware and fully accepts all [%PROJECT_NAME %] conditions and rules as
+expressed in [%PROJECT_NAME %] open call documents Annex X, Annex Y and
+Annex Z.
+Each partner certifies that:
+o is committed to participate in the abovementioned project;
+o has stable and sufficient sources of funding to maintain its activity throughout
+its participation in the above-mentioned project and to provide any counterpart
+funding necessary;
+o has or will have the necessary resources as and when needed to carry out its
+involvement in the above-mentioned project.
+
+4
+
+Consortium leader
+Company/organisation name
+Full address
+Country
+Name of legal representative
+Position in the company/organisation
+Project budget share
+
+________________ EUR
+
+I have the power of legally binding the abovementioned company/organisation on submitting this proposal
+
+Legal representative signature and stamp
+(stamp if applicable)
+Done at (place)___________________________
+The (day)_________ (month)_____________(year)___________
+
+Consortium partner no. 2
+Company/organisation name
+Full address
+Country
+Name of legal representative
+Position in the company/organisation
+Project budget share
+
+________________ EUR
+
+I have the power of legally binding the abovementioned company/organisation on submitting this proposal
+
+Legal representative signature and stamp
+(stamp if applicable)
+Done at (place)___________________________
+The (day)_________ (month)_____________(year)___________
+
+

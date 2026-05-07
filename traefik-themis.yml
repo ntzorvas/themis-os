@@ -1,0 +1,30 @@
+http:
+  routers:
+    themis-api:
+      rule: "Host(`themis.mentorist.gr`) && PathPrefix(`/api`)"
+      entryPoints:
+        - websecure
+      service: themis-api-svc
+      tls:
+        certResolver: letsencrypt
+      priority: 10
+
+    themis-web:
+      rule: "Host(`themis.mentorist.gr`)"
+      entryPoints:
+        - websecure
+      service: themis-web-svc
+      tls:
+        certResolver: letsencrypt
+      priority: 1
+
+  services:
+    themis-api-svc:
+      loadBalancer:
+        servers:
+          - url: "http://host.docker.internal:4100"
+
+    themis-web-svc:
+      loadBalancer:
+        servers:
+          - url: "http://host.docker.internal:3501"

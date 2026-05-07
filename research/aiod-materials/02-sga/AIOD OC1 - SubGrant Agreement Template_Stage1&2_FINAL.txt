@@ -1,0 +1,615 @@
+1
+
+SUB-GRANT AGREEMENT – STAGE 1 & 2
+Contracting parties
+
+This Agreement (‘the Agreement’) is between the following parties:
+
+On the one part,
+________________________________________________ [Organisation name] established in
+________________________________________________, [Full official address], VAT number
+____________________, represented for the purposes of signing the Agreement by
+_______________________________________
+[Name
+of
+legal
+representative],
+________________________ [Position in organisation], Treasurer of the DeployAI project;
+Hereinafter referred to as the “Treasurer”,
+and, on the other part,
+________________________________________________ [Organisation name/ individual name]
+established in ________________________________________________, [Full official address], VAT
+number ____________________, represented for the purposes of signing the Agreement by
+_______________________________________ [Name of legal representative],
+
+Hereinafter referred to as the “Beneficiary”;
+Hereinafter, all parties above are collectively referred to as the “Contracting Parties”
+The Contracting Parties HAVE AGREED to the following terms and conditions including those
+in the following Annexes, which form an integral part of this sub-grant agreement.
+
+2
+
+General provision
+The grant is awarded to %Sub-grant ProjectAcronym%, selected in the framework of the AIoD
+OC1-PrivateSector.
+The agreement sets out the terms and conditions for paying the grant to the Beneficiary and
+rights and responsibilities of the Beneficiary implementing Stage 1 and Stage 2 of the awarded
+project.
+
+Article 1 - Entry into force and termination of the agreement
+1.1. Entry into force
+1. This Agreement enters into force on the day of its signature by the last Contracting
+Party.
+
+1.2. Agreement termination
+1. This Agreement will automatically terminate at xxx (full date), if the beneficiary is not
+selected for Stage 2, or xxx (full date), if the beneficiary is selected for Stage 2
+(selection process is detailed on Annex 1 – Guide for Applciants)
+2. Either Contracting Party can terminate the Agreement by written notice.
+3. Termination has no effect on the provisions that normally continue to apply after the
+end of the Programme and duration of the Agreement.
+4. The Open Call Coordinator will be entitled to terminate the Agreement by written notice
+with immediate effect if the Beneficiary does not fulfil their obligations. In this case,
+the provisions of Article 3 shall prevail.
+5. In case of termination by the Beneficiary, no additional payments will be made beyond
+the last concluded ‘Stage’, regardless of subsequent work carried out.
+
+1.3. Duration and starting date of awarded the project
+1. The effective starting date of the awarded %Sub-grant ProjectAcronym% is xxx (full
+date), corresponding to start of Stage 1.
+2. The end date of the awarded %Sub-grant ProjectAcronym% is xxx (full date) (Stage 1)
+and xxx (full date) (Stage 2), depending on selection process
+3. The %Sub-grant ProjectAcronym%, will be implemented for a maximum of 4 months
+(1-month Stage 1 and 3-months Stage 2).
+
+3
+
+4. The implementation of the awarded project shall start on the date given above, even if
+the agreement has been signed at a later date.
+5. The Beneficiary will have access to limited information until the Agreement is signed.
+
+Article 2 - Conflict of Interest
+1. The Beneficiary shall take every necessary precaution to avoid any risk of conflict of
+interest relating with economic interests, political or national affinities, personal or any
+other interests liable to influence the impartial and objective performance of this
+project.
+2. In case the Beneficiary is involved in a conflict of interest or in a risk of conflict of
+interest, the Beneficiary must formally notify this situation to the Open Call Coordinator
+without delay and immediately take all the necessary steps to rectify this situation.
+
+Article 3 - Breach of contractual obligations
+1. If the Beneficiary breaches any of the contractual obligations under this Agreement,
+the agreement may be terminated with immediate effect. In case of Force Majeure, the
+provisions of Article 8 shall prevail.
+2. In the event of breach of the contractual obligations by the Beneficiary, the Open Call
+Coordinator reserves the right to withhold the payments, not to fulfil the payments to
+the Beneficiaries and the right to claim a refund of any already paid funds.
+3. The Open Call Coordinator will give written notice requiring that such a breach be
+remedied within 30 consecutive days. In case the Beneficiary has not introduced
+remedies addressing the notice, the Open Call Coordinator may decide to terminate the
+Agreement unilaterally. In case the Beneficiary introduce(s) remedies that are
+approved by the Open Call Coordinator, the implementation must continue following
+the original timeline.
+
+Article 4 – Project implementation and financial provisions
+4.1 Maximum financial contribution
+1. The maximum financial contribution to be granted to the Beneficiary of the project is
+€40.000 (forty thousand euros), and will be paid in the form of a lump sum.
+
+4
+
+4.2 Distribution of the financial contribution
+1. The financial contribution will be paid in instalments after the Beneficiary has fulfilled
+the necessary requirements of each Stage of the project as stated in Articles 4.3 and
+4.4.
+2. The Open Call Coordinator reserves the right to withhold the payments in case the
+Beneficiary does not fulfil its obligations and considers the payment conditions for
+each stage.
+3. Payments will be made in EUR. Banking and transaction costs related to the handling
+of any financial resources will be covered by the Beneficiary.
+4. Payments will be released after the work associated with a particular Stage has been
+approved and no later than thirty (30) calendar days after the receipt of the required
+Payment Request Form. Any specific limitation delaying payments will be made known
+in advance.
+5. The Beneficiary is responsible for complying with any tax and legal obligations that
+might be attached to this Agreement.
+6. Any additional conditions for payment may be specified in the Annex 1 - Guide for
+Applicants.
+7. A Know Your Customer (KYC) check must be carried out before any payment. If the
+KYC check determines that additional information is required, the payment period
+mentioned in ‘Article 4 - Project implementation and financial provisions’ is reset until
+all additional information is received.
+
+4.3 Project implementation
+1. The Beneficiary will implement the awarded project in accordance with the provisions
+set out in Annex 1 - Guide for Applicants.
+2. The awarded project must submit the required reports corresponding to each Stage
+within the dates specified in Annex 1 - Guide for Applicants.
+3. A review of submitted reports will be held with the Beneficiary by the last calendar day
+of the end month of the Stage. The objective of the review is to present the
+implemented Stage and provide answers to questions from the mentors/coaches
+and/or DeployAI consortium.
+4. If at any of the project stages the quality of work demonstrated and/or reported does
+not correspond to what has been agreed, the DeployAI Open Call Coordinator may
+agree to a resubmission of a report and respective reassessment. If significant
+improvements are not delivered after the reassessment, the sub-project is therefore
+
+5
+
+considered to be in breach of their contractual obligations. Such breach will lead to
+measures described in Article 3.
+
+4.4 Payments schedule
+1. The payment schedule is directly linked to the relevant stages of the awarded project.
+The grant will be paid in instalments according to Table 1.
+Table 1. Tentative payment schedule for DeployAI funding programme
+Stage
+
+Stage 1: Pitch
+& Select
+
+Stage 2:
+Integration
+
+Payment
+No.
+
+Requirements
+
+Amount
+
+PAYMENT 1
+
+• R1.1 - Submission of the updated Technical
+Description & Business Plan for AIoD Platform
+• R1.2 - Submission of Travel Report for Event 1
+• R1.3 - Answer to Official Survey regarding AIoD
+Platform
+
+€5,000
+
+PAYMENT 2
+
+• R2.1 - Submission of Travel Report for Event 2
+• R2.2 - Report on Stage 2 implementation and
+expected Deliverables/KPIs
+• R2.3 - Confirmation of requested actions for betatesting
+• R2.4 - Submission of a sub-project to be
+implemented with AI Adopter
+
+€35,000
+
+2. The payments will be disbursed once the work related to a specific stage has received
+positive assessment, based on the report submitted and respective review according
+to the Article 4.3.
+3. The payments will be made to the Beneficiary no later than 30 calendar days, subject
+to the duly completed submission of a Payment Request Form and Declaration of
+Honour.
+4. If the bank account details provided in the Payment Request Form are different from
+those submitted in the Bank Account Information form (Annex X), a new form must be
+submitted accompanied by proof of ownership of the bank account with the name of
+the Beneficiary (bank account statement or similar document).
+5. If by law the Beneficiary is required to send an invoice, it must include the following
+information:
+F6S Network Ireland Limited
+77 Lower Camden St., D02 XE80, Dublin, Ireland
+VAT number: IE 3629141FH
+
+6
+
+4.5 Records keeping
+1. The Beneficiary must keep for a period of five (5) years after the termination of the
+%Sub-grant ProjectAcronym% project, records and other supporting documentation
+which proves the proper implementation of the awarded project.
+2. The Beneficiary shall make the supporting documentation available upon request or in
+the context of checks, reviews, audits or investigations.
+3. If there are on-going checks, reviews, audits, investigations, litigation or other pursuits
+of claims under the Agreement, the Beneficiary must keep these records and other
+supporting documentation until the end of these procedures.
+4. The Beneficiary must keep the original documents. Digital and digitised documents are
+considered originals if they are duly recognised as such and/or admissible under the
+applicable national law. The %Sub-grant ProjectAcronym% project may accept nonoriginal documents if they offer a comparable level of assurance.
+
+4.6 Double funding
+1. The Beneficiary acknowledges the fundamental principle underpinning the rules for
+public expenditure in the EU that no costs for the same activity can be funded twice
+from the EU budget.
+2. The Beneficiary undertakes all the work performed under the %Sub-grant
+ProjectAcronym% project will be done exclusively in the scope of this Agreement, not
+being supported or funded by any other EU budget. The Beneficiary will use the budget
+to cover activities only related to the awarded %Sub-grant ProjectAcronym% project.
+
+Article 5 - Liability
+5.1 Liability of the Beneficiary
+1. The Beneficiary is fully responsible for the proper implementation of %Sub-grant
+ProjectAcronym% and in compliance with this Agreement.
+2. Except in case of force majeure (Article 8), the Beneficiary must compensate the Open
+Call Coordinator for any damage they sustain because of the implementation of the
+obligations of the Beneficiaries under this Agreement or because the obligations were
+not implemented in full compliance with this Agreement.
+3. The DeployAI consortium or consortium partner cannot be held liable for any damage
+caused to the Beneficiary or to third parties as a consequence of implementation of
+the Agreement, including for gross negligence.
+
+7
+
+4. The DeployAI consortium or consortium partner cannot be held liable for any damage
+caused by the Beneficiary or third parties involved in project implementation, as a
+consequence of implementation of the Agreement.
+5. The Beneficiary shall bear sole responsibility for ensuring that its act(s) within the
+framework of this Agreement do not infringe third parties’ rights.
+6. There is no joint liability between the Contracting Parties. For this purpose, the
+Beneficiary shall indemnify and hold the Open Call Coordinator and/or any DeployAI
+consortium partner harmless from and against all repayments, loss, liability, costs,
+charges, claims or damages which the Open Call Coordinator, any DeployAI consortium
+partner or the European Commission (EC) as a result thereof would incur or suffer or
+must pay to the EC or any third parties.
+7. In addition, should the EC have a right of recovery against the DeployAI consortium
+regarding any or all the financial support granted under this Agreement, the
+Beneficiaries shall repay the sums in question in the terms and on the date specified
+by the Open Call Coordinator.
+8. The Beneficiary’s aggregate liability towards the other Contracting Party and the
+DeployAI consortium partners collectively shall be limited to the Beneficiary’s'
+maximum financial contribution as identified in Article 4.1.
+
+5.2 Exclusions of liability
+1. To the extent acceptable under applicable law, in no event shall the Open Call
+Coordinator or other DeployAI consortium partners be liable to the Beneficiary for loss
+or damage caused by the Open Call Coordinator or the DeployAI consortium partners,
+their employees, agents and subcontractors in connection with this Agreement for any
+of the following, however caused or arising, on any theory of liability, and even if the
+Open Call Coordinator and/or any other DeployAI consortium partner were informed or
+aware of the possibility thereof:
+●
+
+Loss of profits, revenue, income, interest, savings, shelf-space, production, and
+business.
+
+●
+
+Opportunities; lost contracts, goodwill, and anticipated savings.
+
+●
+
+Loss of or damage to reputation or to data.
+
+●
+
+Costs of recall of products.
+
+●
+
+Any type of indirect, incidental, punitive, special, or consequential loss or
+damage.
+
+8
+
+2. In respect of any information or materials from the DeployAI consortium made
+available to the Beneficiary under this Agreement, no warranty or representation of any
+kind is made, given, or implied as to the sufficiency, error-free performance, or fitness
+for purpose, nor as to the absence of any infringement of any proprietary rights of third
+parties. Therefore, in particular, but without limiting the foregoing:
+●
+
+The Beneficiary shall in all cases be entirely and solely liable for the use to which
+it puts such information and materials, and the consequences of such use, and
+
+●
+
+Neither the Open Call Coordinator, the EC nor the other DeployAI consortium
+partners shall be liable vis-à-vis the Beneficiary in case of infringement of
+proprietary rights of a third party resulting from the Beneficiary’s use of the
+information and material.
+
+●
+
+The exclusions and limitations stated in this Article and any other clause of this
+Agreement that has as its object or effect the exclusion or limitation of liability,
+shall not apply in respect of any: fraud; death, injury to natural persons or
+damage to real or immovable property caused by the negligence or wilful act,
+wilful misconduct, wilful breach; or otherwise in so far as mandatory applicable
+law overrides such exclusions and limitations.
+
+Article 6 - Confidentiality
+1. The Parties shall protect confidential information of whatever nature or form as is
+disclosed between the Contracting Parties in connection with the sub-granted project.
+The information identified as confidential should be provided in writing.
+2. Specific rules and responsibilities regarding the use of confidential information shall
+be established in writing in a separate agreement, if needed.
+3. Open Call Coordinator and DeployAI Coordinator may disclose confidential Information
+to the EC and/or the other DeployAI consortium partners if:
+●
+
+This is necessary to implement the GA or safeguard the EU’s financial interests.
+
+●
+
+The recipients of the information are bound by an obligation of confidentiality.
+
+4. The Beneficiary agree(s) and acknowledge that the EC shall be entitled to disclose
+confidential Information to its staff, other EU institutions and bodies or third parties, if:
+●
+
+This is necessary to implement the GA or safeguard the EU’s financial interests.
+
+●
+
+The recipients of the information are bound by an obligation of confidentiality.
+
+5. During the project implementation and for five (5) years following the ending of the
+DeployAI on 31 December 2027, the Beneficiary cannot use any confidential
+
+9
+
+information except as defined in this Agreement. The Parties will implement suitable
+measures to ensure confidentiality. The Parties will take the appropriate measures to
+guarantee the confidentiality of the information provided.
+
+Article 7 - Intellectual property rights
+1. The Beneficiary acknowledge(s) that all technologies, infrastructure and similar of the
+DeployAI consortium partners are proprietary and owned by the respective partner or
+applicable third party.
+2. Nothing in this Agreement shall transfer to the Beneficiary (or other partners it
+represents) any licence or other rights for the use of the tools, modules and similar that
+are property of a DeployAI partner, unless a specific agreement is established.
+3. The results developed during the sub-granted project shall be exclusively the property
+of the Beneficiary. This does not exclude the possibility for specific agreements to be
+made between the Beneficiary and one or more of the partners of DeployAI consortium.
+
+Article 8 - Force Majeure
+1. “Force Majeure” means any unforeseeable exceptional situation or event beyond the
+Contracting Parties control, which prevents either of them from fulfilling any of their
+obligations under the Agreement, which was not attributable to error or negligence on
+their part, and which proves to be inevitable despite the exercising of all due diligence.
+2. Any default of a service, defect in equipment or material or delays in making them
+available, unless they stem directly from a relevant case of force majeure, as well as
+labour disputes, strikes or financial difficulties cannot be invoked as Force Majeure.
+3. The Contracting Parties shall take the necessary measures to limit any damage due to
+Force Majeure. They shall do their best to resume the implementation of the action as
+soon as possible.
+4. No Contracting Party shall be in breach of its obligations and tasks if such a breach is
+caused by Force Majeure. A Contracting Party will notify the other Contracting Party of
+any Force Majeure as soon as possible. In case the Beneficiary is not able to overcome
+the consequences of Force Majeure within thirty calendar (30) days after such
+notification, the Open Call Coordinator will decide accordingly, including the
+termination of the Agreement.
+
+10
+
+Article 9 - Information and communication
+9.1 Information and communication towards the EC
+1. Throughout the duration of the sub-project, the Beneficiary must promote the project
+and its results by providing targeted information to multiple audiences (including the
+media and the public), as well as participate in the DeployAI promotion activities, in a
+strategic, coherent and effective manner.
+2. The communication, dissemination activities and any infrastructure, equipment,
+vehicles, supplies or major result funded by the grant must acknowledge EU support
+and display the European emblem, DeployAI logo and include following disclaimer:
+“The [sub-project acronym] project has received funding from EC through the DeployAI (Grant
+Agreement no.101146490).”
+“Funded by the European Union. Views and opinions expressed are however those of the
+author(s) only and do not necessarily reflect those of the European Union or European
+Commission. Neither the European Union nor the granting authority can be held responsible for
+them.”
+3. Apart from the emblem, no other visual identity or logo may be used to highlight the EU
+support. When displayed in association with other logos (e.g. of beneficiaries or
+sponsors), the emblem must be displayed at least as prominently and visibly as the
+other logos without first obtaining approval. This does not, however, give the right to
+exclusive use. Moreover, they may not appropriate the emblem or any similar
+trademark or logo, either by registration or by any other means.
+4. The Open Call Coordinator, the DeployAI Coordinator, the DeployAI consortium, and/or
+the EC shall be authorised to publish, in whatever form and on or by whatever medium,
+the following information: personal data, including the Beneficiary's name, contact
+details, location, and project related information, for communication, publication and
+reporting purposes. This may also include, but is not limited to, using summaries,
+public deliverables, as well as any other material, such as pictures or audiovisual
+content/material provided by the Beneficiary (including in electronic form).
+5. The Beneficiary shall make all efforts to ensure that all necessary authorisations for
+such publications have been obtained and that the publication of the information does
+not infringe any rights of third parties.
+6. Upon a duly supported request by Open Call Coordinator, or by the DeployAI
+Coordinator on behalf of the Beneficiary, the EC may agree to forego such publicity if
+the disclosure of the information indicated above would risk compromising the
+Beneficiary’s security, academic or commercial interests.
+
+11
+
+9.2 Information and communication among the Contracting Parties
+1. The contact details of the Beneficiary for notices and communication under this
+Agreement are:
+Name of contact person
+
+[Name of contact person]
+
+Organisation name
+
+[Organisation name]
+
+Role in the organisation
+
+[Role in the organisation]
+
+Address
+
+[Address]
+
+E-mail
+
+[E-mail]
+
+Telephone/ mobile phone
+
+[Telephone/ mobile phone]
+
+2. Any notice to be given under this Agreement shall be in writing, including e-mail
+communication, to the addresses and recipients listed above.
+3. Any change of persons or contact details shall be notified immediately to the Open Call
+Coordinator. The address list shall be made accessible to all parties concerned.
+4. The Beneficiary must immediately communicate any changes in the control of the
+organisation, including any replacement or removal of legal representatives identified
+in the initial F6S-required KYC check. An updated KYC form along with proof of ID and
+residence must be provided to reflect the changes. Any pending payments may be
+suspended until the KYC is cleared.
+5. Any communication will be conducted in English as the only official language of this
+Agreement.
+
+Article 10 – Checks, reviews, investigation, audits
+1. The EC may, at any time during the implementation of the sub-project and up to five
+years after the end of the sub-project, arrange for checks, investigation, reviews and/or
+audits to be carried out, by external auditors, or by the EC services themselves,
+including the European Anti-Fraud office (OLAF). The procedure shall be deemed to be
+initiated on the date of receipt of the relevant letter sent by the EC.
+
+12
+
+2. There will be no financial checks, reviews, or audits to check costs, since the
+Beneficiary has no obligation to document the costs incurred for the action. Checks,
+reviews, and audits will focus on the technical implementation of the action.
+3. The Beneficiary shall make available all information and data that may be requested by
+the EC or any representative authorised by it, to verify the compliance with sub-grant
+agreement.
+4. To carry out checks, reviews, investigation, audits, the Beneficiary shall ensure that the
+EC’s services and any external body(ies) authorised by it have on-the-spot access at all
+reasonable times, notably to the Beneficiary’s offices, to its computer data, and to all
+the information needed to carry out those checks. They shall ensure that the
+information is readily available on the spot during an audit and, if so requested, that
+data be handed over in an appropriate form.
+5. Based on the findings made during the check, a provisional report shall be drawn up. It
+shall be sent by the EC or its authorised representative to the Beneficiary concerned,
+which may make observations thereon within one month of receiving it. The EC may
+decide not to take into account observations conveyed or documents sent after that
+deadline. The final report shall be sent to the Beneficiary concerned within two months
+of expiry of the aforesaid deadline.
+6. Based on the conclusions of the check, the EC shall take all appropriate measures
+which it considers necessary, including the issuing of recovery orders regarding all or
+part of the payments made by it and the application of any applicable sanction.
+7. The European Court of Auditors shall have the same rights as the EC, notably right of
+access, for the purpose of checks and audits, without prejudice to its own rules.
+
+Article 11 – Data protection
+1. The Contracting Parties have the obligation to abide by the Regulation (EU) 2016/679
+(General Data Protection Regulation – GDPR) of the European Parliament and of the
+Council of 27 April 2016 on the protection of natural persons regarding the processing
+of personal data and on the free movement of such data.
+2. Each Contracting Party shall each be considered a separate and independent data
+controller, as defined in the GDPR, to every other Contracting Party. The processing of
+personal data shall be carried out lawfully, fairly and in a transparent manner, collected
+for specific purposes and adequate, relevant, and limited to what is necessary in
+relation to the purposes for which it is processed. Where it might be designated by a
+relevant Supervisory Authority or through agreement between Contracting Parties that
+the Open Call Coordinator and any other DeployAI consortium partners are appointed
+
+13
+
+as data processors, parties shall enter into appropriate data processing agreements
+as required by the GDPR.
+3. The Beneficiary acknowledges that the Open Call Coordinator and any other DeployAI
+consortium partners, if appointed as data processors, are not responsible for the
+Beneficiary’s compliance with any data protection or privacy law applicable to the
+Beneficiary. Each of the Contracting Parties, in their respective roles as data
+controllers, will be responsible for their own compliance with any data protection or
+privacy law applicable to them as data controller.
+
+Article 12 - Miscellaneous
+1. Should any provision of this Agreement be or become invalid, illegal, or unenforceable,
+it shall not affect the validity of the remaining provisions of this Agreement. In such a
+case, the Contracting Parties shall be entitled to request that a valid, legal, enforceable,
+and practicable replacement provision be negotiated which fulfils the purpose of the
+original provision.
+2. The Beneficiary shall not be entitled to act or to make legally binding declarations on
+behalf of Open Call Coordinator, the DeployAI Coordinator or any other DeployAI
+consortium partner, and nothing in this Agreement shall be deemed to constitute a joint
+venture, agency, partnership, interest grouping or any other kind of formal business
+grouping or entity between the Contracting Parties or between the Beneficiary and any
+DeployAI consortium partner.
+3. No rights or obligations of the Beneficiary arising from this Agreement may be
+assigned or transferred, in whole or in part, and no obligations of the Beneficiary may
+be subcontracted, without the Open Call Coordinator’s prior formal written approval;
+and such approval shall not exempt the Beneficiary from any of its obligations
+hereunder.
+4. Although (with exception to the Open Call Coordinator) the DeployAI consortium
+partners and their affiliated entities are not Contracting Parties to this Agreement, they
+are intended by the Contracting Parties to be third party beneficiaries under this
+Agreement and accordingly shall be entitled to enforce the terms of this Agreement
+against the Beneficiary and (without limitation) shall be entitled to the benefit from, and
+to enforce any exclusion of limitation of liability of the DeployAI consortium partners
+contained in this Agreement and any indemnity in favour of the DeployAI consortium
+partners contained in this Agreement.
+5. Amendments and modifications to the text of this Agreement require a separate
+written agreement to be signed between all Parties.
+6. This Agreement is drawn up in English language which shall govern all documents,
+notices, meetings, and processes relative thereto.
+
+14
+
+Article 13 - Ethics
+1. The Beneficiary must implement the project line with the highest ethical standards and
+the applicable EU, international and national law on ethical principles.
+
+Article 14 - Applicable Law
+1. This Agreement shall be construed in accordance with and governed by the laws of
+Ireland.
+
+Article 15 - Settlement of disputes
+1. If the Contracting Parties are unable to resolve a dispute amicably, such dispute will be
+finally settled under the Rules of Arbitration of the International Chamber of Commerce
+by three (3) arbitrators in Ireland.
+2. Nothing in this Agreement shall limit the Contracting Parties right to seek injunctive
+relief or to enforce an arbitration award in any applicable competent court of law.
+
+15
+
+AS WITNESS:
+The Contracting Parties have caused this Agreement to be duly signed by the undersigned
+authorised representatives the day and year written below:
+
+For TREASURER ORGANISATION
+
+For Lead Partner name
+
+(DeployAI Treasurer)
+
+(%Sub-grant
+Beneficiary)
+
+ProjectAcronym%
+
+Lead
+
+Name of representative, as on first page
+Position
+
+Name of representative, as on first page
+Position
+
+Signature
+Signature
+
+16
+
+COMPLEMENTARY ANNEXES
+●
+
+Annex 1: Guide for Applicants
+
+●
+
+Annex 2: Technical and Business Proposal
+
+●
+
+Annex 3.1: Declaration of Honour Stage 1&2
+
+●
+
+Annex 4: SME Declaration (if applicable)
+
+●
+
+Annex 5: Bank Account Information
+
+●
+
+Annex 6: Ownership Control Declaration
+
+

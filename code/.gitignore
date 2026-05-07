@@ -1,0 +1,46 @@
+# Εξαρτήσεις
+node_modules/
+.pnpm-store/
+
+# Builds
+dist/
+.next/
+.turbo/
+out/
+build/
+
+# Μεταβλητές περιβάλλοντος — ΠΟΤΕ μη δεσμευτεί στο git
+.env
+.env.local
+.env.*.local
+# ΕΞΑΙΡΕΣΗ: το .env.example είναι ασφαλές (χωρίς πραγματικά credentials)
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# PM2
+.pm2/
+
+# Misc
+.cache/
+tmp/

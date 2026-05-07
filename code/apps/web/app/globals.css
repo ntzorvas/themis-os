@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Βάση χρωμάτων — legal professional palette */
+@theme {
+  --color-primary-50: #f0f4ff;
+  --color-primary-100: #e0e9ff;
+  --color-primary-500: #3b5bdb;
+  --color-primary-600: #2f4ac0;
+  --color-primary-700: #2340a8;
+  --color-primary-900: #1a1a2e;
+
+  --color-legal-gold: #c9a84c;
+  --color-legal-gold-dark: #a8893e;
+
+  /* Βασική γραμματοσειρά — system stack με υποστήριξη Ελληνικών */
+  --font-family-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    sans-serif;
+}
+
+/* Προσβασιμότητα: focus-visible για keyboard navigation */
+*:focus-visible {
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 2px;
+}
+
+/* Ελάχιστο touch target για mobile — 44px per WCAG */
+button,
+[role="button"],
+a {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Εξαίρεση για inline links */
+p a,
+span a {
+  min-height: unset;
+  min-width: unset;
+}

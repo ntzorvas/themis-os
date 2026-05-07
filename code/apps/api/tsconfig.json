@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "outDir": "./dist",
+    "paths": {
+      "@themisos/db": ["../../packages/db/src/index.ts"],
+      "@themisos/types": ["../../packages/types/src/index.ts"],
+      "@themisos/greek-utils": ["../../packages/greek-utils/src/index.ts"],
+      "@themisos/crypto": ["../../packages/crypto/src/index.ts"],
+      "@themisos/rules-engine": ["../../packages/rules-engine/src/index.ts"],
+      "fastify-plugin": ["../../node_modules/.pnpm/fastify-plugin@5.1.0/node_modules/fastify-plugin/types/plugin.d.ts"],
+      "postgres": ["../../packages/db/node_modules/postgres/types/index.d.ts"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

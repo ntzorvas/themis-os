@@ -1,0 +1,40 @@
+{
+  "name": "@themisos/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port ${WEB_PORT:-3110}",
+    "build": "next build",
+    "start": "next start --port ${WEB_PORT:-3110}",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@themisos/db": "workspace:*",
+    "@themisos/types": "workspace:*",
+    "@themisos/ui": "workspace:*",
+    "@themisos/greek-utils": "workspace:*",
+    "next": "15.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next-auth": "^5.0.0-beta.25",
+    "next-intl": "^3.26.0",
+    "@tanstack/react-query": "^5.60.0",
+    "zustand": "^5.0.0",
+    "react-hook-form": "^7.54.0",
+    "zod": "^3.23.0",
+    "@hookform/resolvers": "^3.9.0",
+    "jose": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "postcss": "^8.5.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.4.0"
+  }
+}

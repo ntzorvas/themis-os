@@ -1,0 +1,536 @@
+1
+
+Annex 5 – SME Declaration
+DECLARATION ON INFORMATION ON SME QUALIFICATION
+Specific identification of the applicant enterprise:
+Name or Business Name
+Address (or Registered office)
+Registration/ VAT number
+Names and titles of principal
+directors
+
+______________________________________________
+______________________________________________
+______________________________________________
+______________________________________________
+
+Type of enterprise (see explanatory note)
+Select to indicate which case(s) applies to the applicant enterprise:
+In this case the data filled in the box below result from the
+Autonomous
+accounts of the applicant enterprise only. Fill in the declaration
+enterprise
+only, without annex.
+Partner enterprise
+Linked enterprise
+
+Fill in and attach the annex (and any additional sheets), then
+complete the declaration by copying the results of the
+calculations into the box below.
+
+Data used to determine the category of enterprise
+Calculated according to Article 6 of the Annex to the Commission Recommendation
+2003/361/EC on the SME definition.
+Reference period (*)
+Headcount (AWU)
+Annual turnover (**)
+Balance sheet total (**)
+_______
+_______
+_______
+(*) All data must be related to the last approved accounting period and calculated on an annual
+basis. In the case of newly established enterprises whose accounts have not yet been
+approved, the data to apply shall be derived from a reliable estimate made over the financial
+year.
+(**) 1 000s/000s.
+Important:
+No
+Compared to the previous accounting period,
+there is a change regarding the data, which
+Yes (in this case fill in and attach a
+could result in a change of category of the
+applicant enterprise (micro, small, medium- declaration regarding the previous accounting
+period).
+sized, or big enterprise).
+Signature
+Name and position of the signatory, being authorised to represent the enterprise:
+
+2
+
+__________________________________________________________________________________
+I declare on my honour the accuracy of this declaration and of any annexes thereto.
+Done at: ______________________ (place) on _______ (day) ___________ (month) _______ (year)
+Signature: __________________________________________________________________________
+
+EXPLANATORY NOTE ON THE TYPES OF ENTERPRISES TAKEN INTO ACCOUNT FOR
+CALCULATING THE HEADCOUNT AND THE FINANCIAL AMOUNTS
+I.
+
+TYPES OF ENTERPRISES
+
+The definition of an SME1 distinguishes three types of enterprise, according to their
+relationship with other enterprises in terms of holdings of capital or voting rights or the right
+to exercise a dominant influence2.
+Type 1: Autonomous Enterprise
+This is by far the most common type of enterprise. It applies to all enterprises which are not
+one of the two other types of enterprise (partner or linked). An applicant enterprise is
+autonomous if it:
+• Does not have a holding of 25%3 or more in any other enterprise,
+• And is not 25%3 or more owned by any enterprise or public body or jointly by several
+linked enterprises or public bodies, apart from some exceptions4,
+• And does not draw up consolidated accounts and is not included in the accounts of an
+enterprise which draws up consolidated accounts and is thus not a linked enterprise5.
+Henceforth, the term "Definition" refers to the Annex to Commission Recommendation 2003/361/EC on the
+definition of SMEs.
+2
+Definition, Article 3
+3
+In terms of the share of the capital or voting rights, whichever is higher is applied. To this percentage should be
+added the holding in that same enterprise of each enterprise that is linked to the holding company (Definition, Article
+3 paragraph 2)
+4
+An enterprise may continue being considered as autonomous when this 25% threshold is reached or exceeded, if
+that percentage is held by the following categories of investors (provided that those are not linked with the applicant
+enterprise):
+a) public investment corporations, venture capital companies, individuals or groups of individuals with a regular
+venture capital investment activity who invest equity capital in unquoted businesses ("business angels"),
+provided the total investment of those business angels in the same enterprise is less than EUR 1 250 000,
+b) universities or non-profit research centres,
+c) institutional investors, including regional development funds,
+d) autonomous local authorities with an annual budget of less than EUR 10 million and less than 5000
+inhabitants.
+(Definition, Article 3 paragraph 2, second sub-paragraph)
+5
+- If the registered office of the enterprise is situated in a Member State which has provided for an exception to the
+requirement to draw up such accounts pursuant to the Seventh Council Directive 83/349/EEC of 13 June 1983, the
+enterprise should nevertheless check specifically whether it does not meet one or other of the conditions laid down in
+Article 3 paragraph 3 of the Definition.
+- There are also some very rare cases in which an enterprise may be considered linked to another enterprise through
+a person or a group of natural persons acting jointly (Definition, Article 3 paragraph 3).
+1
+
+3
+
+Type 2: Partner Enterprise
+This type represents the situation of enterprises which establish major financial partnerships
+with other enterprises, without the one exercising effective direct or indirect control over the
+other. Partners are enterprises which are not autonomous, but which are not linked to one
+another.
+The applicant enterprise is a partner of another enterprise if:
+• It has a holding or voting rights equal to or greater than 25% in the other enterprise, or
+the other enterprise has a holding or voting rights equal to or greater than 25% in the
+applicant enterprise.
+• The enterprises are not linked enterprises within the meaning defined below, which
+means, among other things, that the voting rights of one in the other do not exceed
+50%.
+• And the applicant enterprise does not draw up consolidated accounts which include
+the other enterprise by consolidation and is not included by consolidation in the
+accounts of the other enterprise or of an enterprise linked to it5.
+Type 3: Linked Enterprise
+This type corresponds to the economic situation of enterprises which form a group through
+the direct or indirect control of most of the voting rights (including through agreements or, in
+certain cases, through natural persons as shareholders), or through the ability to exercise a
+dominant influence on an enterprise. Such cases are thus less frequent than the two preceding
+types.
+To avoid difficulties of interpretation for enterprises, the EC has defined this type of enterprise
+by taking over – wherever they are suitable for the purposes of the Definition – the conditions
+set out in Article 1 of Council Directive 83/349/EEC on consolidated accounts6, which has been
+applied for many years.
+An enterprise thus generally knows immediately that it is linked, since it is already required
+under that Directive to draw up consolidated accounts or is included by consolidation in the
+accounts of an enterprise which is required to draw up such consolidated accounts.
+The only two cases, which are however not very frequent, in which an enterprise can be
+considered linked although it is not already required to draw up consolidated accounts, are
+described in the first two indents of endnote 5 of this explanatory note. In those cases, the
+enterprise should check whether it meets one or other of the conditions set out in Article 3
+paragraph 3 of the Definition.
+II. THE HEADCOUNT AND THE ANNUAL WORK UNITS7
+The headcount of an enterprise corresponds to the number of annual work units (AWU).
+- Conversely, there are very few cases of enterprises drawing up consolidated accounts voluntarily, without being
+required to do so under the Seventh Directive. In that case, the enterprise is not necessarily linked and can consider
+itself only a partner.
+To determine whether the enterprise is linked or not, in each of the three situations it should be checked whether or
+not the enterprise meets one or other of the conditions laid down in Article 3 paragraph 3 of the Definition, where
+applicable through a natural person or group of natural persons acting jointly.
+6
+Seventh Council Directive 83/349/EEC of 13 June 1983, based on Article 54(3)(g) of the Treaty and concerning
+consolidated accounts (OJ L 193 of 18.7.1983, p. 1), as last amended by Directive 2001/65/EC of the European
+Parliament and of the Council (OJ L 283 of 27.10.2001, p. 28).
+7
+Definition, Article 5.
+
+4
+
+Who is included in the headcount?
+• The employees of the applicant enterprise
+• persons working for the enterprise being subordinate to it and considered to be
+employees under national law
+• owner-managers
+• partners engaging in a regular activity in the enterprise and benefiting from financial
+advantages from the enterprise.
+Apprentices or students engaged in vocational training with an apprenticeship or vocational
+training contract are not considered in the headcount.
+How is the headcount calculated?
+One AWU corresponds to one person who worked full-time in the enterprise in question or on
+its behalf during the entire reference year. The headcount is expressed in AWUs.
+The work of persons, who did not work the entire year, or who worked part-time - regardless of
+its duration - and seasonal work is counted as fractions of AWU.
+The duration of maternity or parental leaves is not counted.
+
+5
+
+ANNEX TO THE DECLARATION CALCULATION FOR THE PARTNER OR
+LINKED TYPE OF ENTREPRISE
+Annexes to be enclosed if necessary
+• Annex A if the applicant enterprise has at least one partner enterprise (and any
+additional sheets)
+• Annex B if the applicant enterprise has at least one linked enterprise (and any
+additional sheets)
+Calculation for the partner or linked type of enterprise8 (see explanatory note)
+Reference period9:
+Headcount (AWU)
+
+Annual turnover (*)
+
+Balance
+total (*)
+
+sheet
+
+1. Data9 of the applicant
+enterprise
+or
+consolidated accounts
+(copy data from box B(1)
+in annex B10)
+2.
+Proportionally
+aggregated data9 of all
+partner enterprises (if
+any) (copy data from box
+A in annex A)
+3. Added up data9 of all
+linked enterprises (if any)
+– if not included by
+consolidation in line 1
+(copy data from box B(2)
+in annex B)
+Total
+(*) EUR 1 000.
+
+NOTE: The data entered in the "Total" row of the above table should be entered in the box “Data
+used to determine the category of enterprise” in the declaration.
+
+Definition, Article 6 paragraphs 2 and 3
+All data must be relating to the last approved accounting period and calculated on an annual basis. In the case of
+newly-established enterprises whose accounts have not yet been approved, the data to apply shall be derived from a
+reliable estimate made in the course of the financial year (Definition, Article 4).
+10
+The data of the enterprise, including the headcount, are determined on the basis of the accounts and other data of
+the enterprise or, where they exist, the consolidated accounts of the enterprise, or the consolidated accounts in
+which the enterprise is included through consolidation.
+8
+9
+
+6
+
+ANNEX A
+Partner enterprises
+For each enterprise for which a ‘partnership sheet’ has been completed (one sheet for each
+partner enterprise of the applicant enterprise and for any partner enterprises of any linked
+enterprise, of which the data is not yet included in the consolidated accounts of that linked
+enterprise), the data in the ‘partnership box’ in question should be entered in the summary
+table below:
+BOX A
+Partner enterprise
+(name / identification)
+
+Headcount (AWU)
+
+Annual turnover (*)
+
+Balance
+total (*)
+
+sheet
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+Total
+(*) EUR 1 000.
+(attach sheets or expand the present table, if necessary)
+Reminder:
+This data is the result of a proportional calculation done on the ‘partnership sheet’ for each
+direct or indirect partner enterprise.
+The data entered in the "Total" row of the above table should be entered in line 2 (regarding
+partner enterprises) of the table in the Annex to the declaration.
+
+7
+
+PARTNERSHIP SHEET
+1.
+
+Specific identification of the applicant enterprise
+
+Name or Business Name
+Address (or Registered office)
+Registration/ VAT number11
+Names and titles of principal
+directors12
+2.
+
+______________________________________________
+______________________________________________
+______________________________________________
+______________________________________________
+
+Raw data regarding that partner enterprise
+
+Reference period
+
+Raw data
+
+Headcount (AWU)
+
+Annual turnover (*)
+
+Balance
+total (*)
+
+_________
+
+_________
+
+_________
+
+sheet
+
+(*) EUR 1 000.
+Reminder: These raw data are derived from the accounts and other data of the partner
+enterprise, consolidated if they exist. To those are added 100% of the data of enterprises which
+are linked to this partner enterprise, unless the accounts data of those linked enterprises are
+already included through consolidation in the accounts of the partner enterprise13. If
+necessary, add “linkage sheets” for the enterprises which are not yet included through
+consolidation.
+3.
+
+Proportional calculation
+
+a) Precisely indicate the holding14 of the enterprise drawing up the declaration (or of the
+linked enterprise via which the relation to the partner enterprise is established) in the
+partner enterprise to which this sheet relates:
+_______________________________________________________________________________________
+_____________________________________________________________________
+Also indicate the holding of the partner enterprise to which this sheet relates in the
+enterprise drawing up the declaration (or in the linked enterprise):
+_______________________________________________________________________________________
+_____________________________________________________________________
+
+To be determined by the Member State according to its needs
+Chairman (CEO), Director-General or equivalent.
+13
+Definition, Article 6 paragraph 3, first sub-paragraph
+14
+In terms of the share of the capital or voting rights, whichever is higher. To this holding should be added the holding
+of each linked enterprise in the same enterprise (Definition, Article 3 paragraph 2 first sub-paragraph).
+11
+12
+
+8
+
+b) The higher of these two holding percentages should be applied to the raw data entered in
+the previous box. The results of this proportional calculation should be given in the
+following table:
+‘Partnership box’
+Percentage:
+
+Headcount (AWU)
+
+Annual turnover (*)
+
+Balance
+total (*)
+
+Proportional results
+
+_________
+
+_________
+
+_________
+
+(*) EUR 1 000.
+These data should be entered in Box A in Annex A.
+
+sheet
+
+9
+
+ANNEX B
+Linked enterprises
+DETERMINE THE CASE APPLICABLE TO THE APPLICANT ENTERPRISE:
+Case 1: The applicant enterprise draws up consolidated accounts or is included by
+consolidation in the consolidated accounts of another enterprise. (Box B(1))
+Case 2: The applicant enterprise or one or more of the linked enterprises do not establish
+consolidated accounts or are not included in the consolidated accounts. (Box B(2)).
+Please note: The data of the enterprises, which are linked to the applicant enterprise, are
+derived from their accounts and their other data, consolidated if they exist. To them are
+aggregated proportionally the data of any possible partner enterprise of that linked enterprise,
+situated immediately upstream or downstream from it, unless it has already been included
+through consolidation15.
+CALCULATION METHODS FOR EACH CASE:
+In case 1: The consolidated accounts serve as the basis for the calculation. Fill in Box B(1)
+below.
+Box B(1)
+Headcount (*)
+Annual
+turnover Balance sheet total
+(**)
+(**)
+Total
+
+_________
+
+_________
+
+_________
+
+(*) Where in the consolidated accounts no headcount data appears, the calculation of it is
+done by adding the data from the enterprises to which the enterprise in question is linked.
+(**) EUR 1 000.
+The data entered in the "Total" row of the above table should be entered in line 1 of the table
+in the Annex to the declaration.
+Identification of the enterprises included through consolidation
+Linked enterprise
+(name / identification)
+
+Address
+Names and titles of
+Registration / VAT
+the
+principal
+(of
+registered
+number (*)
+director(s) (**)
+office)
+
+1.
+2.
+3.
+4.
+5.
+
+15
+
+Definition, Article 6 paragraph 3, second sub-paragraph
+
+10
+
+Identification of the enterprises included through consolidation
+Linked enterprise
+(name / identification)
+
+Address
+Names and titles of
+Registration / VAT
+the
+principal
+(of
+registered number (*)
+director(s) (**)
+office)
+
+6.
+7.
+Total
+(*) To be determined by the Member State according to its needs
+(**) Chairman (CEO), Director-General or equivalent.
+Important: Partner enterprises of such a linked enterprise, which are not yet included through
+consolidation, are treated like direct partners of the applicant enterprise. Their data and a
+‘partnership sheet’ should therefore be added in Annex A.
+In case 2: For each linked enterprise (including links via other linked enterprises), complete a
+"linkage sheet" and simply add together the accounts of all the linked enterprises by filling in
+Box B(2) below.
+Box B(2)
+Enterprise No.:
+Headcount (AWU)
+Annual
+turnover Balance sheet total
+(**)
+(**)
+1. (*)
+2. (*)
+3. (*)
+Total
+(*) attach one “linkage sheet” per enterprise
+(**) EUR 1 000.
+The data entered in the "Total" row of the above table should be entered in line 3 (regarding
+linked enterprises) of the table in the Annex to the declaration.
+
+11
+
+LINKAGE SHEET
+(only for linked enterprises not included by consolidation in Box B)
+1.
+
+Precise identification of the applicant enterprise
+
+Name or Business Name
+Address (or Registered office)
+Registration/ VAT number16
+Names and titles of principal
+directors17
+2.
+
+______________________________________________
+______________________________________________
+______________________________________________
+______________________________________________
+
+Data on enterprise
+
+Reference period
+
+Total
+
+Headcount (AWU)
+
+Annual turnover (*)
+
+Balance
+total (*)
+
+_________
+
+_________
+
+_________
+
+sheet
+
+(*) EUR 1 000.
+These data should be entered in Box B(2) in Annex B.
+Important: The data of the enterprises, which are linked to the applicant enterprise, are derived
+from their accounts and their other data, consolidated if they exist. To them are aggregated
+proportionally the data of any possible partner enterprise of that linked enterprise, situated
+immediately upstream or downstream from it, unless it has already been included through
+consolidation18.
+Such partner enterprises are treated like direct partner enterprises of the applicant enterprise.
+Their data and a ‘partnership sheet’ have therefore to be added in Annex A.
+
+To be determined by the Member State according to its needs
+Chairman (CEO), Director-General or equivalent.
+18
+If the data of an enterprise are included in the consolidated accounts to a lesser proportion than the one
+determined under Article 6 paragraph 2, the percentage rate according to that article should be applied (Definition,
+Article 6 paragraph 3, second sub-paragraph).
+16
+17
+
+

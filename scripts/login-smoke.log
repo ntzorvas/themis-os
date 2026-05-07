@@ -1,0 +1,52 @@
+--- Navigating to https://themis.mentorist.gr/login
+--- URL after load: https://themis.mentorist.gr/login
+--- Submitting form
+--- URL after submit: https://themis.mentorist.gr/dashboard
+--- Cookies count: 1
+    themisos_session=eyJhbGciOiJIUzI1NiIs... domain=themis.mentorist.gr sameSite=Lax secure=True httpOnly=True path=/
+--- Visible alerts: ['Πίνακας Εργαλείων | ΘΕΜΙΣ OS']
+--- Body preview (first 400 chars):
+Πίνακας Εργαλείων
+
+Καλωσήρθες, χρήστης. Σύνοψη υποθέσεων και δραστηριότητας του γραφείου.
+
+Σύνολο Υποθέσεων
+
+0
+
+όλες οι κατηγορίες
+
+Ενεργές Υποθέσεις
+
+0
+
+σε εξέλιξη
+
+Προοπτικές
+
+0
+
+προς ανάληψη
+
+Κλεισμένες
+
+0
+
+archived/closed
+
+Πρόσφατες Υποθέσεις
+Δεν υπάρχουν υποθέσεις προς εμφάνιση ακόμη.
+⏱
+Έναρξη Χρόνου
+--- Network log:
+  200 https://themis.mentorist.gr/login
+  200 https://themis.mentorist.gr/_next/static/chunks/app/(auth)/login/page-bf72faa872a67553.js
+  200 https://themis.mentorist.gr/api/v1/auth/login
+  200 https://themis.mentorist.gr/login
+  200 https://themis.mentorist.gr/dashboard?_rsc=13k6d
+  200 https://themis.mentorist.gr/dashboard?_rsc=nqbh3
+  401 https://themis.mentorist.gr/api/v1/time-entries/active
+--- Console:
+  [error] Failed to load resource: the server responded with a status of 401 ()
+--- Screenshot: /root/projects/themis-os/scripts/login-after.png
+--- RESULT: PASS (final URL: https://themis.mentorist.gr/dashboard)

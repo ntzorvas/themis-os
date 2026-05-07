@@ -1,0 +1,118 @@
+1
+
+Annex 3.1 – Declaration of Honour
+APPLICANT DECLARATION OF HONOUR
+Project title: _____________________________________________________________________________
+Project acronym: ________________________________________________________________________
+On behalf of __________________________________________ [Company/ organisation name]
+established in ___________________________________________ [Official address], VAT number1
+____________________, represented for the purposes of signing and submitting the proposal and
+present Declaration of Honour by ___________________________________ [Name of legal
+representative].
+By signing this document, I declare that:
+1. I have the power of legally binding the above-mentioned organisation upon submitting
+this proposal.
+2. Neither the above-mentioned company/ organisation nor any linked company/
+organisation or any individual member of the proposal team has submitted any other
+proposal under the DeployAI Funding Programme. In case the above-mentioned
+company/ organisation or any individual member of the team has submitted more than
+one proposal to this open call, all associated proposals will be automatically excluded
+from the evaluation process.
+3. I and the above company/ organisation that I legally represent are fully aware and duly
+accept all [%PROJECT_NAME%] rules and conditions as expressed in the respective
+open call documents and Annexes and will respect any evaluation decision and
+proposal selection.
+4. The information included in the Annex X: SME Declaration document is true and legally
+binding (applicable to SMEs).
+5. All provided information in this declaration is true and legally binding.
+6. I give the consent and permission to the [%PROJECT_NAME%] coordinator to use the
+attached information to contact me for any issue associated with the associated
+proposal.
+
+1
+
+VAT is mandatory during the contract preparation. Failure to provide a valid VAT of the specific SME will result in
+automatic rejection of the proposal.
+
+2
+
+Company/ organisation contact information:
+Title (Mr., Ms., Dr.)
+Name
+Surname
+Full address
+Country
+E-mail address
+Telephone/ Mobile phone
+Signature/ Date
+
+3
+
+Declaration of Honour on exclusion criteria and absence of conflict of
+interest
+By signing this declaration of honour, I declare that all provided information below is true and
+legally binding both for me and for the company/ organisation that I legally represent:
+1. I declare that the mentioned company/ organisation is not in one of the following
+situations:
+a. Is bankrupt or being wound up, is having its affairs administered by the courts, has
+entered an arrangement with creditors, has suspended business activities, is the
+subject of proceedings concerning those matters, or is in any analogous situation
+arising from a similar procedure provided for in national legislation or regulations.
+b. It or persons having powers of representation, decision making or control over it
+have been convicted of an offence concerning their professional conduct by a
+judgment which has the force of res judicata.
+c. Has been guilty of grave professional misconduct proven by any means which the
+contracting authority can justify including by decisions of the European Investment
+Bank and international organizations.
+d. Is not in compliance with its obligations relating to the payment of social security
+contributions or the payment of taxes in accordance with the legal provisions of
+the country in which it is established or with those of the country of the contracting
+authority or those of the country where the contract is to be performed, to be proved
+by the deliverance of official documents issued by the local authorities, according
+to the local applicable rules.
+e. It or persons having powers of representation, decision making or control over it
+have been the subject of a judgment which has the force of res judicata for fraud,
+corruption, involvement in a criminal organization or any other illegal activity, where
+such illegal activity is detrimental to the Union’s financial interests.
+f.
+
+Is subject to an administrative penalty for being guilty of misrepresenting the
+information required by the contracting authority as a condition of participation in
+a grant award procedure or another procurement procedure or failing to supply this
+information or having been declared to be in serious breach of its obligations under
+contracts or grants covered by the Union's budget.
+
+2. I declare that the natural persons with power of representation, decision-making or control
+over the above-mentioned company/ organisation are not in the situations referred to in
+(a) to (f) above.
+
+4
+
+3. I declare that:
+a. Neither any person nor I that I know is subject to an [%PROJECT_NAME%] project
+conflict of interest.
+b. Neither any person or I that I know participates, controls, submits, or is associated
+in any way with more than one proposal to the DeployAI Funding Programme.
+c. I have not made false declarations in supplying the information required by
+participation in the open calls of the [%PROJECT_NAME%] project or does not fail
+to supply this information.
+d. I am not in one of the situations of exclusion, referred to in the abovementioned
+points (a) to (f).
+e. I am aware and fully accept all [%PROJECT_NAME%] conditions and rules as
+expressed in the open call documents and Annex X, Annex Y, Annex Z.
+4. I certify that the company/ organisation that I represent:
+Is committed to participate in the abovementioned project.
+Has stable and sufficient sources of funding to maintain its activity throughout its
+participation in the above-mentioned project and to provide any counterpart
+funding necessary.
+Has or will have the necessary resources as and when needed to carry out its
+involvement in the above-mentioned project.
+
+Full name:
+
+Signature and stamp (if applicable)
+
+_________________________________
+Done at (place) ______________, on the _____ (day) _____ (month) _____ (year)
+
+

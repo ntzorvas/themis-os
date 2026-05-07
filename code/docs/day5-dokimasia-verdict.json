@@ -1,0 +1,83 @@
+{
+  "review_id": "themis-day5-parties-unified-20260429",
+  "component": "ΘΕΜΙΣ OS — Day 5 Party Module (Unified Model)",
+  "verdict": "CONDITIONAL_PASS",
+  "confidence": 0.95,
+  "static_analysis": {
+    "passed": true,
+    "issues": [],
+    "notes": "TypeScript strict, zero `any`, zero @ts-ignore, zero debug statements"
+  },
+  "functional_verification": {
+    "passed": false,
+    "issues": [
+      {
+        "severity": "blocking",
+        "type": "API_CONTRACT_MISMATCH",
+        "location": "apps/api/src/routes/parties/index.ts:398-401",
+        "description": "Backend returns {data, pagination: {limit, offset, total}} but frontend expects {data, meta: {total, page, per_page}}",
+        "affected_endpoint": "GET /api/v1/parties (list)",
+        "impact": "Frontend will crash at runtime when trying to access partiesResponse.meta.total",
+        "test_case": "Response parsing in PartiesHeader, line 200 of apps/web/app/parties/page.tsx",
+        "root_cause": "Schema drift between backend response shape and TypeScript interface PartiesListResponse",
+        "fix": {
+          "file": "apps/api/src/routes/parties/index.ts",
+          "line": 398,
+          "current": "reply.code(200).send({ data: rows, pagination: { limit, offset, total } })",
+          "expected": "reply.code(200).send({ data: rows, meta: { total: total, page: Math.floor(offset/limit)+1, per_page: limit } })",
+          "effort_minutes": 5
+        }
+      }
+    ]
+  },
+  "security_check": {
+    "passed": true,
+    "issues": [],
+    "multi_tenant": {
+      "status": "verified",
+      "evidence": "All 8 endpoints wrapped in withTenantSchema, zero direct pool access"
+    },
+    "sql_injection": {
+      "status": "verified",
+      "evidence": "All 16 queries use postgres.js tagged templates, zero string concatenation"
+    },
+    "audit_log": {
+      "status": "verified",
+      "mutations_logged": 3,
+      "evidence": "POST party, PATCH party, POST role all INSERT into audit_log with actor_user_id, action, payload, ip, user_agent, outcome"
+    },
+    "credentials": {
+      "status": "verified",
+      "evidence": "Zero hardcoded secrets, AFM validation uses checksum"
+    }
+  },
+  "build_verification": {
+    "passed": true,
+    "build_output": "Both @themisos/api and @themisos/web pass typecheck with zero errors",
+    "warnings": []
+  },
+  "deployment_readiness": {
+    "passed": true,
+    "issues": []
+  },
+  "blocking_issues": [
+    {
+      "id": "BLOCKING-1",
+      "severity": "CRITICAL",
+      "title": "Response contract mismatch on GET /api/v1/parties",
+      "file": "apps/api/src/routes/parties/index.ts",
+      "line": 398,
+      "description": "Backend returns pagination key, frontend expects meta. Will crash in production.",
+      "fix_location": "Line 398-401, change response wrapper",
+      "fix_effort_min": 5
+    }
+  ],
+  "non_blocking_issues": [],
+  "conditions_if_approved_with_conditions": [],
+  "recommended_action": "FIX_THEN_RESUBMIT",
+  "timeline": {
+    "reviewed_at": "2026-04-29T11:15:00Z",
+    "reviewed_by": "dokimasia-qa-gate",
+    "escalation_target": "backend_engineer_parties_module"
+  }
+}

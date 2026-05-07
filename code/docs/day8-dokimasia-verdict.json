@@ -1,0 +1,147 @@
+{
+  "review_id": "DOK-20260429-THEMIS-D8V2",
+  "component": "THEMIS OS Day 8 v2 — Calendar + Rules Engine + Versioning + 3 SHOWSTOPPERS",
+  "verdict": "APPROVED",
+  "confidence": 0.98,
+  "timestamp": "2026-04-29T16:07:00Z",
+  "static_analysis": {
+    "passed": true,
+    "issues": [],
+    "any_types": 0,
+    "hardcoded_secrets": 0,
+    "debug_statements": 0,
+    "unhandled_promises": 0
+  },
+  "functional_verification": {
+    "passed": true,
+    "issues": [],
+    "features_tested": [
+      "calculate-deadline endpoint",
+      "rules list endpoint",
+      "rules detail endpoint",
+      "create calendar event",
+      "list calendar events",
+      "update calendar event",
+      "delete calendar event (soft)",
+      "error handling (Greek messages)"
+    ]
+  },
+  "build_verification": {
+    "passed": true,
+    "build_output": "Both typecheck clean: exit 0",
+    "warnings": [],
+    "commands_executed": [
+      "pnpm --filter @themisos/api typecheck",
+      "pnpm --filter web typecheck",
+      "npx tsx --test packages/rules-engine/test/calculator.test.ts"
+    ],
+    "test_results": {
+      "total": 16,
+      "pass": 16,
+      "fail": 0,
+      "duration_ms": 284.088726
+    }
+  },
+  "security_check": {
+    "passed": true,
+    "issues": [],
+    "checks": [
+      "credentials_in_logs: PASS",
+      "sql_injection: PASS (parameterized queries)",
+      "user_input_validation: PASS (Zod schemas)",
+      "prompt_injection: PASS (data, not executable)",
+      "tenant_isolation: PASS (withTenantSchema)",
+      "soft_delete_security: PASS (audit_log immutable)"
+    ]
+  },
+  "deployment_readiness": {
+    "passed": true,
+    "issues": [],
+    "checks": [
+      "pm2_config: N/A (Phase 1 BETA)",
+      "nginx_config: N/A (upstream proxy)",
+      "environment_variables: OK",
+      "rollback_plan: OK (migration idempotent)",
+      "artifact_build: OK"
+    ]
+  },
+  "blocking_issues": [],
+  "non_blocking_issues": [
+    {
+      "id": "pre-existing-greek-utils",
+      "severity": "LOW",
+      "description": "Pre-existing .js export issue from Day 7; not a regression",
+      "file": "packages/greek-utils, @themisos/types"
+    },
+    {
+      "id": "date_conditional_fallback_ux",
+      "severity": "LOW",
+      "description": "When decision_publication_date is not provided, falls back to fallback_variant_index (2-year). Warning added; frontend should clarify in UI.",
+      "file": "apps/web/components/calendar/deadline-calculator.tsx"
+    },
+    {
+      "id": "static_rule_type_mismatch",
+      "severity": "LOW",
+      "description": "calendar-rules-static.ts uses local StaticRule type. Frontend must map legal_source + requires_legal_review from API response.",
+      "file": "apps/web/lib/calendar-rules-static.ts"
+    }
+  ],
+  "conditions_if_approved": [
+    "Backend deployed with migration 0006 applied to all tenant schemas",
+    "Frontend build includes calendar components + deadline calculator",
+    "BETA banner visible for 6 rules (kpold-625, kpold-237, kpold-632, kpold-630a, kpold-518-katachristiki, kpold-564-katachristiki)",
+    "User warning: 'Calendar is in BETA. Consult legal counsel before relying on calculations.'",
+    "Logs monitored: watch for audit_log INSERT errors"
+  ],
+  "recommended_action": "SHIP",
+  "next_phase": "BETA deployment to preview (89.167.110.132) + UI smoke test",
+  "hard_gates": {
+    "typecheck_clean": { "status": "PASS", "api": true, "web": true },
+    "tests_pass": { "status": "PASS", "total": 16, "pass": 16, "fail": 0 },
+    "multi_tenant_isolation": { "status": "PASS", "wrapped_routes": 4 },
+    "audit_log_writes": { "status": "PASS", "mutations": ["POST /events", "PATCH /events", "DELETE /events"] },
+    "response_envelope": { "status": "PASS", "format": "{data, meta: {total, page, per_page}}" },
+    "greek_error_messages": { "status": "PASS", "coverage": "100%" },
+    "soft_delete": { "status": "PASS", "implementation": "soft_deleted_at" },
+    "versioning_correctness": {
+      "status": "PASS",
+      "showstopper_1": "effective_from=2026-09-16 for kpold-625",
+      "showstopper_2": "kpold-130 null duration → warning-only",
+      "showstopper_3": "Citation 147§2 (not 144§4)"
+    },
+    "beta_flag_ui": { "status": "PASS", "rules_flagged": 6 }
+  },
+  "showstoppers_applied": [
+    {
+      "id": 1,
+      "title": "Date Shift 1/1/2026 → 16/9/2026",
+      "reason": "Ν. 5264/2025 άρθρο 142",
+      "verification": "kpold-625 has effective_from='2026-09-16' and feature_flag='BETA_DISABLED_UNTIL_2026-09-16'",
+      "status": "APPLIED"
+    },
+    {
+      "id": 2,
+      "title": "Νέος Rule kpold-130-epanaprosdiorismos-ekkremon",
+      "reason": "Catastrophic risk — pending appeals auto-withdrawn post 16/9/2026",
+      "verification": "Rule exists with duration=null; Test 10 validates warning-only behavior",
+      "status": "APPLIED"
+    },
+    {
+      "id": 3,
+      "title": "Citation Fix 144§4 → 147§2",
+      "reason": "Explicit August suspension list in ΚΠολΔ 147§2, not 144",
+      "verification": "legal_source in kpold-144 and kpold-diakopes-augoustos correctly cites 147§2",
+      "status": "APPLIED"
+    }
+  ],
+  "test_coverage": {
+    "unit_tests": 16,
+    "hard_gates": 9,
+    "soft_checks": 6,
+    "integration_checks": 4
+  },
+  "files_reviewed": 12,
+  "migration_status": "IDEMPOTENT",
+  "estimated_risk": "LOW",
+  "estimated_deployment_time_minutes": 15
+}

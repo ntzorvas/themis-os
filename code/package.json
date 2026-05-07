@@ -1,0 +1,26 @@
+{
+  "name": "themisos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Legal Practice Management SaaS — Ελληνικά Δικηγορικά Γραφεία",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "bash scripts/dev.sh",
+    "build:packages": "pnpm -r --filter './packages/*' build",
+    "build": "pnpm --filter='./apps/*' build",
+    "lint": "pnpm --recursive lint",
+    "typecheck": "pnpm --recursive typecheck",
+    "test": "pnpm --recursive test",
+    "db:generate": "pnpm --filter='@themisos/db' db:generate",
+    "db:migrate": "pnpm --filter='@themisos/db' db:migrate",
+    "db:studio": "pnpm --filter='@themisos/db' db:studio"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}

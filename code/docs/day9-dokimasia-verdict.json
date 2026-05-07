@@ -1,0 +1,288 @@
+{
+  "review_id": "dokimasia-themis-day9-20260429-1335",
+  "component": "ΘΕΜΙΣ OS Day 9 — Time-Tracking + Billing + Invoice Engine",
+  "verdict": "REJECTED",
+  "confidence": 0.95,
+  "reviewed_at": "2026-04-29T13:35:00Z",
+  "phase": 1,
+  "day": 9,
+  "static_analysis": {
+    "passed": true,
+    "issues": [
+      {
+        "severity": "info",
+        "type": "code_quality",
+        "location": "apps/api/src/routes/invoices/index.ts:10,759",
+        "message": "TODO Phase 1.5 email delivery — non-blocking deferral"
+      },
+      {
+        "severity": "info",
+        "type": "any_types",
+        "location": "apps/api/src/lib/r2-client.ts:95,107,180-181",
+        "message": "Suppressed with eslint-disable comments (R2 response Body type) — acceptable"
+      }
+    ],
+    "summary": "Code structure, error handling, and Greek compliance all solid. No critical static defects."
+  },
+  "functional_verification": {
+    "passed": true,
+    "issues": [
+      {
+        "severity": "critical",
+        "type": "schema_mismatch",
+        "location": "apps/web/types/billing.ts vs backend schema",
+        "message": "Field name divergence: frontend expects 'hourly_rate_eur_cents', backend returns 'billable_rate_eur_cents'"
+      },
+      {
+        "severity": "critical",
+        "type": "schema_mismatch",
+        "location": "apps/web/types/billing.ts vs backend schema",
+        "message": "Field name divergence: frontend expects 'party_id', backend returns 'bill_to_party_id'"
+      },
+      {
+        "severity": "critical",
+        "type": "schema_mismatch",
+        "location": "apps/web/types/billing.ts vs backend schema",
+        "message": "Invoice lines: frontend expects 'time_entry_id' / 'expense_id', backend returns 'source_type' + 'source_id'"
+      },
+      {
+        "severity": "high",
+        "type": "enum_mismatch",
+        "location": "apps/web/types/billing.ts:94-100 vs backend",
+        "message": "Expense types: frontend=['fees','court_fees','notarial',...], backend=['court_fee','expert_fee','translation',...]"
+      },
+      {
+        "severity": "high",
+        "type": "enum_mismatch",
+        "location": "apps/web/types/billing.ts:277 vs backend",
+        "message": "Payment methods: frontend=['cash','bank_transfer','card','pos',...], backend=['bank_transfer','viva','ethniki','cash','check',...]"
+      },
+      {
+        "severity": "medium",
+        "type": "anomaly",
+        "location": "apps/api/src/routes/expenses/index.ts:12",
+        "message": "Comment says 'soft delete' but no soft_deleted_at column exists — behavior unclear"
+      },
+      {
+        "severity": "low",
+        "type": "collision_risk",
+        "location": "apps/api/src/routes/invoices/index.ts:336",
+        "message": "DRAFT placeholder uses timestamp — 1ms collision risk if parallel requests for same party"
+      }
+    ],
+    "summary": "Business logic implementations are correct, but API contract divergence with frontend will cause runtime failures."
+  },
+  "build_verification": {
+    "passed": false,
+    "build_output": "pending",
+    "build_commands": [
+      "pnpm --filter @themisos/api typecheck",
+      "pnpm --filter web typecheck"
+    ],
+    "warnings": [],
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "API typecheck in progress — expected to fail due to schema mismatches"
+      },
+      {
+        "severity": "critical",
+        "message": "Web typecheck in progress — expected to fail due to API contract mismatch"
+      }
+    ],
+    "summary": "Build verification pending. Expected failures due to documented contract mismatches."
+  },
+  "security_check": {
+    "passed": true,
+    "issues": [],
+    "findings": [
+      {
+        "type": "secrets",
+        "status": "pass",
+        "detail": "No hardcoded API keys, passwords, or credentials in code"
+      },
+      {
+        "type": "sql_injection",
+        "status": "pass",
+        "detail": "All queries use postgres.js parameterization (${value}::type)"
+      },
+      {
+        "type": "authorization",
+        "status": "pass",
+        "detail": "All routes wrapped in withTenantSchema — tenant isolation enforced"
+      },
+      {
+        "type": "input_validation",
+        "status": "pass",
+        "detail": "All endpoints validate input with Zod schemas"
+      },
+      {
+        "type": "rate_limiting",
+        "status": "not_implemented",
+        "detail": "No explicit rate limiting on POST endpoints — deferred to Phase 1.5"
+      }
+    ],
+    "summary": "Security fundamentals solid. Auth, parameterization, and tenant isolation all correct."
+  },
+  "deployment_readiness": {
+    "passed": false,
+    "issues": [
+      {
+        "severity": "critical",
+        "message": "Cannot deploy with API contract mismatches — integration will fail"
+      },
+      {
+        "severity": "high",
+        "message": "Typecheck not yet passing — must resolve compilation errors"
+      }
+    ],
+    "pm2_config": "not_required",
+    "migrations": {
+      "file": "packages/db/migrations/0007_billing_extensions.sql",
+      "status": "syntactically_valid",
+      "indexes": 5,
+      "breaking_changes": false,
+      "rollback_safe": true,
+      "prerequisite": "0002_template_schema.sql must exist"
+    },
+    "summary": "Deployment blocked by contract mismatches. Migration is sound but cannot deploy without API fixes."
+  },
+  "blocking_issues": [
+    {
+      "id": "B1",
+      "severity": "critical",
+      "title": "API Field Name Mismatch: hourly_rate_eur_cents",
+      "description": "Frontend expects 'hourly_rate_eur_cents', backend returns 'billable_rate_eur_cents'",
+      "affected_files": [
+        "apps/web/types/billing.ts:34",
+        "apps/api/src/routes/time-entries/index.ts"
+      ],
+      "impact": "Time entry form submission will fail — field name mismatch in deserialization",
+      "remediation": "Option 1: Add response mapping in backend (recommended). Option 2: Update frontend types to 'billable_rate_eur_cents'."
+    },
+    {
+      "id": "B2",
+      "severity": "critical",
+      "title": "API Field Name Mismatch: party_id vs bill_to_party_id",
+      "description": "Frontend expects 'party_id', backend returns 'bill_to_party_id'",
+      "affected_files": [
+        "apps/web/types/billing.ts:213",
+        "apps/api/src/routes/invoices/index.ts"
+      ],
+      "impact": "Invoice display and party selection will fail",
+      "remediation": "Option 1: Add response mapping in backend (recommended). Option 2: Update frontend types to 'bill_to_party_id'."
+    },
+    {
+      "id": "B3",
+      "severity": "critical",
+      "title": "API Structural Mismatch: Invoice Lines",
+      "description": "Frontend expects {time_entry_id, expense_id}, backend returns {source_type, source_id}",
+      "affected_files": [
+        "apps/web/types/billing.ts:203-204",
+        "apps/api/src/routes/invoices/index.ts:364-411"
+      ],
+      "impact": "Invoice line display will break — cannot identify line sources",
+      "remediation": "Option 1: Add mapper in backend (source_type=='time' → time_entry_id, etc). Option 2: Update frontend to parse source_type + source_id."
+    },
+    {
+      "id": "B4",
+      "severity": "critical",
+      "title": "Typecheck Failures (Pending)",
+      "description": "API and web typecheck builds are in progress and expected to fail due to schema mismatches",
+      "affected_files": [
+        "apps/api/src/**/*.ts",
+        "apps/web/src/**/*.tsx"
+      ],
+      "impact": "Build cannot pass CI/CD",
+      "remediation": "Fix contract mismatches (B1-B3) then re-run typecheck"
+    }
+  ],
+  "non_blocking_issues": [
+    {
+      "id": "N1",
+      "severity": "high",
+      "title": "Enum Mismatch: Expense Types",
+      "description": "Frontend lists ['fees','court_fees','notarial',...], backend expects ['court_fee','expert_fee','translation',...]",
+      "affected_files": [
+        "apps/web/types/billing.ts:94-100",
+        "packages/db/migrations/0002_template_schema.sql"
+      ],
+      "remediation": "Align frontend enum to backend (backend is more comprehensive)"
+    },
+    {
+      "id": "N2",
+      "severity": "high",
+      "title": "Enum Mismatch: Payment Methods",
+      "description": "Frontend includes 'card' and 'pos'; backend expects Greek payment gateway names ('viva', 'ethniki')",
+      "affected_files": [
+        "apps/web/types/billing.ts:274-280",
+        "packages/db/migrations/0002_template_schema.sql"
+      ],
+      "remediation": "Align frontend to backend enum"
+    },
+    {
+      "id": "N3",
+      "severity": "medium",
+      "title": "Expense DELETE Behavior Unclear",
+      "description": "Comment says 'soft delete' but DELETE endpoint implementation not shown; schema has no soft_deleted_at column",
+      "affected_files": [
+        "apps/api/src/routes/expenses/index.ts:12"
+      ],
+      "remediation": "Clarify: Should expenses be soft-deleted (status-based) or hard-deleted? Implement accordingly."
+    },
+    {
+      "id": "N4",
+      "severity": "low",
+      "title": "DRAFT Invoice Number Collision Risk",
+      "description": "Placeholder uses timestamp — if 2 parallel requests hit same millisecond for same party, UNIQUE constraint may fail",
+      "affected_files": [
+        "apps/api/src/routes/invoices/index.ts:336"
+      ],
+      "probability": "Very low (<1%)",
+      "remediation": "Use UUID instead of timestamp: DRAFT-${crypto.randomUUID()}"
+    },
+    {
+      "id": "N5",
+      "severity": "low",
+      "title": "Invoice Status Enum Mismatch",
+      "description": "Frontend missing 'sent' state (backend adds it post-finalize); no support for 'partial' payment status",
+      "affected_files": [
+        "apps/web/types/billing.ts:168",
+        "apps/api/src/routes/invoices/index.ts"
+      ],
+      "remediation": "Add 'sent' to frontend enum; add 'partial' logic to backend (mark partial if 0 < totalPaid < invoiceTotal)"
+    }
+  ],
+  "conditions_if_approved_with_conditions": [],
+  "recommended_action": "FIX_THEN_RESUBMIT",
+  "required_fixes_before_resubmit": [
+    "Implement API response mapping layer (or update frontend types to match backend schema)",
+    "Fix Expense type enum alignment",
+    "Fix Payment method enum alignment",
+    "Re-run typecheck and ensure zero compilation errors",
+    "Test end-to-end: time entry → invoice → field mapping verification"
+  ],
+  "confidence_breakdown": {
+    "static_analysis_pass": 0.99,
+    "functional_logic_correct": 0.98,
+    "security_sound": 1.0,
+    "contract_mismatch_exists": 1.0,
+    "typecheck_will_fail": 0.95,
+    "overall_rejection_justified": 0.95
+  },
+  "notes": {
+    "core_implementation": "Backend implementation is solid — billing logic, audit trail, multi-tenant isolation all correct.",
+    "root_cause": "Frontend and backend developed in parallel without shared API contract validation. Field names diverged from spec.",
+    "severity": "High at integration point but low-risk to fix. Simple mapping layer or type update resolves.",
+    "timeline": "Estimated 2-4 hours to fix all contract issues and re-test.",
+    "recommendation_priority": "Fix and resubmit immediately. This is blocking integration testing."
+  },
+  "report_location": "docs/day9-dokimasia-report.md",
+  "next_steps": [
+    "Return to originating agents (tool-specialist, app-specialist) with exact fix requirements",
+    "Implement Option 1 (response mapping) in backend OR Option 2 (type update) in frontend",
+    "Re-run full typecheck suite",
+    "Resubmit for Day 9.5 rapid review",
+    "If approved, proceed to Day 10 final integration testing"
+  ]
+}

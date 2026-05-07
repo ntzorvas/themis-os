@@ -1,0 +1,1594 @@
+1
+
+ANNEX 1 - Guide for Applicants
+AIoD OC1-PrivateSector
+Europe’s trusted AI gateway
+
+Disclaimer
+Funded by the European Union, under grant agreement №.101146490. Views and opinions expressed
+are however those of the author(s) only and do not necessarily reflect those of the European Union or
+European Commission. Neither the European Union nor the granting authority can be held responsible
+for them.
+
+2
+
+Table of Contents
+1.
+
+What is DeployAI?
+
+3
+
+2.
+
+What is the AIoD OC1-PrivateSector offer?
+
+4
+
+3.
+
+Who can apply and how?
+
+5
+
+4.
+
+3.1.
+
+Types of applicants
+
+5
+
+3.2.
+
+Types of projects
+
+6
+
+3.3.
+
+Funding conditions
+
+7
+
+3.4.
+
+Application process (for Stage 1)
+
+8
+
+3.5.
+
+Other application requirements and considerations
+
+9
+
+3.6.
+
+Technical/ feasibility assessment
+
+9
+
+How will applications be evaluated and selected?
+
+10
+
+4.1.
+
+Eligibility check
+
+11
+
+4.2.
+
+Evaluation no.1 (Selection for Stage 1)
+
+11
+
+4.3.
+
+Evaluation no. 2 (Selection for Stage 2)
+
+13
+
+4.4.
+
+Evaluation no. 3 (Selection for Stage 3)
+
+13
+
+4.5.
+
+Appeals
+
+13
+
+5.
+
+What happens after selection in Evaluation no.1?
+
+14
+
+6.
+
+What is the AIoD OC1-PrivateSector and its requirements?
+
+15
+
+7.
+
+6.1.
+
+Programme Stages
+
+15
+
+6.2.
+
+Programme review
+
+17
+
+What else is important to know?
+
+18
+
+7.1.
+
+Intellectual Property Rights (IPR)
+
+18
+
+7.2.
+
+On conflicts of interest
+
+18
+
+7.3.
+
+Ethical issues
+
+18
+
+7.4.
+
+Data protection
+
+19
+
+7.5.
+
+Confidentiality
+
+19
+
+7.6.
+
+Promotion of the action and ensuring visibility of the EU funding
+
+19
+
+7.7.
+
+Checks and reviews
+
+19
+
+8.
+
+Relevant links and contacts
+
+20
+
+9.
+
+Relevant Open Call definitions
+
+21
+
+3
+
+1. What is AI-on-Demand Platform?
+The AI-on-Demand is Europe’s collaborative AI homebase. As a trusted gateway to a thriving AI
+ecosystem, it connects businesses, researchers, and public organizations with reliable resources. By
+uniting Europe’s AI community, the platform actively reduces information fragmentation, making it
+easier than ever to discover and leverage valuable European AI assets.
+To make scalable AI a reality for everyone, AIoD operates as a comprehensive ecosystem rather than a
+static tech catalogue. It offers guidance, matchmaking, and a vibrant marketplace on a single online
+platform, delivering on four key promises:
+•
+
+•
+
+•
+
+•
+
+An Accessible One-Stop Shop: Designed for organizations of any maturity level, the platform
+supports the entire AI lifecycle. From assessing initial needs to commercializing fully developed
+solutions, AIoD eliminates tech-savvy gatekeeping and provides clear, low-threshold paths for
+deploying AI.
+Operations Under European Values: As a proud European alternative, the platform ensures all
+operations are fundamentally secure, open, and transparent. It guarantees strict adherence to
+ethics and regulatory compliance.
+Freedom to Innovate: Built on vendor-independent and open-source principles, the platform
+protects you from vendor lock-in. It gives you the freedom to build on your own terms,
+significantly increasing your innovative potential.
+Pan-European Reach: AIoD intelligently guides users to the solutions that benefit them most,
+providing the foundation to scale ideas and businesses across all EU member states from
+within a single, unified ecosystem.
+
+Ultimately, AI-on-Demand ensures that the transformative power of artificial intelligence is within reach
+for everyone, offering the tools, connections, and ethical framework needed to thrive.
+The platform offers an extensive AI resource catalogue and Marketplace, including European large
+language models (LLMs), alongside open APIs and interfaces that support interoperability across cloud,
+edge, and high-performance computing environments.1 By integrating with key European initiatives such
+as AI Factories, EDIHs, TEFs, Data Spaces, and SIMPL, AIoD Platform strengthens collaboration within
+the European AI ecosystem while ensuring quality, trust, and long-term sustainability through robust
+governance and qualification processes.
+
+Project DeployAI
+Developing and deploying AI-On-Demand Platform (AIoD Platform) is the main objective of the
+overarching project for this Open Call: DeployAI Project, funded by the European Union Digital Europe
+Programme (DIGITAL) under grant agreement №.101146490 and bringing together a consortium of 27
+entities (DeployAI Consortium). The DeployAI Financial Support to Third Parties Programme (DeployAI
+Funding Programme) seeks to boost the adoption of the AIoD Platform and boost the AI innovation
+across Europe. This Funding Programme is composed of 2 Open Calls, targeting both the Private (OC1)
+and the Public Sector (OC2). This Guide for Applicants introduces the framework and selection
+conditions of the first Open Call: AIoD OC1-PrivateSector aims to accelerate the integration, market
+
+1
+
+The Core components of the AIoD Platform are detailed in https://www.aiodp.ai/.
+
+4
+
+uptake, and real-world deployment of mature European AI solutions within the AIoD Platform,
+strengthening the EU AI ecosystem and driving trustworthy AI adoption across sectors.
+The selected AI Providers are called to be showcased in the Marketplace, Business Navigator and
+specific industry Events, and to be integrated with the core components of the AIoD Platform, deploy
+their products in AI adopters of their choice and serve as beta testers to the AIoD Platform.
+
+2. What is the AIoD OC1-PrivateSector offer?
+An Open Call (OC) is a competitive process by which eligible applicants apply to have access to a
+specific Funding Programme. AIoD OC1-PrivateSector is the Competitive Process to access the
+DeployAI Funding Programme.
+Applications to AIoD OC1-PrivateSector will be accepted from 8 April 2026 until 8 June 2026. After the
+selection is completed, selected applicants will be invited to sign the sub-grant agreement and enter the
+DeployAI Funding Programme.
+AIoD OC1-PrivateSector will follow a three-stage funnel approach, ensuring that only the most relevant
+and promising applicants advance to the next phase. Participation is strictly limited to those who apply
+and are selected to start Stage 1.
+In Stage 1 - Select & Pitch (from 1 September 2026 to 30 September 2026), up to 50 AI Products (TRL>=7)
+will be selected from the initial pool of eligible applicants based on technical readiness, business
+potential and relevance of the AI Solution for AIoD Platform. AI Providers2 will receive 5.000€ to: i) refine
+their business concept and alignment with AIoD Platform’s Vision and Objectives, ii) refine integration
+details with AIoD Platform; iii) give initial feedback about the AIoD Platform; and iv) pitch their solutions
+at an in-person industry event (September 2026), gaining visibility through AIoD Platform channels.
+A smaller group of 20 AI Products will be selected during the same pitch event and will progress to
+Stage 2 - Integration (from 1 October 2026 to 31 December 2026). In this stage, they will receive €35,000
+in support to fully integrate their solutions into the AIoD Platform using the core components of the
+Platform, with guidance from mentors (DeployAI Consortium partners). They will be expected to
+implement their business models and bring customers onto the AIoD Platform, while serving as their
+beta-testers and providing active feedback to the Platform and actively helping identify problems and
+suggest improvements. To proceed to Stage 3, they must submit a sub-project to deploy their solution
+into one (1) specific AI Adopter3 of their choosing, who will also receive funding as described below. By
+the end of Stage 2, a second industry event will be held, during which results of integration will be
+showcased and sub-projects will be pitched.
+Based on the robustness of the business model, the outcomes of the AIoD Platform integration (number
+of customers brought into AIoD Platform, etc) and the quality/relevance of the implementation Plan, 10
+sub-projects, will be selected to Stage 3 - Deployment (from 15 January 2027 to 15 April 2027). Subprojects must be led by AI providers participating in Stage 2, in consortium with AI adopters, and will
+receive financial support of up to 35.000€: €20.000 for AI Provider and €15.000 for AI Adopter. The
+implementation will be closely monitored to ensure impactful deployment and measurable KPIs. These
+results will be showcased in a final public event and transformed into Use cases to promote the
+Platform.
+
+2
+3
+
+The definition of AI Provider and AI Adopter are included in Table 8.
+Idem
+
+5
+
+For all 3 Stages, beneficiaries will have the support of a mentor to monitor project progress and facilitate
+communication with technical partners involved in the AIoD Platform development.
+The maximum contribution for AI Providers is 60.000€, to be paid in form of lump sums, as and if they
+progress through the Stages: 5.000€ (Stage 1) + 35.000€ (Stage 2) + 20.000€ (Stage 3). The maximum
+contribution to AI Adopters, to be included in Stage 3, is 15.000€.
+
+Industry Events will be organized within the implementation period, structured in two parts: The first
+part (day 1) follows the F6S initiative “AI Talks” where the AIoD Platform will be promoted and relevant
+AI topics relevant to the EU context will be discussed. The second part (day 2) will be focused on
+pitching and selection of proposals for the subsequent phase.
+●
+●
+●
+
+Event 1 | AI Talks + Pitching session for Stage 1 (to select the AI solutions to start Stage 2).
+Event 2 | AI Talks + Pitching session for Stage 2 (to select the sub-projects to start Stage 3)
+Event 3 | Demo Day, showcase the success of the integration and implementation.
+
+Relevant links and contacts:
+●
+●
+●
+
+AIoD Platform Homepage: https://www.aiodp.ai/
+Open call application form: https://www.f6s.com/aiod-oc1privatesector/apply
+Contact us: aiod.opencalls@f6s.com
+
+3. Who can apply and how?
+3.1. Types of applicants
+In the framework of the DeployAI project, the AIoD OC1-PrivateSector is looking for AI Products to fully
+integrate their solutions in the AIoD Platform, by aligning the business models with the AIoD Platform,
+to providing feedback and to deploying their solutions in relevant AI Adopters.
+
+3.1.1. Eligible applicants
+Eligible applicants for the AIoD OC1-PrivateSector are:
+● For Stage 1 and Stage 2: Single Legal entities, which can be either startups, SMEs or research
+organisations (RTOs or academia).
+● For Stage 3: Consortia of legal entities, led by the organisation that implemented Stages 1 and
+2, in partnership with a legal entity acting as AI Adopter (businesses, institutions, associations,
+organisations). The leading partner (AI Provider) will be responsible for the technical
+developments, the other member(s) (AI Adopter) will be the end user(s) responsible to facilitate
+the deployment of the specific solution and validate the technical developments. Applicants
+that were not successful in Stage1 or Stage 2 will not be eligible for Stage 3.
+● Relevant notes:
+o Please consult the EU SME Definition for details on what constitutes an SME.
+o A signed version of the Declaration of Honour and the SME Declaration will be requested
+during the contract preparation phase.
+
+6
+
+3.1.2. Eligible countries
+Eligible entities for funding under this Open Call must be legal entities established in:
+• European Union Member States, with a valid VAT and PIC number.
+• DIGITAL Europe associated countries (those that have signed an agreement with the EU as
+identified in the DIGITAL Programme Guide) according to the updated list published by the
+European Commission.4 Legal entities from countries subject to EU restrictive measures
+(sanctions) during the application phase will not be considered.
+Please note that, under Art 12 (6) of Digital Europe Regulation 2021/694, this Open Call is restricted to
+legal entities established in and/or controlled by Member States (or in specified eligible third
+countries).5
+The AIoD OC1-PrivateSector follows the rules applied by the EC for the DIGITAL Europe Program in
+terms of geographical coverage, eligibility, and exclusions, which take precedence.
+
+3.1.3. Multiple submissions
+The AIoD OC1-PrivateSector will accept a maximum of 1 (one) application per applicant.
+In case an applicant submits more than 1 (one) application, only the application submitted last will be
+considered.
+
+3.2. Types of projects
+The AIoD OC1-PrivateSector aims to fund companies with innovative and impactful solutions to:
+●
+●
+●
+●
+
+Be fully integrated AIoD Platform, its Marketplace and Business Navigator (Stage 1-2)
+Bring traction and clients to the AIoD Platform (Stage 2-3)
+Develop Use cases powered by AIoD Platform (Stages 1-3)
+Become beta-testers for AIoD Platform (Stage 2-3)
+
+When applying, the AI Providers, submitting AI Products at TRL 7 or above, will need to demonstrate the
+technical readiness, business potential and relevance of the AI Solution for AIoD Platform, by submitting
+a Business Model concept and an integration roadmap.
+Proposals that do not demonstrate that the TRL is at level 7 or above, or do not address ethical, privacy
+and responsible AI concerns, or do not demonstrate clear alignment with AIoD platform will not be
+considered eligible.
+
+4
+
+The reference date to assess acceding countries, candidate countries and potential candidates is the date of
+signature of the DeployAI Consortium Agreement (December 2023).
+5 Ownership Control Declaration is available in Annex 6 - Ownership Control Declaration.
+
+7
+
+In addition, applicants must be registered on the AIoD Platform and Business Navigator before
+submitting their application.
+The most relevant 50 companies to be selected for Stage 1 will refine their business plan and the
+integration roadmap to align with AIoD Platform, to provide feedback to the AIoD Platform and pitch
+their solutions at an industry event. The 20 Products selected to progress to Stage 2 will fully integrate
+their solutions into the AIoD Platform, with guidance from mentors (DeployAI Consortium partners), and
+become beta-testers to the Platform.
+In order to proceed to Stage 3, these 20 companies will need to submit a project to deploy their solution,
+having a specific AI Adopter as their consortium partners, while being closely monitored to ensure
+impactful deployment and measurable KPIs. The implementation period will be 3-months and the
+results will be showcased in a final public event and transformed into Use cases to promote the
+Platform.
+
+3.3. Funding conditions
+Any entity, applying individually or as part of a consortium, will only be considered for funding once.
+Each application may receive a maximum of up to 60.000€. However, funding is dependent on
+progression across the different Stages. The total amount requested must represent 100% of the project
+costs (including indirect costs). All applications will be required to provide a justification of the planned
+costs and resources of the project, at each Stage.
+Funding is foreseen to support the following categories of costs:
+●
+●
+●
+●
+●
+
+Project management;
+Research and technical development;
+Testing and piloting;
+Communication, promotion, and exploitation;
+Travel (as required).
+
+The type of costs that may be reported include human resources, other direct costs, and indirect costs.
+Subcontracting is not eligible in this open call.
+Funds will be disbursed in lump sums at the end of each Stage and pending the achievement of agreed
+milestones and deliverables, according to the following table:
+
+Table 1. Application Process and Timeline
+Stages
+
+No. of AI
+Products
+selected
+
+Funding
+
+General Tasks to be performed:
+
+Stage 1 Pitch &
+Select
+
+50 AI
+Products
+
+5.000€/ AI
+Provider
+
+●
+
+Participate in at least 2 Webinars about AIoD
+Platform
+
+●
+
+Complete onboarding into AIoD Platform/
+Marketplace.
+Submit revised version of the Technical &
+Business Proposal
+Participate in Pitching Session during Event 1
+Provide full feedback about AIoD Platform
+
+●
+●
+●
+
+Duration
+
+1 month
+
+8
+
+Stage 2 Integration
+
+20 AI
+Products
+
+35.000€/ AI
+Provider
+
+3 months
+
+●
+●
+
+Participate in Mentoring sessions
+Full integration of AI Product in AIoD Platform
+Implementation of Business Plan for the
+developed product when offered in the AIoD
+Platform
+Guarantee EU27 market readiness for AI
+Product
+Submit sub-Project proposal to implement AI
+Product in AI Adopter
+Participate in Pitching Session during Event 2
+Serve as beta-tester for AIoD Platform
+
+●
+●
+●
+●
+
+Implement the AI Product in AI Adopter
+Participate in Mentoring sessions
+Participate in the in-person Event 3
+Serve as beta-tester for AIoD Platform
+
+3 months
+
+●
+●
+●
+●
+●
+
+Stage 3 Deployment
+
+10 AI
+Products +
+AI Adopter
+(Consortia)
+
+35.000€ /
+project
+AI Provider =
+20.000€
+AI Adopter =
+15.000€
+
+3.4. Application process (for Stage 1)
+The F6S platform will be the single-entry point for all applications to the AIoD OC1-PrivateSector.
+Interested applicants should register at the F6S page (www.f6s.com). The relevant links and timings for
+the application process are provided in Table 2, but are subject to change (Table 8, Open Call and
+Programme deadlines).
+Table 2. Application Process and Timeline 6
+
+Phase
+
+Description
+
+Application
+
+Fill in and submit application including:
+●
+●
+
+Application form on F6S:
+https://www.f6s.com/aiod-oc1privatesector/apply
+Technical & Business Proposal:
+https://www.aiodp.ai/open_calls/
+
+Timeline
+Launch date:
+08/04/2026
+Submission
+deadline:
+08/06/2026
+(17h00 CET)
+
+Eligibility &
+Technical check
+
+DeployAI Consortium performs internal checks of the
+eligibility criteria of the applications
+
+08/06/2026 to
+30/06/2026
+
+Application
+evaluation
+
+An evaluation board reviews the received applications,
+scoring them based on the evaluation criteria. The
+evaluators rank the applications and select the topranked projects in online interviews.
+
+01/07/2026 to
+31/07/2026
+
+Announcement of
+the results
+
+All applicants receive a written letter about approval or
+rejection of their project. The successful projects start
+the onboarding phase in the DeployAI Programme.
+
+Up to 10/08/2026
+
+The submission date for applications is final. All other dates, including those of the programme, may be
+subject to change. In such case, all beneficiaries will be informed accordingly.
+6
+
+9
+
+The submission date for applications is final. All other dates, including those of the Programme, may
+be subject to change.
+
+3.5. Other application requirements and considerations
+●
+
+●
+●
+●
+●
+●
+●
+
+●
+●
+●
+
+Submission:
+Applications
+must
+be
+submitted
+via
+https://www.f6s.com/aiodoc1privatesector/apply.
+Any other submission method will not be accepted.
+Complete application: All mandatory questions must be answered, and all requested
+documents must be uploaded. Incomplete applications will be disqualified.
+Accept terms: Applicants must agree to the application's terms and conditions.
+English language: All applications and Programme communication must be in English.
+Document format: Unless otherwise agreed, all documents in all phases must be submitted
+electronically in PDF format without printing restrictions.
+Deadline:
+○ Failure to submit the application by the submission deadline, regardless of cause (e.g.,
+network issues, multiple browsers or windows), is not acceptable as an extenuating
+circumstance. It is recommended to apply well before the deadline.
+○ Resubmissions are possible provided the call deadline has not passed but are only
+guaranteed if requested at least 2 business days before the deadline via
+support@f6s.com.
+○ The deadline may be extended only in case of unforeseen F6S platform technical
+issues. All applicants will be notified of the new deadline.
+Review future documents: Applicants are encouraged to get familiar with the documents that
+will be required in the contracting phase (see Section - Contracting Phase)
+Notifications: Applicants are encouraged to enable F6S notifications for the Programme in their
+profile settings to ensure communications regarding their application are received.
+Applicants list: A full list of applicants containing their basic information will be created for
+statistical and transparency purposes and shared with the European Commission.
+
+3.6. Technical / feasibility assessment
+As part of the technical and feasibility assessment, applicants must demonstrate that their AI Product
+is delivered in a containerized format (e.g. Docker or equivalent 7), ensuring portability, scalability, and
+smooth integration within the AIoD Platform infrastructure. Clear documentation of the containerization
+approach and deployment requirements must be provided as part of the application.
+The product must demonstrate generalizability. It must be designed as an adaptable, high-quality
+product that can be readily configured and utilized by broader end-users. In alignment with European
+digital sovereignty and values, solutions must promote open innovation and actively avoid vendor lockin. Their core architecture should demonstrate open standards and interoperable interfaces. The
+solution must be highly transferable, modular, and easily adaptable to new clients or infrastructure
+environments without locking end-users into proprietary, closed ecosystems.
+
+7
+
+Docker and Helm charts are the current stack used in the platform.
+
+10
+
+4. How will applications be evaluated and selected?
+Given its Programme Implementation structure, AIoD OC1-PrivateSector will have several evaluation
+moments.
+
+Figure 1. 3 Stage Approach & Timeline for Evaluation
+
+Table 4. Description of evaluation moments
+
+Evaluation
+
+Goal
+
+Types of Evaluators
+
+Evaluation no. 1
+
+•
+
+Internal Evaluators
+(eligibility) and
+External Evaluators
+
+•
+
+Evaluation no. 2
+
+•
+
+Evaluation no. 3
+
+•
+
+Eligibility check done by Internal Evaluation
+Committee (IEC).
+Select best 50 applications for Stage 1 from the
+pool of eligible applicants done by External
+Evaluators.
+Select the 20 best AI Products to fully integrate the
+solution onto AIoD Platform (Stage 2).
+Select the best 10 Projects (lead by previously
+selected AI providers) to be implemented in AI
+Adopter.
+
+Joint effort between
+IEC and relevant
+stakeholders
+
+11
+
+Figure 2. Evaluation & Selection for Stage 1
+
+Figure 2 summarises the Evaluation and selection process for Stage 1 (Evaluation no. 1). Evaluation no.
+2 and no.3 will be done differently (check section 4.2).
+DeployAI Consortium reserves the right, at any stage of the process, to request additional information
+and/or documentation to clarify any doubts regarding the eligibility of the applicant(s) and/or their
+application. Interviews with AI Providers may also be requested, if deemed necessary.
+
+4.1. Eligibility check
+An initial eligibility verification will be done to filter out and discard non-eligible applications, at
+Evaluation no.1. An application is only considered eligible if it meets all the eligibility criteria and
+requirements listed in Section 3, related with: type of applicant(s), TRL level, countries, funding,
+language, documentation. Eligibility will also be checked for the Projects submitted in Stage 3: type of
+applicant(s) (AI Adopters), countries, language, documentation.
+The eligibility check enables the establishment of a shortlist of applications to be evaluated in the next
+step of the evaluation process, concerning Stage 1. Applications marked as non-eligible (for not meeting
+one or more of the eligibility criteria) will receive a rejection letter with a justification.
+
+4.2. Evaluation no.1 (Selection for Stage 1)
+The Evaluation no.1 will be done by an expert evaluation board, i.e, a collective body composed of
+individual members, external to the project consortium, with relevant experience in the AI domains,
+having signed and duly agreed in advance a written commitment of confidentiality and absence of any
+conflicts of interest that might influence the impartial and objective analysis and evaluation of all
+submitted proposals.
+
+12
+
+4.2.1. Evaluation criteria & scoring
+In Evaluation no. 1, each application will be reviewed by a minimum of two experts from the expert
+evaluation board. Applications will be scored against the following criteria:
+Table 5. Evaluation Criteria - Evaluation 1
+
+Criteria Name
+
+Description
+
+C1
+
+Tech/solution
+concept
+
+● Applicants describe the AI Product and all relevant information
+about: containerization readiness, interoperability, TRL.
+● Applicants explain of the differentiation, innovation and
+scalability and EU27 market readiness.
+● Applicants demonstrate the added value of the AI Product in
+AIoD Platform, describing how it aligns with both the Open Call
+and the AIoD Platform, and which core components will be used,
+if any. The concept must be unique and impactful.
+
+C2
+
+Team skills &
+expertise
+
+● Applicants demonstrate their capacity, skills, and expertise to
+deliver according to the proposed plan
+● Applicants demonstrate have the capacity to go beyond the
+implementation of the use-case/pilot, scaling the concept into a
+potential sustainable product/service.
+
+C3
+
+Implementation Plan
+
+•
+
+•
+
+C4
+
+Ambition &
+scalability potential
+
+•
+•
+
+•
+
+Proposals demonstrate how widely the solution will be used,
+the impact and direct contribution to the reinforcement of the
+AIOD and the adoption of AI products across various
+sectors/domains (private & public).
+Quality of the Business Model, as a win-win concept for the AI
+providers and the AIoD Platform.
+Applicants show clarity and ambition of the long-term vision for
+the AI product.
+Applicants demonstrate the scalability of the AI product and
+business model, including the ability to expand to additional
+users, markets, or application domains.
+Applicants explain the potential for growth through the AIoD
+Platform, including opportunities to reach new adopters,
+partners, or markets at European or international level.
+
+Table 8 (item ‘Score, Expert’) defines how individual criteria will be scored. The minimum threshold for
+each criterion will be 6 (six) out of 10 (ten), while the overall score threshold will be 18 (eighteen) out of
+30 (thirty). Applications that do not meet the minimum thresholds (per criteria or overall score) will be
+excluded from the Programme.
+After the individual scoring by the expert evaluation board, the Open Call Management Team will:
+●
+●
+●
+
+Check for large differences (over 2 points per criterion) between evaluators.
+If differences exist, evaluators meet to discuss and agree on scores.
+If an agreement isn't reached, another expert may be invited to provide a third assessment.
+
+13
+
+4.2.2. Ranking & selection
+All applications will be ranked in a single list based on their overall score, which is calculated from the
+average scores given by the evaluators. If multiple applications have the same overall score, the
+following tie-breaking criteria will be applied in this order:
+1. Rule 1 - In case there are proposals in the same position after the initial ranking, priority will be
+given to proposals that have higher impact and market potential (C1)
+2. Rule 2 - In case following Rule 1 there are proposals in the same position, priority will be given
+to proposals that present better scores for implementation (C3)
+3. Rule 3 - In case following Rule 2 there are proposals in the same position, priority will be given
+to proposals with better scores for Team skills (C2)
+4. Rule 4 - In case following Rule 3 there are proposals in the same position, priority will be given
+to the projects that have a woman as lead coordinator.
+
+4.3. Evaluation no. 2 (Selection for Stage 2)
+The Internal Evaluation Committee (IEC) and other relevant stakeholders will jointly do the Evaluation
+no. 2 and no. 3. These evaluations will consist of scoring the same Criteria as Evaluation no.1 and the
+same score range.
+For Evaluation no. 2, evaluators will attribute:
+● 50% of scoring based on the revised version of the Technical & Business Proposals for AIoD
+Platform, following the same criteria as in section 4.2.1;
+● 50% of scoring based on the Pitching Session (Event 1): Relevance & Quality
+
+4.4. Evaluation no. 3 (Selection for Stage 3)
+Following the same reasoning, for Evaluation no. 3, evaluators will attribute:
+● 40% of scoring based on the submitted Project to implement the AI Product in the AI Adopter;
+● 30% on degree of integration with the Platform (Developed in Stage 2)
+● 30% of scoring based on the Pitching Session (Event 2) : Relevance & Quality
+
+Extra criteria may be added for Evaluation no.3. This will be duly communicated to the beneficiaries by
+the beginning of Stage 2.
+
+4.5. Appeals
+The applicant is entitled to appeal in each Evaluation moment. Within (3) three working days of receiving
+i) a rejection letter informing the application as non-eligible or ii) an ESR of non-acceptance, an applicant
+may submit a request for an appeal if they believe the results of the eligibility checks have not been
+correctly applied, or if they feel that there has been a shortcoming in the way their application has been
+evaluated.
+All requests for appeal must be sent to the OC Management Team to aiod.opencalls@f6s.com and
+must:
+
+14
+
+●
+●
+●
+●
+
+Focus on aspects concerning the evaluation of the application (e.g. admissibility or eligibility
+checks, evaluation procedure, etc), not their merits.
+Clearly describe the complaint.
+Be received within the time limit (3 working days) from the reception of a rejection letter
+considering the application as non-eligible or the ESR information letter delivered.
+Sent by the entities’ legal representative that has also submitted the application.
+
+Note that the Evaluation 1 is carried out by highly qualified external experts. DeployAI will neither
+question nor interfere with their original evaluation. Mere repetitions of the content of the application or
+disagreements with the result or reasoning of the technical evaluation will not be considered.
+
+5. What happens after selection in Evaluation no.1?
+Applicants that are selected to proceed to Stage 1 will be invited to the contracting phase, where
+administrative and financial details and documents are verified and validated.
+Furthermore, to carry out mandatory Know Your Customer (KYC) checks, proof of residency and proof
+of ID from one or more members of the organisation(s) is required.
+The steps of this phase are (see Table 8 for complementary information):
+1. Inclusion of comments (if any) provided in the Evaluation Summary Report as part of the subgrant agreement (contract).
+2. Validation of the entities based on the provision of the following documentation:
+● Formal proof of the entity’s legal existence and tax activity.
+● Proof of the SME status, including the SME Declaration Form).
+● Declaration of Honour, for all participating entities, signed by the legal representative
+of the entity.
+● Consortium Declaration of Honour, signed by the legal representative of each
+consortium partner.
+● Bank Account Information.
+3. Signing of the sub-grant agreement between DeployAI Consortium, represented by its Treasurer
+(F6S).
+
+The same verification process will be followed for the selected AI Adopters, prior to the signature of a
+consortium sub-grant agreement, for the implementation of Stage 3.
+
+Additional considerations:
+●
+●
+●
+●
+●
+
+A valid VAT is mandatory.
+The sub-grant agreements (contracts) are final and cannot be altered.
+Electronic digital signatures are required for signed documents (unless otherwise agreed).
+Deadlines for document submission will be provided and will normally be concluded within
+two weeks.
+Failure to complete the negotiation in time will result in rejection.
+
+15
+
+6. What is the AIoD OC1-PrivateSector and its requirements?
+6.1. Programme Stages
+The AIoD OC1-PrivateSector includes 3 key Stages:
+1. Stage 1 - Pitch & Select
+2. Stage 2 - Integration
+3. Stage 3 - Deployment
+
+6.1.1. Stage 1 - Pitch & Select
+After the proposal has been accepted and the sub-grant agreement has been signed, the SME will enter
+the Pitch & Select phase. 50 AI Products will be selected for Stage 1 and become beneficiaries of the
+Project, under the DeployAI FSTP Programme.
+Stage 1 lasts for one month. During the first week of Stage1, the 50 selected beneficiaries will attend 2
+webinars about the AIoD Platform, about the core components, specific features and the Business
+Model AIoD Platform. After these webinars, applicants will have the opportunity to fine tune their
+Technical & Business Proposal, better detailing how the core components of the AIoD Platform will be
+used by the AI Providers and how the AI Product will contribute to the AIoD Platform Business Plan. By
+the end of the second week, they will be able to submit an improved version of the Technical & Business
+Proposal, to be considered for Stage 2.
+They will also be asked to give constructive feedback about the AIoD Platform, through a specific survey,
+and promote it in their networks.
+The Technical & Business Proposal will be presented by the applicant in a Pitching Session organized
+during Event 1. This event will take place in the late September an European member-state, and inperson participation is mandatory. Details regarding the Pitching session will be shared with the
+selected applicants, upon signature of the Sub-grant Agreement.
+20 Projects will be selected to proceed to Stage. The remaining 30 sub-projects will be automatically
+terminated and these companies will not be eligible to reapply for any other Stage 3 of the process.
+
+6.1.2. Stage 2 - Integration
+During a 3-month period, these 20 beneficiaries will be fully integrating their solution into the AIoD
+Platform and implementing their Business Plans. This integration must include the following
+components:
+● Usage of at least one the core components available in AIoD Platform to further develop their
+solution. The full description of these components can be found in www.aiodp.ai.
+● Full integration in Marketplace and Business Navigator
+● Guarantee EU27 readiness for their AI Products.
+Plus, during Stage 2, beneficiaries will serve officially as beta-testers for the AIoD Platform, with the
+support of the mentors and DeployAI project partners.
+
+16
+
+By the end of Stage 2, participants must submit a report outlining their work and key results, particularly
+in terms of integration progress, traction growth, and user adoption within the AIoD Platform.
+In addition, to be considered for Stage 3, beneficiaries will be required to submit a sub-project proposal
+detailing how they plan to implement their solution with an AI Adopter. The selection of the AI Adopter
+is the responsibility of the AI provider. Plus, the template and information about the criteria for
+evaluating the subprojects will be shared upon selection to Stage 2.
+To facilitate all these activities, structured mentoring will be present throughout Stage 2, as it bridges
+capability gaps by providing strategic guidance, risk mitigation, and tailored feedback throughout the
+Stage, accelerating progress and improving the quality of results. It also strengthens alignment with
+Programme objectives and maximises public investment by increasing the likelihood of sustainable,
+market-ready outcomes.
+Both the results of the integration processes and the submitted sub-Projects will be presented by each
+applicant in Event 2, taking place an European member-state in November 2026. Same as Event 1, this
+is a mandatory in-person event and representatives from both the AI Provider and the AI Adopter are
+expected.
+Dates, location and further details regarding the Pitching session will be shared with the applicants upon
+selection for Stage 2.
+
+6.1.3. Stage 3 - Deployment
+From the pool of up to 20 sub-projects submitted by beneficiaries of Stage 2, 10 sub-Projects will be
+selected for Stage 3.
+During a 3-month period, these 10 consortia will be implementing their projects and preparing their use
+cases, while still serving as beta-testers for the AIoD Platform.
+Implementation and KPIs will be monitored by dedicated Mentors throughout the 3 months, to
+strengthen both implementation capacity and impact.
+By the end of Stage 3, participants must submit a report outlining their work as a Consortium and key
+results, in terms of deployment progress, traction growth, and user adoption within the AIoD Platform.
+They will also submit a Use Case considering their integration and deployment process, for which they
+will receive a template
+Both Use Case and the outcomes of the 3-Stage process will be presented in Event 3, as to showcase
+the AIoD Platform adoption. Same as Event 1 and 2, this is a mandatory in-person event, taking place in
+early 2027, and representatives from both the AI Provider and the AI Adopter are expected.
+Specific Dates, location and further details regarding the Pitching session will be shared with the
+applicants upon selection for Stage 3.
+
+17
+
+6.2. Programme review
+6.2.1. Review summary
+Each beneficiary will go through 3 Stages. Payments 1 and 2 are aligned with the Stages 1 and 2 and
+are to be processed by the end of the implementation period. Payment for Stage 3 will be divided in 2
+parts, according to the implementation phase.
+Table 6. Programme review and Payment timeline
+
+Stage
+
+Payment
+no.
+
+Item
+
+Description
+
+Timeline for
+submission of
+requirements
+
+Stage 1 Pitch
+&
+Select
+
+PAYMENT
+1
+
+Requirement
+
+R1.1 - Submission of the updated Technical
+& Business Proposals
+
+R1.1 - 5 working days
+before Event 1
+
+R1.2 - Submission of Travel Report for Event
+1
+
+R1.2 - 5 working days
+after Event 1
+
+R1.3 - Answer to Official Survey regarding
+AIoD Platform
+
+R1.3 - End of Stage 1
+
+Stage 2 Integration
+
+PAYMENT
+2
+
+Result
+
+Payment of 5.000€
+
+Timeline for
+payment
+
+End of month 2 / October 2026
+
+Requirement
+
+R2.1 - Submission of Travel Report for Event
+2
+
+R2.1 - End of Stage 2
+
+R2.2 - Report on Stage 2 implementation
+and expected Deliverables/KPIs (to be
+defined according to Business Concept)
+
+R2.3 - End of Stage 2
+
+R2.3 - Confirmation of requested actions for
+beta-testing
+
+R2.2 - End of Stage 2
+R2.4 - 5 working days
+before Event 2.
+
+R2.4 - Submission of a sub-project to be
+implemented with AI Adopter (optional, if
+they want to be selected for stage 3)
+
+Stage 3 Deploymen
+t
+
+PAYMENT
+3
+
+Result
+
+Payment of 35.000€
+
+Timeline
+
+End of month 5 / January 2027
+
+Requirement
+
+R3.1 - Sub-Grant Agreement signature for
+implementation of sub-project
+R3.2 - Identification of expected
+Deliverables/KPIs (to be defined according
+to the specific sub-project)
+
+PAYMENT
+4
+
+R3.1 - Start of Stage 3
+R3.2 - 10 working days
+after start of Stage 3
+
+Result
+
+Payment of 30% of Stage 3 expected grant (AI Provider = 6.000€ | AI
+Adopter = 4.500€)
+
+Timeline
+
+End of month 6/ February 2026
+
+Requirement
+
+R4.1 - Submission of Travel Report for Event
+3
+R4.2- Report on Stage 3 implementation
+and expected Deliverables/KPIs (to be
+defined according to the specific subproject)
+
+R4.1 - R4.4: End of
+Stage 3
+
+18
+
+R4.3 - Impact self-assessment Stage 1 Stage 3 (AI Provider)
+R4.4 - Confirmation of requested actions for
+beta-testing
+Result
+
+Payment of 70% of Stage 3 expected grant (AI Provider = 14.000€ | AI
+Adopter = 10.500€)
+
+Timeline
+
+End month 9/ May 2027
+
+Reports must be submitted at least one week in advance, so that the reviewers will have enough time
+to prepare. During the review, representatives of the beneficiary should present their work and answer
+questions.
+After each successful review and within 5 working days, the beneficiary should send the relevant
+payment request document.
+
+7. What else is important to know?
+7.1. Intellectual Property Rights (IPR)
+Solutions developed and results achieved by the third parties belong to the third parties. Applicants will
+remain the sole owners of their respective IPRs and retain the IPR for their solutions.
+Regarding the evaluation, each evaluator will sign an Agreement including confidentiality clauses before
+receiving access to the applications database to protect the applicants' intellectual property and
+sensitive non-disclosed information.
+
+7.2. On conflicts of interest
+Applicants must not have any actual and/or potential conflict of interest with the DeployAI selection
+process and during the project implementation. All cases of conflict of interest will be assessed case
+by case.
+
+7.3. Ethical issues
+DeployAI complies with the fundamental ethical issues, particularly those outlined in the “European
+Code of Conduct for Research Integrity”.
+●
+●
+●
+●
+
+All applicants must submit a self-assessment ethics questionnaire, available in the Proposal
+Template.
+If the applicant confirms the existence of potential ethical issues, they must contact the
+DeployAI Helpdesk for guidance, as required.
+The DeployAI consortium will verify the declaration's consistency with the application contents
+and may contact applicants to resolve any ethical issues.
+Applications that fail to properly address ethical issues or inadequately deal with privacy
+aspects will be rejected.
+
+19
+
+7.4. Data protection
+In order to process and evaluate applications, and manage project implementation, the DeployAI
+consortium will need to collect Personal and Industrial Data.
+
+●
+●
+
+●
+●
+
+●
+
+●
+
+F6S Network Ireland Limited, will act as Data Controller for data submitted through the F6S
+platform for these purposes. Please see our privacy policy here.
+A Data Protection Officer (DPO) has been appointed by F6S generally, to ensure compliance
+with data protection regulations, such as the General Data Protection Regulation (GDPR), and
+that personal data is collected, processed, and stored in a secure manner.
+The F6S platform's system design and operational procedures ensure that data is managed in
+compliance with the General Data Protection Regulation (EU) 2016/679 (GDPR).
+Each applicant will accept the F6S terms to ensure compliance. Please refer to
+https://www.f6s.com/privacy-policy to review the F6S platform’s privacy policy and data
+security policy.
+Apart from the F6S platform, data will also be stored in the F6S Google Drive, and in the project
+repository on Microsoft Azure managed by the project coordinator FRAUNHOFER
+GESELLSCHAFT ZUR FORDERUNG DER ANGEWANDTEN FORSCHUNG EV.
+Note that the DeployAI consortium must retain generated data until five years after the balance
+of the DeployAI project is paid or longer if there are ongoing procedures (such as audits,
+investigations or litigation). In this case, the data must be kept until their conclusion.
+
+7.5. Confidentiality
+Confidentiality obligations:
+●
+
+●
+●
+●
+●
+
+Selected applicants are required to maintain confidential any project data, documents, invoices
+and other materials (in any form) during the implementation of the activities and for 5 years
+after project completion.
+This confidentiality period can be extended by agreement with the EC and the DeployAI
+consortium.
+Information shared during the project, whether written or spoken, is only considered confidential
+if the DeployAI agrees and confirms it in writing within 15 days.
+Confidential information must only be used for project implementation, unless otherwise
+agreed upon.
+Any information shared during the application stage will be treated as confidential.
+
+7.6. Promotion of the action and ensuring visibility of the EU funding
+The beneficiary must promote the project, the DeployAI project and its results, by providing targeted
+information to multiple audiences (including the media and the public) in a strategic and effective
+manner and to highlight the financial support of the EC, including on the official third-party website. The
+DeployAI Communication team will guide and support these communication activities to selected
+beneficiaries.
+
+7.7. Checks and reviews
+The EC may, at any time during the implementation of the sub-project and up to five years after the end
+of the sub-project, arrange for a check and review activity to be carried out, by external auditors, or by
+
+20
+
+the EC services themselves, including the European Anti-Fraud office (OLAF). The procedure shall be
+deemed to be initiated on the date of receipt of the relevant letter sent by the EC.
+There will be no financial checks, reviews, or audits to check costs, since beneficiaries have no
+obligation to document the costs incurred for the action. Checks, reviews, and audits will focus on the
+technical implementation of the action.
+
+8. Relevant links and contacts
+The DeployAI Consortium will provide information to the applicants via the F6S page, so that all
+information (questions and answers) is visible to all participants.
+●
+●
+●
+●
+●
+
+Platform Homepage: https://www.aiodp.ai/
+Open call application form: https://www.f6s.com/aiod-oc1privatesector/apply
+Contact us: aiod.opencalls@f6s.com
+Online Q&A/ discussion board: https://www.f6s.com/aiod-oc1privatesector/discuss
+F6S platform support team: support@f6s.com
+(For issues with the submission, resubmission, access to the platform, etc.)
+
+21
+
+9. Relevant Open Call definitions
+Table 7. Acronyms & Definitions
+Acronym
+
+Explanation/ Definition
+
+AIoD
+
+AI-on-Demand
+
+AWU
+
+Annual Work Unit
+
+EC
+
+European Commission
+
+IEC
+
+Internal Evaluation Committee
+
+SME
+
+Small and Medium Sized Enterprise
+
+ESR
+
+Evaluation Summary Report
+
+KYC
+
+Know Your Customer
+
+OC
+
+Open Call
+
+Table 8. Terms & Definitions
+Term
+
+Definition
+
+AI Provider
+
+Organization that develops, supplies, or operates artificial intelligence
+technologies for others to use. Typically includes Model developers,
+Cloud AI Platforms and Specialized AI Solution Providers.
+
+AI Adopter
+
+Organization from private sector that uses artificial intelligence
+systems created by an AI provider to improve/enable/support its
+operations, products, or services.
+
+Applicant(s)
+
+The legal entity or group of legal entities that intend(s) to submit or
+that submitted an application to the Open Call.
+
+Application Eligibility
+Criteria
+
+Criteria used to assess if an application can be considered for the
+open call. Possible values (Yes/No).
+
+Application Eligible or
+Non-Eligible
+
+Application that is or is not compliant with eligibility criteria.
+
+Application Timestamp
+
+Timestamp of the final submission of an application. If the application
+is reopened and resubmitted the last date will be considered.
+
+Bank Account Information
+
+Document(s) where the beneficiary provides information of the bank
+account to which payments will be made during the project
+implementation.
+
+Beneficiary or 3rd Party
+
+An entity or a consortium that submitted an application to the open
+call that was accepted to be funded, and have signed, or are in the
+process of signing, a sub-grant agreement.
+
+Consortium
+
+Set of legal entities (Lead and partner(s)) that are cumulatively
+responsible to implement the project as defined in the Grant
+Agreement signed with the European Commission.
+
+Consortium Declaration
+of Honour
+
+Declaration where the applicants/ beneficiaries, participating as a
+consortium, declare they accept all conditions of the open call,
+acceleration process & Programme; and agree - if applicable - on
+budget share. One CDoH is required for each sub-granted project.
+
+22
+
+Term
+
+Definition
+
+Contract Deadline
+
+Date and time until when the selected entities need to provide
+contractual information.
+
+Declaration of Honour
+(DoH)
+
+Declaration where the applicant/ beneficiary declares they accept all
+conditions of the open call, acceleration process & Programme. One
+DoH is required for each applicant/ beneficiary.
+
+DeployAI Consortium
+
+Set of 27 legal entities responsible to deliver DeployAI Project - funded
+by the European Union Digital Europe Programme (DIGITAL) under
+grant agreement №.101146490.
+
+External Evaluator
+
+Expert hired by the consortium to assist in the evaluation of the Open
+Call. External evaluators cannot have conflicts of interest and are
+bound by a confidentiality agreement.
+
+F6S Application Form
+
+Application form available in F6S Platform.
+
+F6S Platform
+
+Platform provided by F6S.
+
+FSTP
+
+Financial support to third parties. Payments made to entities that are
+not members of the consortium.
+
+FSTP – Lump Sum
+
+Payment made to the third party based on the achievement of a
+milestone.
+
+Internal evaluation
+committee
+
+Group of appropriately qualified persons of the consortium partners
+that are assigned the responsibility of performing evaluations or
+reviews at any stage of the open call implementation or Programme.
+
+Mentor
+
+Person from the consortium that works closely with the beneficiary to
+foster communication with the consortium and assess progress of the
+project. The mentor may be part of an evaluation committee.
+
+Open Call
+
+Competitive process to access a Programme.
+
+Open Call and
+Programme deadlines
+
+The project has planned the Programme carefully, but unexpected
+things can happen. The application deadline is fixed, and will only
+change if something unforeseen occurs. Other dates, including of the
+Programme, are flexible and may be adjusted as needed, and
+communicated to all applicants.
+
+Open Call close date
+
+Date and time when applications close.
+
+Open Call selection
+prioritisation
+
+Rules used to order applications.
+
+Proof of Legal Existence
+
+Company/ organisation register, official journal or other official
+document per country showing the name of the organisation, the legal
+address and registration number and a copy of a document proving
+VAT registration (in case the VAT number does not show on the
+registration extract or its equivalent).
+
+Proof of SME Status
+
+Proof of the SME condition is required:
+●
+
+●
+
+If the applicant has been fully validated as an SME on the
+Beneficiary Register of the EC Participant Portal, the PIC
+number must be provided.
+Provision of the signed (with a valid e-signature) SME
+Declaration (Annex 5): in the event the beneficiary declares
+being non-autonomous, the balance sheet and profit and loss
+account (with annexes) for the last period for upstream and
+
+23
+
+Term
+
+Definition
+
+●
+
+downstream organisations is required. A Status Information
+Form may be requested, which includes the headcount (AWU),
+balance, profit & loss accounts of the latest closed financial
+year and the relation, upstream and downstream, of any linked
+or partner company.
+Supporting documents: In cases where either the number of
+employees or the ownership is not clearly identified: any other
+supporting documents which demonstrate headcount and
+ownership such as payroll details, annual reports, national
+regional, association records, etc.
+
+Reserve List
+
+Eligible applications that were not selected for funding which can be
+invited in case selected applications do not provide contractual data.
+
+Schedule for payments to
+Beneficiaries
+
+All payments to beneficiaries are dependent on the successful review
+of deliverables/ reports at the end of each Stage, and reception by the
+consortium of the corresponding payment request.
+All payments will be made with undue delay preferably no later than 30
+calendar days after the reception of the financial statement.
+
+Score, Expert
+
+Unless otherwise stated, experts will rank each criterion with marks
+between 1 and 10. Half point scores are not given. Score values will
+indicate the following assessments:
+●
+
+●
+●
+●
+
+●
+●
+
+Score, Per Committee
+
+1-2: Fail. The application fails to address the criterion under
+examination or cannot be judged due to missing or incomplete
+information.
+3-4: Very poor. The criterion is addressed in an unsatisfactory
+manner.
+5: Poor. There are serious inherent weaknesses.
+6-7: Good. While the application broadly addresses the
+criterion, there are significant weaknesses that would need
+correcting.
+8-9: Very Good. The application addresses the criterion well,
+although certain improvements are possible.
+10: Excellent. The application successfully addresses all
+relevant aspects of the criterion in question. Any shortcomings
+are minor.
+
+When the evaluation is made by a committee, the average score of
+each criterion is rounded to the nearest point or half point, before
+computing the overall score.
+Overall score is the sum of the scores of each criterion multiplied by
+the respective weight (if any), rounded to the nearest integer value.
+
+8
+
+Selected application
+
+Application that was selected to participate in the Open Call
+Implementation.
+
+SME
+
+An incorporated enterprise that complies with the rules defined by the
+European Commission to be qualified as an SME8
+
+SME – Autonomous
+Enterprise
+
+An autonomous enterprise is not a partner with or linked to another
+enterprise
+
+https://single-market-economy.ec.europa.eu/smes/sme-fundamentals/sme-definition_en
+
+24
+
+Term
+
+Definition
+
+SME – Linked Enterprise
+
+Linked enterprises are those that form a group through the direct or
+indirect control of the majority of voting rights of an enterprise by
+another or through the ability to exercise a dominant influence on an
+enterprise.
+
+SME – Partner Enterprise
+
+The enterprise holds a minimum of 25% (Capital or voting rights in
+another enterprise, or 25% (Capital or voting rights) are owned by
+another enterprise.
+
+SME Declaration Form
+
+Declaration where the SME status is assessed.
+
+Sub-grant Agreement
+
+Signed between the Project Consortium, represented by its
+Coordinator and the beneficiary. The sub-grant agreement will also
+include the comments (if any) of the application’s ESR to the work
+plan.
+
+Sub-granted Project
+
+The project that has been selected and awarded, implemented
+according to the approved work plan, and in accordance with the
+signed Sub-grant Agreement.
+
+(sub-project)
+
+

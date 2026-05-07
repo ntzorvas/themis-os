@@ -1,0 +1,1492 @@
+**Annex 2 - Technical & Business Proposal**
+
+AIoD OC1-PrivateSector
+
+*Europe's trusted AI gateway*
+
+# PROPOSAL TEMPLATE - INSTRUCTIONS {#proposal-template---instructions .unnumbered}
+
+**Read carefully before preparing your proposal:**
+
+**[Please delete this page when submitting the proposal]{.underline}.**
+Delete the guidance/ information text in yellow in each section and any
+footnotes.
+
+Please use this template to prepare your proposal. It has been organised
+to ensure that the important aspects of your planned work are measurable
+with respect to the evaluation criteria. Sections 1 to 8 of this
+template each correspond to an evaluation criterion (see AIOD OC1 -
+Private Sector \| Guide for Applicants document for details).
+
+The structure of this template **[must]{.underline}** be followed when
+preparing your proposal. Applicants using another template/ document
+structure will be automatically disqualified. Only those proposals that
+successfully address all the required aspects included in the template
+will have the opportunity to be funded.
+
+On the cover page, please include the following:
+
+1.  Title and acronym of your proposal
+
+2.  Full legal name of the applicant and country
+
+3.  Challenge title, track, and code of the challenge the proposal
+    addresses (check Annex 1).
+
+The page limit for the proposal (Sections 1-8) is 18 pages (i.e., this
+limit excludes the **cover, instructions** and **summary of the
+project** pages, and Ethics and Security section). Consider the limits
+indicated below the title of each section ([in yellow]{.mark}) as
+guidance to keep within the 18-page limit. Tables are allowed and must
+be included within this page limit. The minimum font size allowed is 11
+points (note: tables can use font size 10 points). The page size is A4,
+and all margins (top, bottom, left, right) should not be changed from
+their current setting. Paragraph spacing should be a minimum 0pt before/
+after, and 1pt line spacing. **Calibri** must be used as the font style
+(or Arial, if Calibri is incompatible with your system) and **black** as
+the font colour to facilitate readability.
+
+Section 9 is not covered by a page limit.
+
+**The proposal must be uploaded in .PDF format. If you attempt to upload
+a proposal longer than the specified limit, excess pages will be made
+invisible and will not be taken into consideration by the experts.**
+
+**[Please delete this page when submitting the proposal]{.underline}.**
+Delete the guidance/ information text in yellow in each section and any
+footnotes.
+
+#  {#section .unnumbered}
+
+# Instructions for the Applicant: {#instructions-for-the-applicant .unnumbered}
+
+-   **Format:** PDF.
+
+-   **Language:** English.
+
+-   **Page Limit:** Recommended 18 pages (excluding cover and ethics
+    table).
+
+-   **Context:** This Technical and Business Annex should explain in
+    detail the AI Solution being submitted to the Open Call, explaining
+    its market readiness, business potential, and how you will integrate
+    with the AI-on-Demand Platform. Plus, it details what activities are
+    foreseen for the 3 Stages of the Open Call.
+
+-   [**Reference:** This template is mapped to the Evaluation Criteria
+    (C1, C2, C3) defined in the Guide for Applicants.]{.mark}
+
+  -------------------------------------------------------------------------
+  Proposal      
+  Information   
+  ------------- -----------------------------------------------------------
+  Acronym       
+
+  Title         
+  -------------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+  Applicant name (Full legal name + Acronym, if any)   Country
+  ---------------------------------------------------- ------------------
+                                                       
+
+  -----------------------------------------------------------------------
+
+# Table of Contents {#table-of-contents .unnumbered}
+
+[1. Summary of the Project [5](#_Toc224678044)](#_Toc224678044)
+
+[2. AI Product & Technical Readiness
+[6](#_Toc927163191)](#_Toc927163191)
+
+[1.1. AI Product Description
+[6](#ai-product-description)](#ai-product-description)
+
+[1.2. Innovation and State-of-the-Art
+[6](#innovation-and-state-of-the-art)](#innovation-and-state-of-the-art)
+
+[1.3. Technical Readiness (TRL)
+[6](#technical-readiness-trl)](#technical-readiness-trl)
+
+[3. Market Potential & Impact
+[7](#_heading=h.41rw4lvy5rxf)](#_heading=h.41rw4lvy5rxf)
+
+[3.1. Business Concept & Value Proposition
+[7](#business-concept-value-proposition)](#business-concept-value-proposition)
+
+[3.2. Market Validation [7](#market-validation)](#market-validation)
+
+[3.3. Market Potential & Scalability
+[7](#market-potential-scalability)](#market-potential-scalability)
+
+[4. Alignment with AIoD Platform [8](#_Toc749179031)](#_Toc749179031)
+
+[4.1. Integration with AIoD Platform
+[8](#integration-with-aiod-platform)](#integration-with-aiod-platform)
+
+[4.2. Contribution to AIoD Ecosystem
+[8](#contribution-to-aiod-ecosystem)](#contribution-to-aiod-ecosystem)
+
+[5. Implementation Plan
+[9](#_heading=h.cbognr1dbpt0)](#_heading=h.cbognr1dbpt0)
+
+[5.1. STAGE 1 - Pitch & Select
+[9](#stage-1---pitch-select)](#stage-1---pitch-select)
+
+[5.2. STAGE 2 - Integration [9](#_Toc224678058)](#_Toc224678058)
+
+[5.3. STAGE 3 - Deployment
+[9](#stage-3---deployment)](#stage-3---deployment)
+
+[5.4. Risks [9](#risks)](#risks)
+
+[6. Responsible AI, Compliance & EU Sovereignty
+[10](#_Toc111901577)](#_Toc111901577)
+
+[6.1. Regulatory Awareness
+[10](#regulatory-awareness)](#regulatory-awareness)
+
+[6.2. Responsible & Trustworthy AI
+[10](#responsible-trustworthy-ai)](#responsible-trustworthy-ai)
+
+[6.3. Data Governance [10](#data-governance)](#data-governance)
+
+[6.4. European Digital Sovereignty
+[10](#european-digital-sovereignty)](#european-digital-sovereignty)
+
+[7. AI Provider Team Skills & Expertise
+[11](#_Toc948588066)](#_Toc948588066)
+
+[8. Resources & Funding Use [12](#_Toc891830969)](#_Toc891830969)
+
+[8.1. Resources [12](#resources)](#resources)
+
+[8.2. Costs [12](#costs)](#costs)
+
+[9. Annex - Ethics Self-Assessment
+[14](#_heading=h.qcohxhiq3al5)](#_heading=h.qcohxhiq3al5)
+
+# **Summary of the Project**
+
+[NOTE: MAXIMUM OF 1 PAGE]{.mark}
+
+*[Provide a full public summary of the project. This summary should
+include:]{.mark}*
+
+-   *[AI Product Summary: Name of the AI product, Short description of
+    the solution, Problem addressed and target users]{.mark}*
+
+-   *[Objectives in DeployAI: What you want to achieve through
+    participation in the programme, Expected benefits from integration
+    with the AI-on-Demand Platform]{.mark}*
+
+-   *[Relevance to AIoD: Why your solution is relevant to the platform
+    ecosystem]{.mark}*
+
+[]{#_Toc927163191 .anchor}**\
+**
+
+# **AI Product & Technical Readiness** 
+
+[NOTE: MAXIMUM OF 2 PAGES]{.mark}
+
+## **AI Product Description**
+
+-   *Describe the core functionality of the AI solution, the main
+    technologies used and Level of Openness: Describe the level of
+    openness of the solution (e.g., open-source components, APIs) and
+    justify this choice.*
+
+## **Innovation and State-of-the-Art**
+
+-   *Explain what makes your concept unique and impactful compared to
+    existing market alternatives.*
+
+-   *Key differentiators compared to existing alternatives.*
+
+## **Technical Readiness (TRL)**
+
+-   *Mandatory: Demonstrate that your solution is at TRL 7 or above
+    (System prototype demonstration in operational environment).*
+
+-   *Provide evidence of testing, pilots, deployment or prototyping that
+    justifies this TRL claim.*
+
+> []{#_heading=h.41rw4lvy5rxf .anchor}
+
+**\
+**
+
+# **Market Potential & Impact**
+
+[NOTE: MAXIMUM OF 3 PAGES]{.mark}
+
+## **Business Concept & Value Proposition**
+
+-   *Explain the commercial logic of their solution and its
+    sustainability covering: Customer segments, Value proposition,
+    Revenue streams, Pricing logic, Cost structure overview*
+
+## **Market Validation**
+
+-   *Detail Market Validation & Traction, describing current or target
+    customers and sectors, Pilots / Proofs of Concept, current revenue,
+    and include indicative projections for the next 24 months.*
+
+## **Market Potential & Scalability**
+
+-   *Describe the market potential of your solution.*
+
+-   *Explain your capacity to go beyond the pilot phase and scale this
+    concept into a sustainable product/service.*
+
+-   *EU27 Readiness: Describe your strategy to guarantee EU27 market
+    readiness for your AI solution.*
+
+[]{#_Toc749179031 .anchor}**\
+**
+
+# **Alignment with AIoD Platform** 
+
+[NOTE: MAXIMUM OF 2 PAGES]{.mark}
+
+## **Integration with AIoD Platform**
+
+-   *How the solution could integrate with the AIoD Platform*
+
+-   *AIoD components/services you expect to use and to what purpose.*
+
+-   *Expected technical and operational requirements (cRAM, CPU load,
+    storage, GPU load, Cloud, APIs)*
+
+-   *Expected integration complexity - definition of target
+    infrastructure for operations (own, DeployAI, other external
+    infrastructure?)*
+
+```{=html}
+<!-- -->
+```
+-   *Containerization approach (Docker, orchestration, dependencies)*
+
+-   *Data requirements*
+
+-   *Required support from DeployAI partners*
+
+## **Contribution to AIoD Ecosystem** 
+
+-   *Map the above section 3 points with benefits that can come from
+    joining and integrating the AIoD Platform in terms of market uptake,
+    traction, growth and sustainability.*
+
+-   *How will the solution bring new users or adopters to AIoD?*
+
+-   *Commitment to beta-testing*
+
+-   *Contribution to platform improvement*
+
+[]{#_heading=h.cbognr1dbpt0 .anchor}**\
+**
+
+# **Implementation Plan**
+
+[NOTE: MAXIMUM OF 3 PAGES]{.mark}
+
+-   *Ambition: Define your implementation Plan, for each Stage.*
+
+-   *Include in the activities description and budget the mandatory
+    activities explained in the Guide for Applicants*
+
+-   *Use the template tables provided to summarize your Activities and
+    milestones, in each Stage*
+
+## **STAGE 1 - Pitch & Select**
+
+-   *Mandatory activities:*
+
+    -   *Participation in 2 Webinars,*
+
+    -   *Refinement and resubmission of Business Concept*
+
+    -   *Preparation and participation for Event 1.*
+
+*Table 1. Suggested table for description of activities*
+
+  -------------------------------------------------------------------------
+  Activity name       Description                   Planned      Expected
+                                                    duration     output
+  ------------------- ----------------------------- ------------ ----------
+  *Activity 1*                                                   
+
+  *Activity 2*                                                   
+
+  *Activity 3*                                                   
+  -------------------------------------------------------------------------
+
+*[NOTE: Add lines (for activities) as required]{.mark}*
+
+*Table 2. Suggested table for description of milestones*
+
+  ------------------------------------------------------------------------
+  Activity name        Milestone description                  Delivery
+                                                              month
+  -------------------- -------------------------------------- ------------
+  *Activity 1*                                                
+
+  *Activity 2*                                                
+  ------------------------------------------------------------------------
+
+*[NOTE: Add lines (for activities) as required]{.mark}*
+
+## **STAGE 2 - Integration**
+
+-   *Mandatory activities: Integration into AIoD Platform (what does
+    this mean for you and how will you plan it), usage of specific Core
+    Components, Beta-testing, participation in Event 2 and submission of
+    a project with an AI Adopter.*
+
+-   *Use the template tables above, if necessary.*
+
+## **STAGE 3 - Deployment**
+
+-   *Mandatory activities: Deployment of the solution with the AI
+    Adopter, Beta-testing, participation in Event 3.*
+
+-   *Please detail preliminary AI Adopter Strategy: Do you have
+    potential adopters identified? In which sector? What problem will be
+    solved?*
+
+-   *Use the template tables above, if necessary.*
+
+## **Risks**
+
+-   *Identify external barriers or risks (technical, business, or
+    integration-related) that may compromise the project and your
+    mitigation strategies[.]{.mark}*
+
+#  {#section-1 .unnumbered}
+
+[]{#_Toc111901577 .anchor}**\
+**
+
+# **Responsible AI, Compliance & EU Sovereignty**
+
+[NOTE: MAXIMUM OF 2 PAGES]{.mark}
+
+*Explain how your solution aligns with European principles for
+trustworthy AI and responsible innovation.*
+
+## **Regulatory Awareness** 
+
+-   *GDPR and data protection requirements*
+
+-   *EU AI Act risk classification (minimal, limited, high-risk, etc.)
+    and mitigation actions*
+
+-   *Relevant sectoral regulations*
+
+## **Responsible & Trustworthy AI**
+
+-   *Describe any mechanisms related to: Transparency and
+    explainability, bias mitigation.*
+
+-   *Explain human oversight system, monitoring and risk management.*
+
+-   *How users are informed they are interacting with AI*
+
+-   *Documentation for system behavior*
+
+## **Data Governance**
+
+-   *Provide information on source of training data, data ownership and
+    rights, data protection and security mechanisms*
+
+## **European Digital Sovereignty**
+
+-   *Indicate the ownership of the AI technology and IP*
+
+-   *Describe intrastructure or cloud services used (EU or non-EU)*
+
+-   *Contribution to the European AI Ecosystem*
+
+[]{#_Toc948588066 .anchor}**\
+**
+
+# **AI Provider Team Skills & Expertise**
+
+[NOTE: MAXIMUM OF 2 PAGE]{.mark}
+
+*Describe the applicant and the team that will be involved in the
+implementation of the project. Note: the involvement of additional
+people in the project implementation is welcome even if it is not
+identified in the proposal, but the core team provided below must be
+maintained.*
+
+*Include also:*
+
+-   *A short summary of the relevant experience of each person included
+    in the table. Demonstrate the team\'s skills and expertise to
+    deliver the proposed plan.*
+
+-   *Justification of how the team has the required knowledge and
+    capacity to guarantee a successful project implementation.*
+
+-   *Justification of the consortium's gender balance. Please explicitly
+    mention if the company has female leadership, as this is a
+    tie-breaker criterion.*
+
+*Table 3. Suggested table for description of applicant's team*
+
+  --------------------------------------------------------------------------
+  Name of    Gender       Location   Role in the   LinkedIn/     Key areas
+  person                             project       personal      of
+                                                   profile       expertise
+  ---------- ------------ ---------- ------------- ------------- -----------
+  Person 1                                                       
+
+  Person 2                                                       
+
+  Person 3                                                       
+  --------------------------------------------------------------------------
+
+*[NOTE: Add lines (for persons) as required]{.mark}*
+
+[]{#_Toc891830969 .anchor}**\
+**
+
+# **Resources & Funding Use**
+
+[NOTE: MAXIMUM OF 3 PAGES]{.mark}
+
+##  {#section-2 .unnumbered}
+
+## **Resources** 
+
+-   *Please indicate the number of person-months (full-time equivalent)
+    of the people involved in the project in the table below for the
+    duration of the project.*
+
+*Table 4. Person-months allocated to the project*
+
+  -----------------------------------------------------------------------
+  Name of person                               Person months (PMs[^1])
+  -------------------------------------------- --------------------------
+  Person 1                                     
+
+  Person 2                                     
+
+  Person 3                                     
+  -----------------------------------------------------------------------
+
+*[NOTE: Add lines as required (for persons identified in Section
+3.1)]{.mark}*
+
+## **Costs**
+
+-   *Note on Funding: The maximum contribution is €60,000 (paid as lump
+    sums: €5k Stage 1 + €35k Stage 2 + €20k Stage 3).*
+
+-   *Please provide a justification of the planned costs to demonstrate
+    they align with the lump sums provided.*
+
+*Table 5. Costs of the project*
+
++---------------------+-----------+-----------------------------------+
+| Cost category       | Total     | Description and justification     |
++=====================+===========+===================================+
+| STAGE 1             |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[A\] Direct        |           |                                   |
+| personnel costs[^2] |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[B\] Travel        |           |                                   |
+| costs[^3]           |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[C\] Equipment     |           |                                   |
+| costs[^4]           |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[D\] Other direct  |           |                                   |
+| costs               |           |                                   |
++---------------------+-----------+-----------------------------------+
+| Indirect costs[^5]  |           |                                   |
++---------------------+-----------+-----------------------------------+
+| Total STAGE 1       |           | *Maximum 5.000€/ AI provider*     |
++---------------------+-----------+-----------------------------------+
+| STAGE 2             |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[A\] Direct        |           |                                   |
+| personnel costs[^6] |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[B\] Travel        |           |                                   |
+| costs[^7]           |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[C\] Equipment     |           |                                   |
+| costs[^8]           |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[D\] Other direct  |           |                                   |
+| costs               |           |                                   |
++---------------------+-----------+-----------------------------------+
+| Indirect costs[^9]  |           |                                   |
++---------------------+-----------+-----------------------------------+
+| Total STAGE 2       |           | *Maximum 35.000€/ AI provider*    |
++---------------------+-----------+-----------------------------------+
+| STAGE 3             |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[A\] Direct        |           |                                   |
+| personnel           |           |                                   |
+| costs[^10]          |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[B\] Travel        |           |                                   |
+| costs[^11]          |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[C\] Equipment     |           |                                   |
+| costs[^12]          |           |                                   |
++---------------------+-----------+-----------------------------------+
+| \[D\] Other direct  |           |                                   |
+| costs               |           |                                   |
++---------------------+-----------+-----------------------------------+
+| Indirect costs[^13] |           |                                   |
++---------------------+-----------+-----------------------------------+
+| Total STAGE 3       |           | *Maximum 20.000€/ AI provider*    |
+|                     |           |                                   |
+|                     |           | *Maximum 15.000€/ AI Adopter*     |
++---------------------+-----------+-----------------------------------+
+| TOTAL PROPOSAL[^14] |           |                                   |
++---------------------+-----------+-----------------------------------+
+
+[]{#_heading=h.qcohxhiq3al5 .anchor}**\
+**
+
+# **Annex - Ethics Self-Assessment**
+
+1.  **Ethical Issues Table - Checklist to be completed**
+
+Important note: If you have indicated any issues in the checklist,
+please bear in mind that additional information will be requested if the
+proposal is shortlisted for funding. 
+
+For more information, please review the relevant sections of the
+following document:
+[[https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf ]{.underline}](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf)
+
+*Table 6. Ethics issues checklist - Artificial Intelligence*
+
++-------------------------------------------------------+------+------+
+| Artificial intelligence                               | YES  | NO   |
++-------------------------------------------------------+------+------+
+| Does your activity already involve the development,   | ☐    | ☐    |
+| deployment and/or use of Artificial                   |      |      |
+| Intelligence-based systems?                           |      |      |
++-------------------------------------------------------+------+------+
+| Could the AI system/technique potentially stigmatise  | ☐    | ☐    |
+| or discriminate against people (e.g. based on sex,    |      |      |
+| race, ethnic or social origin, age, genetic features, |      |      |
+| disability, sexual orientation, language, religion or |      |      |
+| belief, membership to a political group, or           |      |      |
+| membership to a national minority)?                   |      |      |
++-------------------------------------------------------+------+------+
+| Does the AI system/technique interact, replace or     | ☐    | ☐    |
+| influence human decision-making processes (e.g.       |      |      |
+| issues affecting human life, health, well-being or    |      |      |
+| human rights, or economic, social or political        |      |      |
+| decisions)?                                           |      |      |
++-------------------------------------------------------+------+------+
+| Does the AI system/technique have the potential to    | ☐    | ☐    |
+| lead to negative social (e.g. on democracy, media,    |      |      |
+| labour market, freedoms, educational choices, mass    |      |      |
+| surveillance) and/or environmental impacts either     |      |      |
+| through intended applications or plausible            |      |      |
+| alternative uses?                                     |      |      |
++-------------------------------------------------------+------+------+
+| If Yes, please specify (max 1000 characters):         |      |      |
+|                                                       |      |      |
+| ![Information with solid                              |      |      |
+| fill](media/image1.png){width="0.1968503937007874in"  |      |      |
+| height="0.1968503937007874in"} *Insert your response  |      |      |
+| here*                                                 |      |      |
++-------------------------------------------------------+------+------+
+
+*Table 7. Ethics issues checklist - Personal Data*
+
++----+------------+-------------------------------------+------+-----+
+| Pr |            |                                     | YES  | NO  |
+| ot |            |                                     |      |     |
+| ec |            |                                     |      |     |
+| ti |            |                                     |      |     |
+| on |            |                                     |      |     |
+| of |            |                                     |      |     |
+| pe |            |                                     |      |     |
+| rs |            |                                     |      |     |
+| on |            |                                     |      |     |
+| al |            |                                     |      |     |
+| da |            |                                     |      |     |
+| ta |            |                                     |      |     |
++----+------------+-------------------------------------+------+-----+
+| Do |            |                                     | ☐    | ☐   |
+| es |            |                                     |      |     |
+| yo |            |                                     |      |     |
+| ur |            |                                     |      |     |
+| ac |            |                                     |      |     |
+| ti |            |                                     |      |     |
+| vi |            |                                     |      |     |
+| ty |            |                                     |      |     |
+| i  |            |                                     |      |     |
+| nv |            |                                     |      |     |
+| ol |            |                                     |      |     |
+| ve |            |                                     |      |     |
+| pr |            |                                     |      |     |
+| oc |            |                                     |      |     |
+| es |            |                                     |      |     |
+| si |            |                                     |      |     |
+| ng |            |                                     |      |     |
+| of |            |                                     |      |     |
+| pe |            |                                     |      |     |
+| rs |            |                                     |      |     |
+| on |            |                                     |      |     |
+| al |            |                                     |      |     |
+| d  |            |                                     |      |     |
+| at |            |                                     |      |     |
+| a? |            |                                     |      |     |
++----+------------+-------------------------------------+------+-----+
+| If | Does it    |                                     | ☐    | ☐   |
+| Y  | involve    |                                     |      |     |
+| ES | the        |                                     |      |     |
+|    | processing |                                     |      |     |
+|    | of         |                                     |      |     |
+|    | sensitive  |                                     |      |     |
+|    | personal   |                                     |      |     |
+|    | data (e.g. |                                     |      |     |
+|    | sexual     |                                     |      |     |
+|    | lifestyle, |                                     |      |     |
+|    | ethnicity, |                                     |      |     |
+|    | genetic,   |                                     |      |     |
+|    | biometric  |                                     |      |     |
+|    | and health |                                     |      |     |
+|    | data,      |                                     |      |     |
+|    | political  |                                     |      |     |
+|    | opinion,   |                                     |      |     |
+|    | religious  |                                     |      |     |
+|    | or         |                                     |      |     |
+|    | phi        |                                     |      |     |
+|    | losophical |                                     |      |     |
+|    | beliefs)?  |                                     |      |     |
++----+------------+-------------------------------------+------+-----+
+|    | If yes     | Does it involve processing of       | ☐    | ☐   |
+|    |            | genetic, biometric or health data   |      |     |
++----+------------+-------------------------------------+------+-----+
+|    | Does it    |                                     | ☐    | ☐   |
+|    | involve    |                                     |      |     |
+|    | profiling, |                                     |      |     |
+|    | systematic |                                     |      |     |
+|    | monitoring |                                     |      |     |
+|    | of         |                                     |      |     |
+|    | in         |                                     |      |     |
+|    | dividuals, |                                     |      |     |
+|    | or         |                                     |      |     |
+|    | processing |                                     |      |     |
+|    | of large   |                                     |      |     |
+|    | scale of   |                                     |      |     |
+|    | special    |                                     |      |     |
+|    | categories |                                     |      |     |
+|    | of data or |                                     |      |     |
+|    | intrusive  |                                     |      |     |
+|    | methods of |                                     |      |     |
+|    | data       |                                     |      |     |
+|    | processing |                                     |      |     |
+|    | (such as   |                                     |      |     |
+|    | sur        |                                     |      |     |
+|    | veillance, |                                     |      |     |
+|    | g          |                                     |      |     |
+|    | eolocation |                                     |      |     |
+|    | tracking   |                                     |      |     |
+|    | etc.)      |                                     |      |     |
++----+------------+-------------------------------------+------+-----+
+| Do |            |                                     | ☐    | ☐   |
+| es |            |                                     |      |     |
+| yo |            |                                     |      |     |
+| ur |            |                                     |      |     |
+| ac |            |                                     |      |     |
+| ti |            |                                     |      |     |
+| vi |            |                                     |      |     |
+| ty |            |                                     |      |     |
+| i  |            |                                     |      |     |
+| nv |            |                                     |      |     |
+| ol |            |                                     |      |     |
+| ve |            |                                     |      |     |
+| f  |            |                                     |      |     |
+| ur |            |                                     |      |     |
+| th |            |                                     |      |     |
+| er |            |                                     |      |     |
+| pr |            |                                     |      |     |
+| oc |            |                                     |      |     |
+| es |            |                                     |      |     |
+| si |            |                                     |      |     |
+| ng |            |                                     |      |     |
+| of |            |                                     |      |     |
+| pr |            |                                     |      |     |
+| ev |            |                                     |      |     |
+| io |            |                                     |      |     |
+| us |            |                                     |      |     |
+| ly |            |                                     |      |     |
+| c  |            |                                     |      |     |
+| ol |            |                                     |      |     |
+| le |            |                                     |      |     |
+| ct |            |                                     |      |     |
+| ed |            |                                     |      |     |
+| pe |            |                                     |      |     |
+| rs |            |                                     |      |     |
+| on |            |                                     |      |     |
+| al |            |                                     |      |     |
+| da |            |                                     |      |     |
+| ta |            |                                     |      |     |
+| (i |            |                                     |      |     |
+| nc |            |                                     |      |     |
+| lu |            |                                     |      |     |
+| di |            |                                     |      |     |
+| ng |            |                                     |      |     |
+| u  |            |                                     |      |     |
+| se |            |                                     |      |     |
+| of |            |                                     |      |     |
+| pr |            |                                     |      |     |
+| e- |            |                                     |      |     |
+| ex |            |                                     |      |     |
+| is |            |                                     |      |     |
+| ti |            |                                     |      |     |
+| ng |            |                                     |      |     |
+| da |            |                                     |      |     |
+| ta |            |                                     |      |     |
+| se |            |                                     |      |     |
+| ts |            |                                     |      |     |
+| or |            |                                     |      |     |
+| so |            |                                     |      |     |
+| ur |            |                                     |      |     |
+| ce |            |                                     |      |     |
+| s, |            |                                     |      |     |
+| m  |            |                                     |      |     |
+| er |            |                                     |      |     |
+| gi |            |                                     |      |     |
+| ng |            |                                     |      |     |
+| ex |            |                                     |      |     |
+| is |            |                                     |      |     |
+| ti |            |                                     |      |     |
+| ng |            |                                     |      |     |
+| da |            |                                     |      |     |
+| ta |            |                                     |      |     |
+| se |            |                                     |      |     |
+| ts |            |                                     |      |     |
+| )? |            |                                     |      |     |
++----+------------+-------------------------------------+------+-----+
+| Is |            |                                     | ☐    | ☐   |
+| it |            |                                     |      |     |
+| p  |            |                                     |      |     |
+| la |            |                                     |      |     |
+| nn |            |                                     |      |     |
+| ed |            |                                     |      |     |
+| to |            |                                     |      |     |
+| ex |            |                                     |      |     |
+| po |            |                                     |      |     |
+| rt |            |                                     |      |     |
+| pe |            |                                     |      |     |
+| rs |            |                                     |      |     |
+| on |            |                                     |      |     |
+| al |            |                                     |      |     |
+| da |            |                                     |      |     |
+| ta |            |                                     |      |     |
+| (  |            |                                     |      |     |
+| da |            |                                     |      |     |
+| ta |            |                                     |      |     |
+| t  |            |                                     |      |     |
+| ra |            |                                     |      |     |
+| ns |            |                                     |      |     |
+| fe |            |                                     |      |     |
+| r) |            |                                     |      |     |
+| fr |            |                                     |      |     |
+| om |            |                                     |      |     |
+| t  |            |                                     |      |     |
+| he |            |                                     |      |     |
+| EU |            |                                     |      |     |
+| to |            |                                     |      |     |
+| no |            |                                     |      |     |
+| n- |            |                                     |      |     |
+| EU |            |                                     |      |     |
+| c  |            |                                     |      |     |
+| ou |            |                                     |      |     |
+| nt |            |                                     |      |     |
+| ri |            |                                     |      |     |
+| es |            |                                     |      |     |
+| ?  |            |                                     |      |     |
++----+------------+-------------------------------------+------+-----+
+| Is |            |                                     | ☐    | ☐   |
+| it |            |                                     |      |     |
+| p  |            |                                     |      |     |
+| la |            |                                     |      |     |
+| nn |            |                                     |      |     |
+| ed |            |                                     |      |     |
+| to |            |                                     |      |     |
+| im |            |                                     |      |     |
+| po |            |                                     |      |     |
+| rt |            |                                     |      |     |
+| pe |            |                                     |      |     |
+| rs |            |                                     |      |     |
+| on |            |                                     |      |     |
+| al |            |                                     |      |     |
+| da |            |                                     |      |     |
+| ta |            |                                     |      |     |
+| (  |            |                                     |      |     |
+| da |            |                                     |      |     |
+| ta |            |                                     |      |     |
+| t  |            |                                     |      |     |
+| ra |            |                                     |      |     |
+| ns |            |                                     |      |     |
+| fe |            |                                     |      |     |
+| r) |            |                                     |      |     |
+| fr |            |                                     |      |     |
+| om |            |                                     |      |     |
+| no |            |                                     |      |     |
+| n- |            |                                     |      |     |
+| EU |            |                                     |      |     |
+| c  |            |                                     |      |     |
+| ou |            |                                     |      |     |
+| nt |            |                                     |      |     |
+| ri |            |                                     |      |     |
+| es |            |                                     |      |     |
+| in |            |                                     |      |     |
+| to |            |                                     |      |     |
+| t  |            |                                     |      |     |
+| he |            |                                     |      |     |
+| EU |            |                                     |      |     |
+| or |            |                                     |      |     |
+| fr |            |                                     |      |     |
+| om |            |                                     |      |     |
+| a  |            |                                     |      |     |
+| no |            |                                     |      |     |
+| n- |            |                                     |      |     |
+| EU |            |                                     |      |     |
+| c  |            |                                     |      |     |
+| ou |            |                                     |      |     |
+| nt |            |                                     |      |     |
+| ry |            |                                     |      |     |
+| to |            |                                     |      |     |
+| a  |            |                                     |      |     |
+| no |            |                                     |      |     |
+| th |            |                                     |      |     |
+| er |            |                                     |      |     |
+| no |            |                                     |      |     |
+| n- |            |                                     |      |     |
+| EU |            |                                     |      |     |
+| co |            |                                     |      |     |
+| un |            |                                     |      |     |
+| tr |            |                                     |      |     |
+| y? |            |                                     |      |     |
++----+------------+-------------------------------------+------+-----+
+| Do |            |                                     | ☐    | ☐   |
+| es |            |                                     |      |     |
+| yo |            |                                     |      |     |
+| ur |            |                                     |      |     |
+| ac |            |                                     |      |     |
+| ti |            |                                     |      |     |
+| vi |            |                                     |      |     |
+| ty |            |                                     |      |     |
+| i  |            |                                     |      |     |
+| nv |            |                                     |      |     |
+| ol |            |                                     |      |     |
+| ve |            |                                     |      |     |
+| t  |            |                                     |      |     |
+| he |            |                                     |      |     |
+| pr |            |                                     |      |     |
+| oc |            |                                     |      |     |
+| es |            |                                     |      |     |
+| si |            |                                     |      |     |
+| ng |            |                                     |      |     |
+| of |            |                                     |      |     |
+| pe |            |                                     |      |     |
+| rs |            |                                     |      |     |
+| on |            |                                     |      |     |
+| al |            |                                     |      |     |
+| da |            |                                     |      |     |
+| ta |            |                                     |      |     |
+| r  |            |                                     |      |     |
+| el |            |                                     |      |     |
+| at |            |                                     |      |     |
+| ed |            |                                     |      |     |
+| to |            |                                     |      |     |
+| cr |            |                                     |      |     |
+| im |            |                                     |      |     |
+| in |            |                                     |      |     |
+| al |            |                                     |      |     |
+| c  |            |                                     |      |     |
+| on |            |                                     |      |     |
+| vi |            |                                     |      |     |
+| ct |            |                                     |      |     |
+| io |            |                                     |      |     |
+| ns |            |                                     |      |     |
+| or |            |                                     |      |     |
+| o  |            |                                     |      |     |
+| ff |            |                                     |      |     |
+| en |            |                                     |      |     |
+| ce |            |                                     |      |     |
+| s? |            |                                     |      |     |
++----+------------+-------------------------------------+------+-----+
+| If |            |                                     |      |     |
+| Ye |            |                                     |      |     |
+| s, |            |                                     |      |     |
+| pl |            |                                     |      |     |
+| ea |            |                                     |      |     |
+| se |            |                                     |      |     |
+| s  |            |                                     |      |     |
+| pe |            |                                     |      |     |
+| ci |            |                                     |      |     |
+| fy |            |                                     |      |     |
+| (m |            |                                     |      |     |
+| ax |            |                                     |      |     |
+| 10 |            |                                     |      |     |
+| 00 |            |                                     |      |     |
+| c  |            |                                     |      |     |
+| ha |            |                                     |      |     |
+| ra |            |                                     |      |     |
+| ct |            |                                     |      |     |
+| er |            |                                     |      |     |
+| s) |            |                                     |      |     |
+| :  |            |                                     |      |     |
+|    |            |                                     |      |     |
+| !  |            |                                     |      |     |
+| [I |            |                                     |      |     |
+| nf |            |                                     |      |     |
+| or |            |                                     |      |     |
+| ma |            |                                     |      |     |
+| ti |            |                                     |      |     |
+| on |            |                                     |      |     |
+| wi |            |                                     |      |     |
+| th |            |                                     |      |     |
+| s  |            |                                     |      |     |
+| ol |            |                                     |      |     |
+| id |            |                                     |      |     |
+| fi |            |                                     |      |     |
+| ll |            |                                     |      |     |
+| ]( |            |                                     |      |     |
+| me |            |                                     |      |     |
+| di |            |                                     |      |     |
+| a/ |            |                                     |      |     |
+| im |            |                                     |      |     |
+| ag |            |                                     |      |     |
+| e1 |            |                                     |      |     |
+| .p |            |                                     |      |     |
+| ng |            |                                     |      |     |
+| ){ |            |                                     |      |     |
+| wi |            |                                     |      |     |
+| dt |            |                                     |      |     |
+| h= |            |                                     |      |     |
+| "0 |            |                                     |      |     |
+| .1 |            |                                     |      |     |
+| 96 |            |                                     |      |     |
+| 85 |            |                                     |      |     |
+| 03 |            |                                     |      |     |
+| 93 |            |                                     |      |     |
+| 70 |            |                                     |      |     |
+| 07 |            |                                     |      |     |
+| 87 |            |                                     |      |     |
+| 4i |            |                                     |      |     |
+| n" |            |                                     |      |     |
+| he |            |                                     |      |     |
+| ig |            |                                     |      |     |
+| ht |            |                                     |      |     |
+| =" |            |                                     |      |     |
+| 0. |            |                                     |      |     |
+| 19 |            |                                     |      |     |
+| 68 |            |                                     |      |     |
+| 50 |            |                                     |      |     |
+| 39 |            |                                     |      |     |
+| 37 |            |                                     |      |     |
+| 00 |            |                                     |      |     |
+| 78 |            |                                     |      |     |
+| 74 |            |                                     |      |     |
+| in |            |                                     |      |     |
+| "} |            |                                     |      |     |
+| *  |            |                                     |      |     |
+| In |            |                                     |      |     |
+| se |            |                                     |      |     |
+| rt |            |                                     |      |     |
+| yo |            |                                     |      |     |
+| ur |            |                                     |      |     |
+| re |            |                                     |      |     |
+| sp |            |                                     |      |     |
+| on |            |                                     |      |     |
+| se |            |                                     |      |     |
+| h  |            |                                     |      |     |
+| er |            |                                     |      |     |
+| e* |            |                                     |      |     |
++----+------------+-------------------------------------+------+-----+
+
+*Table 8. Ethics issues checklist - Environment, health and safety*
+
++--------------------------------------------------------+------+------+
+| Environment, health and safety                         | YES  | NO   |
++--------------------------------------------------------+------+------+
+| Does this activity involve the use of substances or    | ☐    | ☐    |
+| processes that may cause harm to the environment,      |      |      |
+| animals, or plants?                                    |      |      |
++--------------------------------------------------------+------+------+
+| Does this activity deal with endangered fauna and/or   | ☐    | ☐    |
+| flora / protected areas?                               |      |      |
++--------------------------------------------------------+------+------+
+| Does this activity involve the use of substances or    | ☐    | ☐    |
+| processes (or technologies) that may cause harm to     |      |      |
+| humans?                                                |      |      |
++--------------------------------------------------------+------+------+
+| If Yes, please specify (max 1000 characters):          |      |      |
+|                                                        |      |      |
+| ![Information with solid                               |      |      |
+| fill](media/image1.png){width="0.1968503937007874in"   |      |      |
+| height="0.1968503937007874in"} *Insert your response   |      |      |
+| here*                                                  |      |      |
++--------------------------------------------------------+------+------+
+
+*Table 9. Ethics issues checklist -- Humans*
+
++-----+-------------------------------------------------+------+------+
+| Hum |                                                 | YES  | NO   |
+| ans |                                                 |      |      |
++-----+-------------------------------------------------+------+------+
+| D   |                                                 | ☐    | ☐    |
+| oes |                                                 |      |      |
+| y   |                                                 |      |      |
+| our |                                                 |      |      |
+| ac  |                                                 |      |      |
+| tiv |                                                 |      |      |
+| ity |                                                 |      |      |
+| i   |                                                 |      |      |
+| nvo |                                                 |      |      |
+| lve |                                                 |      |      |
+| hu  |                                                 |      |      |
+| man |                                                 |      |      |
+| p   |                                                 |      |      |
+| art |                                                 |      |      |
+| ici |                                                 |      |      |
+| pan |                                                 |      |      |
+| ts? |                                                 |      |      |
++-----+-------------------------------------------------+------+------+
+| If  | Are they volunteers?                            | ☐    | ☐    |
+| YES |                                                 |      |      |
++-----+-------------------------------------------------+------+------+
+|     | Are they healthy volunteers for medical         | ☐    | ☐    |
+|     | studies?                                        |      |      |
++-----+-------------------------------------------------+------+------+
+| Are |                                                 | ☐    | ☐    |
+| t   |                                                 |      |      |
+| hey |                                                 |      |      |
+| m   |                                                 |      |      |
+| edi |                                                 |      |      |
+| cal |                                                 |      |      |
+| pa  |                                                 |      |      |
+| tie |                                                 |      |      |
+| nts |                                                 |      |      |
+| in  |                                                 |      |      |
+| vol |                                                 |      |      |
+| ved |                                                 |      |      |
+| in  |                                                 |      |      |
+| m   |                                                 |      |      |
+| edi |                                                 |      |      |
+| cal |                                                 |      |      |
+| st  |                                                 |      |      |
+| udi |                                                 |      |      |
+| es? |                                                 |      |      |
++-----+-------------------------------------------------+------+------+
+| Are |                                                 | ☐    | ☐    |
+| t   |                                                 |      |      |
+| hey |                                                 |      |      |
+| po  |                                                 |      |      |
+| ten |                                                 |      |      |
+| tia |                                                 |      |      |
+| lly |                                                 |      |      |
+| v   |                                                 |      |      |
+| uln |                                                 |      |      |
+| era |                                                 |      |      |
+| ble |                                                 |      |      |
+| in  |                                                 |      |      |
+| div |                                                 |      |      |
+| idu |                                                 |      |      |
+| als |                                                 |      |      |
+| or  |                                                 |      |      |
+| g   |                                                 |      |      |
+| rou |                                                 |      |      |
+| ps? |                                                 |      |      |
++-----+-------------------------------------------------+------+------+
+| Are |                                                 | ☐    | ☐    |
+| t   |                                                 |      |      |
+| hey |                                                 |      |      |
+| c   |                                                 |      |      |
+| hil |                                                 |      |      |
+| dre |                                                 |      |      |
+| n/m |                                                 |      |      |
+| ino |                                                 |      |      |
+| rs? |                                                 |      |      |
++-----+-------------------------------------------------+------+------+
+| Are |                                                 | ☐    | ☐    |
+| th  |                                                 |      |      |
+| ere |                                                 |      |      |
+| ot  |                                                 |      |      |
+| her |                                                 |      |      |
+| p   |                                                 |      |      |
+| ers |                                                 |      |      |
+| ons |                                                 |      |      |
+| una |                                                 |      |      |
+| ble |                                                 |      |      |
+| to  |                                                 |      |      |
+| g   |                                                 |      |      |
+| ive |                                                 |      |      |
+| in  |                                                 |      |      |
+| for |                                                 |      |      |
+| med |                                                 |      |      |
+| co  |                                                 |      |      |
+| nse |                                                 |      |      |
+| nt? |                                                 |      |      |
++-----+-------------------------------------------------+------+------+
+| If  |                                                 |      |      |
+| Y   |                                                 |      |      |
+| es, |                                                 |      |      |
+| ple |                                                 |      |      |
+| ase |                                                 |      |      |
+| s   |                                                 |      |      |
+| pec |                                                 |      |      |
+| ify |                                                 |      |      |
+| (   |                                                 |      |      |
+| max |                                                 |      |      |
+| 1   |                                                 |      |      |
+| 000 |                                                 |      |      |
+| c   |                                                 |      |      |
+| har |                                                 |      |      |
+| act |                                                 |      |      |
+| ers |                                                 |      |      |
+| ):  |                                                 |      |      |
+|     |                                                 |      |      |
+| !   |                                                 |      |      |
+| [In |                                                 |      |      |
+| for |                                                 |      |      |
+| mat |                                                 |      |      |
+| ion |                                                 |      |      |
+| w   |                                                 |      |      |
+| ith |                                                 |      |      |
+| so  |                                                 |      |      |
+| lid |                                                 |      |      |
+| f   |                                                 |      |      |
+| ill |                                                 |      |      |
+| ](m |                                                 |      |      |
+| edi |                                                 |      |      |
+| a/i |                                                 |      |      |
+| mag |                                                 |      |      |
+| e1. |                                                 |      |      |
+| png |                                                 |      |      |
+| ){w |                                                 |      |      |
+| idt |                                                 |      |      |
+| h=" |                                                 |      |      |
+| 0.1 |                                                 |      |      |
+| 968 |                                                 |      |      |
+| 503 |                                                 |      |      |
+| 937 |                                                 |      |      |
+| 007 |                                                 |      |      |
+| 874 |                                                 |      |      |
+| in" |                                                 |      |      |
+| hei |                                                 |      |      |
+| ght |                                                 |      |      |
+| ="0 |                                                 |      |      |
+| .19 |                                                 |      |      |
+| 685 |                                                 |      |      |
+| 039 |                                                 |      |      |
+| 370 |                                                 |      |      |
+| 078 |                                                 |      |      |
+| 74i |                                                 |      |      |
+| n"} |                                                 |      |      |
+| *   |                                                 |      |      |
+| Ins |                                                 |      |      |
+| ert |                                                 |      |      |
+| y   |                                                 |      |      |
+| our |                                                 |      |      |
+| re  |                                                 |      |      |
+| spo |                                                 |      |      |
+| nse |                                                 |      |      |
+| he  |                                                 |      |      |
+| re* |                                                 |      |      |
++-----+-------------------------------------------------+------+------+
+
+*Table 10. Ethics issues checklist - Human embryonic stem cells and
+human embryos*
+
+  -------------------------------------------------------- ------- -------
+  Human embryonic stem cells and human embryos             YES     NO
+
+  Does your activity involve Human Embryonic Stem Cells    ☐       ☐
+  (hESCs)?                                                         
+
+  If Yes, please specify (max 1000 characters):                    
+  -------------------------------------------------------- ------- -------
+
+*Table 11: Ethics issues checklist - Human cells / tissues*
+
++-----+-------------------------------------------------+-----+------+
+| Hu  |                                                 | YES | NO   |
+| man |                                                 |     |      |
+| ce  |                                                 |     |      |
+| lls |                                                 |     |      |
+| /   |                                                 |     |      |
+| t   |                                                 |     |      |
+| iss |                                                 |     |      |
+| ues |                                                 |     |      |
++-----+-------------------------------------------------+-----+------+
+| D   |                                                 | ☐   | ☐    |
+| oes |                                                 |     |      |
+| y   |                                                 |     |      |
+| our |                                                 |     |      |
+| ac  |                                                 |     |      |
+| tiv |                                                 |     |      |
+| ity |                                                 |     |      |
+| i   |                                                 |     |      |
+| nvo |                                                 |     |      |
+| lve |                                                 |     |      |
+| the |                                                 |     |      |
+| use |                                                 |     |      |
+| of  |                                                 |     |      |
+| hu  |                                                 |     |      |
+| man |                                                 |     |      |
+| ce  |                                                 |     |      |
+| lls |                                                 |     |      |
+| or  |                                                 |     |      |
+| t   |                                                 |     |      |
+| iss |                                                 |     |      |
+| ues |                                                 |     |      |
+| (ot |                                                 |     |      |
+| her |                                                 |     |      |
+| t   |                                                 |     |      |
+| han |                                                 |     |      |
+| th  |                                                 |     |      |
+| ose |                                                 |     |      |
+| c   |                                                 |     |      |
+| ove |                                                 |     |      |
+| red |                                                 |     |      |
+| by  |                                                 |     |      |
+| s   |                                                 |     |      |
+| ect |                                                 |     |      |
+| ion |                                                 |     |      |
+| "Hu |                                                 |     |      |
+| man |                                                 |     |      |
+| emb |                                                 |     |      |
+| ryo |                                                 |     |      |
+| nic |                                                 |     |      |
+| s   |                                                 |     |      |
+| tem |                                                 |     |      |
+| ce  |                                                 |     |      |
+| lls |                                                 |     |      |
+| and |                                                 |     |      |
+| hu  |                                                 |     |      |
+| man |                                                 |     |      |
+| e   |                                                 |     |      |
+| mbr |                                                 |     |      |
+| yos |                                                 |     |      |
+| ")? |                                                 |     |      |
++-----+-------------------------------------------------+-----+------+
+| If  | Are they available commercially?                | ☐   | ☐    |
+| Y   |                                                 |     |      |
+| ES: |                                                 |     |      |
++-----+-------------------------------------------------+-----+------+
+|     | Are they obtained from a biobank?               | ☐   | ☐    |
++-----+-------------------------------------------------+-----+------+
+| If  |                                                 |     |      |
+| Y   |                                                 |     |      |
+| es, |                                                 |     |      |
+| ple |                                                 |     |      |
+| ase |                                                 |     |      |
+| s   |                                                 |     |      |
+| pec |                                                 |     |      |
+| ify |                                                 |     |      |
+| (   |                                                 |     |      |
+| max |                                                 |     |      |
+| 1   |                                                 |     |      |
+| 000 |                                                 |     |      |
+| c   |                                                 |     |      |
+| har |                                                 |     |      |
+| act |                                                 |     |      |
+| ers |                                                 |     |      |
+| ):  |                                                 |     |      |
+|     |                                                 |     |      |
+| !   |                                                 |     |      |
+| [In |                                                 |     |      |
+| for |                                                 |     |      |
+| mat |                                                 |     |      |
+| ion |                                                 |     |      |
+| w   |                                                 |     |      |
+| ith |                                                 |     |      |
+| so  |                                                 |     |      |
+| lid |                                                 |     |      |
+| f   |                                                 |     |      |
+| ill |                                                 |     |      |
+| ](m |                                                 |     |      |
+| edi |                                                 |     |      |
+| a/i |                                                 |     |      |
+| mag |                                                 |     |      |
+| e1. |                                                 |     |      |
+| png |                                                 |     |      |
+| ){w |                                                 |     |      |
+| idt |                                                 |     |      |
+| h=" |                                                 |     |      |
+| 0.1 |                                                 |     |      |
+| 968 |                                                 |     |      |
+| 503 |                                                 |     |      |
+| 937 |                                                 |     |      |
+| 007 |                                                 |     |      |
+| 874 |                                                 |     |      |
+| in" |                                                 |     |      |
+| hei |                                                 |     |      |
+| ght |                                                 |     |      |
+| ="0 |                                                 |     |      |
+| .19 |                                                 |     |      |
+| 685 |                                                 |     |      |
+| 039 |                                                 |     |      |
+| 370 |                                                 |     |      |
+| 078 |                                                 |     |      |
+| 74i |                                                 |     |      |
+| n"} |                                                 |     |      |
+| *   |                                                 |     |      |
+| Ins |                                                 |     |      |
+| ert |                                                 |     |      |
+| y   |                                                 |     |      |
+| our |                                                 |     |      |
+| re  |                                                 |     |      |
+| spo |                                                 |     |      |
+| nse |                                                 |     |      |
+| he  |                                                 |     |      |
+| re* |                                                 |     |      |
++-----+-------------------------------------------------+-----+------+
+
+*Table 12: Ethics issues checklist -- Animals*
+
+  ---------- -------------------------------------------------- ------ -------
+  Animals                                                       YES    NO
+
+  Does your                                                     ☐      ☐
+  activity                                                             
+  involve                                                              
+  animals?                                                             
+
+  If YES:    Are they vertebrates?                              ☐      ☐
+
+             Are they non-human primates (NHP) (e.g. monkeys,   ☐      ☐
+             chimpanzees, gorillas, etc.)?                             
+
+             Are they genetically modified?                     ☐      ☐
+
+             Are they cloned farm animals?                      ☐      ☐
+
+             Are they an endangered species?                    ☐      ☐
+  ---------- -------------------------------------------------- ------ -------
+
+*Table 13: Ethics issues checklist - Third countries*
+
++--------------------------------------------------------+-----+------+
+| Third countries                                        | YES | NO   |
++--------------------------------------------------------+-----+------+
+| Will some of the activities be carried out in non-EU   | ☐   | ☐    |
+| countries?                                             |     |      |
++--------------------------------------------------------+-----+------+
+| If Yes, please specify (max 1000 characters):          |     |      |
+|                                                        |     |      |
+| ![Information with solid                               |     |      |
+| fill](media/image1.png){width="0.1968503937007874in"   |     |      |
+| height="0.1968503937007874in"} *Insert your response   |     |      |
+| here*                                                  |     |      |
++--------------------------------------------------------+-----+------+
+
+2.  **Security**
+
+Please complete the security assessment below. For more information:
+[[https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-handle-security-sensitive-projects_en.pdf]{.underline}](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-handle-security-sensitive-projects_en.pdf)  
+
+*Table 14: Security issues*** **
+
++-------------------------------------------------------+------+-------+
+| EU classified information (EUCI)                      | YES  | NO    |
++-------------------------------------------------------+------+-------+
+| Does the activity involve information and/or          | ☐    | ☐     |
+| materials requiring protection against unauthorised   |      |       |
+| disclosure (EUCI)?                                    |      |       |
+|                                                       |      |       |
+| If Yes, please specify (max 1000 characters):         |      |       |
+|                                                       |      |       |
+| ![Information with solid                              |      |       |
+| fill](media/image1.png){width="0.1968503937007874in"  |      |       |
+| height="0.1968503937007874in"} *Insert your response  |      |       |
+| here*                                                 |      |       |
++-------------------------------------------------------+------+-------+
+| Misuse                                                |      |       |
++-------------------------------------------------------+------+-------+
+| Does the activity have the potential for misuse of    | ☐    | ☐     |
+| results?                                              |      |       |
+|                                                       |      |       |
+| If Yes, please specify (max 1000 characters):         |      |       |
+|                                                       |      |       |
+| ![Information with solid                              |      |       |
+| fill](media/image1.png){width="0.1968503937007874in"  |      |       |
+| height="0.1968503937007874in"} *Insert your response  |      |       |
+| here*                                                 |      |       |
++-------------------------------------------------------+------+-------+
+| Other security issues                                 |      |       |
++-------------------------------------------------------+------+-------+
+| Does the activity involve information and/or          | ☐    | ☐     |
+| materials subject to national security                |      |       |
+| restrictions?                                         |      |       |
+|                                                       |      |       |
+| If Yes, please specify (max 1000 characters):         |      |       |
+|                                                       |      |       |
+| ![Information with solid                              |      |       |
+| fill](media/image1.png){width="0.1968503937007874in"  |      |       |
+| height="0.1968503937007874in"} *Insert your response  |      |       |
+| here*                                                 |      |       |
++-------------------------------------------------------+------+-------+
+| Are there any other security issues that should be    | ☐    | ☐     |
+| taken into consideration?                             |      |       |
+|                                                       |      |       |
+| If Yes, please specify (max 1000 characters):         |      |       |
+|                                                       |      |       |
+| ![Information with solid                              |      |       |
+| fill](media/image1.png){width="0.1968503937007874in"  |      |       |
+| height="0.1968503937007874in"} *Insert your response  |      |       |
+| here*                                                 |      |       |
++-------------------------------------------------------+------+-------+
+
+[^1]: [Note that a PM is a metric for expressing the effort of a person
+    dedicated full time in one month.]{.mark}
+
+[^2]: [Costs of the persons implementing the project.]{.mark}
+
+[^3]: [Travel costs: travelling to the 3 mandatory Events should be
+    included in the Budget for should foreseen (Event 2 and 3 must
+    include mandatory participation of at least 1 representative of AI
+    provider and AI Adopter).]{.mark}
+
+[^4]: [Only depreciation costs of equipment are accepted.]{.mark}
+
+[^5]: [Must be calculated as (A+B+C+D)\*0.25. Subcontracting is not
+    included.]{.mark}
+
+[^6]: [Costs of the persons implementing the project.]{.mark}
+
+[^7]: [Travel costs: travelling to the 3 mandatory Events should be
+    included in the Budget for should foreseen (Event 2 and 3 must
+    include mandatory participation of at least 1 representative of AI
+    provider and AI Adopter).]{.mark}
+
+[^8]: [Only depreciation costs of equipment are accepted.]{.mark}
+
+[^9]: [Must be calculated as (A+B+C+D)\*0.25. Subcontracting is not
+    included.]{.mark}
+
+[^10]: [Costs of the persons implementing the project.]{.mark}
+
+[^11]: [Travel costs: travelling to the 3 mandatory Events should be
+    included in the Budget for should foreseen (Event 2 and 3 must
+    include mandatory participation of at least 1 representative of AI
+    provider and AI Adopter).]{.mark}
+
+[^12]: [Only depreciation costs of equipment are accepted.]{.mark}
+
+[^13]: [Must be calculated as (A+B+C+D)\*0.25. Subcontracting is not
+    included.]{.mark}
+
+[^14]: [TOTAL costs of each must not exceed €60.000]{.mark}
