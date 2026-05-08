@@ -15,8 +15,14 @@ FROM base AS build
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=deps /app/apps/web/node_modules ./apps/web/node_modules
 COPY --from=deps /app/packages/ ./packages/
+# SOURCE_COMMIT is injected by Coolify — busts cache on new commits
+ARG SOURCE_COMMIT
 COPY . .
 ENV NEXT_TELEMETRY_DISABLED=1
+# Build workspace packages first (web imports from dist/)
+RUN pnpm --filter=@themisos/types build
+RUN pnpm --filter=@themisos/greek-utils build
+RUN pnpm --filter=@themisos/rules-engine build
 RUN pnpm --filter=@themisos/web build
 
 FROM base AS runner
