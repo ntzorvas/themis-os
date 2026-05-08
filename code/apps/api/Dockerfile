@@ -19,8 +19,8 @@ COPY packages/ui/package.json packages/ui/
 # Install all deps (including dev for tsc builds)
 RUN pnpm install --frozen-lockfile
 
-# Cache bust — any change after pnpm install invalidates from here
-ARG CACHEBUST=1
+# SOURCE_COMMIT is injected by Coolify — busts cache on new commits
+ARG SOURCE_COMMIT
 # Copy all source
 COPY . .
 
