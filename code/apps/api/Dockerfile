@@ -12,8 +12,11 @@ COPY packages/greek-utils/package.json packages/greek-utils/
 COPY packages/rules-engine/package.json packages/rules-engine/
 COPY packages/ui/package.json packages/ui/
 
-# Install all deps (including dev — tsx needed at runtime for TS package imports)
+# Install all deps (including dev for build + tsx)
 RUN pnpm install --frozen-lockfile
+
+# Install tsx globally so it's available from any WORKDIR
+RUN pnpm add -g tsx
 
 # Copy all source
 COPY . .
