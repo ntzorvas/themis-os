@@ -17,14 +17,7 @@
     "skipLibCheck": true,
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true,
-    "paths": {
-      "@themisos/db": ["./packages/db/src/index.ts"],
-      "@themisos/types": ["./packages/types/src/index.ts"],
-      "@themisos/ui": ["./packages/ui/src/index.ts"],
-      "@themisos/greek-utils": ["./packages/greek-utils/src/index.ts"],
-      "@themisos/rules-engine": ["./packages/rules-engine/src/index.ts"]
-    }
+    "sourceMap": true
   },
   "exclude": ["node_modules", "dist", ".next", "coverage"]
 }

@@ -122,7 +122,7 @@ export class ProvisioningError extends Error {
   readonly code = 'PROVISIONING_FAILED' as const;
   readonly userMessage = 'Σφάλμα κατά τη δημιουργία του λογαριασμού. Παρακαλώ δοκιμάστε ξανά ή επικοινωνήστε με την υποστήριξη.';
 
-  constructor(message: string, public readonly cause?: unknown) {
+  constructor(message: string, public override readonly cause?: unknown) {
     super(message);
     this.name = 'ProvisioningError';
   }
@@ -561,7 +561,7 @@ export async function provisionFirm(
       // the entire transaction rolls back — CREATE SCHEMA and all preceding INSERTs
       // are fully reverted. No orphan schema or partial DB state will exist.
       // Reference: docs/v03/data-model-v03.md §8 (D-DM-17), Invariant #9.
-      const { dataKeyPath, privilegeKeyPath } = await provisionFirmKeys(firmId, input.slug, tx);
+      const { dataKeyPath, privilegeKeyPath } = await provisionFirmKeys(firmId, input.slug, tx as unknown as Parameters<typeof provisionFirmKeys>[2]);
       logger.info({ firmId, slug: input.slug, dataKeyPath, privilegeKeyPath }, 'firm KMS keys provisioned');
 
       // ── Step 9: INSERT public.audit_global ───────────────────────────────
