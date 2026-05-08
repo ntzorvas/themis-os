@@ -2,6 +2,9 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Standalone output for Docker/Coolify deployment
+  output: 'standalone',
+
   // Αυστηρή λειτουργία React
   reactStrictMode: true,
 
