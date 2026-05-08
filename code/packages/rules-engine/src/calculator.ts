@@ -17,7 +17,7 @@
  *     warnings_gr από rule JSON, requires_legal_review flag.
  */
 
-import { getRuleById, type DateVariant } from './rules';
+import { getRuleById, type DateVariant } from './rules.js';
 import {
   addCalendarDays,
   addBusinessDays,
@@ -25,9 +25,9 @@ import {
   addCalendarYears,
   nextBusinessDay,
   isBusinessDay,
-} from './business-days';
-import { applyAugustSuspension, AUGUST_EXEMPT_RULE_IDS } from './august-suspension';
-import { getHolidayName } from './holidays';
+} from './business-days.js';
+import { applyAugustSuspension, AUGUST_EXEMPT_RULE_IDS } from './august-suspension.js';
+import { getHolidayName } from './holidays.js';
 
 // ---------------------------------------------------------------------------
 // Types

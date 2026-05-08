@@ -3,7 +3,7 @@
 // Spec: docs/day4-auth-notes.md
 
 import { z } from 'zod';
-import { SubscriptionTierSchema } from './firm';
+import { SubscriptionTierSchema } from './firm.js';
 
 // ---------------------------------------------------------------------------
 // Primitives

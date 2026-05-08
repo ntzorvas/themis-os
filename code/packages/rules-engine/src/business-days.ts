@@ -9,7 +9,7 @@
  *   - Επίσημες αργίες (isGreekHoliday)
  */
 
-import { isGreekHoliday } from './holidays';
+import { isGreekHoliday } from './holidays.js';
 
 // ---------------------------------------------------------------------------
 // Core checks

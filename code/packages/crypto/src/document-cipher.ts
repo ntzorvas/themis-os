@@ -8,8 +8,8 @@
 // a serialisable representation of EnvelopeEncrypted (see 0004 migration).
 // `ciphertext` itself is NOT in the JSONB — it is the R2 object content.
 
-import { envelopeEncrypt, envelopeDecrypt } from './envelope';
-import type { EnvelopeEncrypted, AuditContext } from './envelope';
+import { envelopeEncrypt, envelopeDecrypt } from './envelope.js';
+import type { EnvelopeEncrypted, AuditContext } from './envelope.js';
 
 // ---------------------------------------------------------------------------
 // Serialisable envelope (suitable for JSONB storage in Postgres)

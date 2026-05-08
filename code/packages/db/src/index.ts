@@ -1,5 +1,5 @@
 // @themisos/db — main exports
-export { db, pool } from './client';
+export { db, pool } from './client.js';
 export {
   FIRM_SCHEMA_REGEX,
   FIRM_SLUG_REGEX,
@@ -7,6 +7,6 @@ export {
   getFirmSchemaName,
   setTenantSearchPath,
   withTenantContext,
-} from './tenant-resolver';
-export * from './schema/system';
-export type { Database } from './client';
+} from './tenant-resolver.js';
+export * from './schema/system.js';
+export type { Database } from './client.js';

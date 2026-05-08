@@ -12,7 +12,7 @@
 // If Vault succeeds but the DB INSERT fails, the transaction rolls back and
 // the orphaned Vault path must be cleaned up by the provisioning retry logic.
 
-import { vault } from './vault-client';
+import { vault } from './vault-client.js';
 
 // ---------------------------------------------------------------------------
 // Types

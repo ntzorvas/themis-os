@@ -27,7 +27,7 @@ import {
   type CipherGCM,
   type DecipherGCM,
 } from 'node:crypto';
-import { vault } from './vault-client';
+import { vault } from './vault-client.js';
 import {
   PrivilegeKeyNotConfiguredError,
   AuditFailureError,

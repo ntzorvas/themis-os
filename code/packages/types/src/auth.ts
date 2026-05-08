@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { FirmRoleSchema, SubscriptionTierSchema } from './firm';
+import { FirmRoleSchema, SubscriptionTierSchema } from './firm.js';
 
 // JWT payload — D-API-6
 // Το token περιέχει firm context για tenant resolution

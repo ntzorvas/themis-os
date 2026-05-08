@@ -43,8 +43,8 @@
 import { readFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { pool } from './client';
-import { getFirmSchemaName } from './tenant-resolver';
+import { pool } from './client.js';
+import { getFirmSchemaName } from './tenant-resolver.js';
 import { provisionFirmKeys } from '@themisos/crypto';
 
 // ---------------------------------------------------------------------------
