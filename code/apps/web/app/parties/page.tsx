@@ -10,7 +10,6 @@
  */
 
 import { Suspense } from 'react';
-import { headers } from 'next/headers';
 import type { Metadata } from 'next';
 import { PartiesFilterBar } from '@/components/parties/parties-filter-bar';
 import { PartiesTable } from '@/components/parties/parties-table';
@@ -21,6 +20,7 @@ import {
   type PartyRole,
   type PartyType,
 } from '@/types/parties';
+import { serverFetch } from '@/lib/api-client-server';
 
 export const metadata: Metadata = {
   title: 'Συμβαλλόμενοι',
@@ -32,45 +32,9 @@ export const metadata: Metadata = {
 
 const PER_PAGE = 20;
 
-// Fallback mock data — χρησιμοποιείται αν το backend δεν είναι ακόμα διαθέσιμο
-const MOCK_RESPONSE: PartiesListResponse = {
-  data: [
-    {
-      id: '00000000-0000-0000-0000-000000000001',
-      display_name: 'Νικόλαος Παπαδόπουλος',
-      party_type: 'natural',
-      afm: '094259216',
-      is_attorney: false,
-      roles: ['client'],
-      created_at: new Date().toISOString(),
-      updated_at: new Date().toISOString(),
-    },
-    {
-      id: '00000000-0000-0000-0000-000000000002',
-      display_name: 'ΑΛΦΑ ΝΟΜΙΚΗ ΑΕ',
-      party_type: 'legal',
-      afm: null,
-      is_attorney: false,
-      roles: ['counterparty'],
-      created_at: new Date().toISOString(),
-      updated_at: new Date().toISOString(),
-    },
-    {
-      id: '00000000-0000-0000-0000-000000000003',
-      display_name: 'Ελένη Δημητρίου',
-      party_type: 'natural',
-      afm: null,
-      is_attorney: true,
-      roles: ['attorney', 'counsel'],
-      created_at: new Date().toISOString(),
-      updated_at: new Date().toISOString(),
-    },
-  ],
-  meta: {
-    total: 3,
-    page: 1,
-    per_page: PER_PAGE,
-  },
+const EMPTY_RESPONSE: PartiesListResponse = {
+  data: [],
+  meta: { total: 0, page: 1, per_page: PER_PAGE },
 };
 
 // ---------------------------------------------------------------------------
@@ -85,13 +49,12 @@ interface FetchPartiesOptions {
   order?: string;
   offset?: number;
   limit?: number;
-  firmSlug: string | null;
 }
 
 async function fetchParties(
   opts: FetchPartiesOptions
 ): Promise<PartiesListResponse> {
-  const { firmSlug, offset = 0, limit = PER_PAGE, ...filters } = opts;
+  const { offset = 0, limit = PER_PAGE, ...filters } = opts;
 
   const params = new URLSearchParams();
   if (filters.role) params.set('role', filters.role);
@@ -102,34 +65,14 @@ async function fetchParties(
   params.set('limit', String(limit));
   params.set('offset', String(offset));
 
-  const apiUrl =
-    process.env['INTERNAL_API_URL'] ?? 'http://localhost:4000';
-
-  const requestHeaders = new Headers();
-  requestHeaders.set('Content-Type', 'application/json');
-  if (firmSlug !== null) {
-    requestHeaders.set('x-firm-slug', firmSlug);
-  }
-
   try {
-    const response = await fetch(
-      `${apiUrl}/api/v1/parties?${params.toString()}`,
-      {
-        headers: requestHeaders,
-        next: { revalidate: 30 },
-      }
-    );
-
-    if (!response.ok) {
-      // Backend unavailable — fall through to mock
-      throw new Error(`API responded ${response.status}`);
-    }
-
-    return response.json() as Promise<PartiesListResponse>;
+    const res = await serverFetch(`/api/v1/parties?${params.toString()}`, {
+      next: { revalidate: 30 },
+    });
+    if (!res.ok) throw new Error(`API responded ${res.status}`);
+    return res.json() as Promise<PartiesListResponse>;
   } catch {
-    // Backend παρατηρεί ακόμα — επιστρέφουμε mock data (graceful degradation)
-    // TODO Day 6: remove mock fallback when backend is stable
-    return MOCK_RESPONSE;
+    return EMPTY_RESPONSE;
   }
 }
 
@@ -178,10 +121,6 @@ export default async function PartiesPage({ searchParams }: PartiesPageProps) {
 
   const offset = Math.max(0, parseInt(params.offset ?? '0', 10) || 0);
 
-  // Read firm slug from middleware-injected header
-  const requestHeaders = await headers();
-  const firmSlug = requestHeaders.get('x-firm-slug');
-
   const partiesResponse = await fetchParties({
     ...(role !== undefined && { role }),
     ...(partyType !== undefined && { party_type: partyType }),
@@ -190,7 +129,6 @@ export default async function PartiesPage({ searchParams }: PartiesPageProps) {
     ...(params.order !== undefined && { order: params.order }),
     offset,
     limit: PER_PAGE,
-    firmSlug,
   });
 
   return (
@@ -227,13 +165,6 @@ export default async function PartiesPage({ searchParams }: PartiesPageProps) {
         >
           <PartiesTable response={partiesResponse} perPage={PER_PAGE} />
         </Suspense>
-
-        {/* Mock data notice — αφαιρείται Day 6 */}
-        {process.env['NODE_ENV'] !== 'production' && (
-          <p className="text-center text-xs text-gray-400">
-            * Mock data — backend integration pending (Day 6)
-          </p>
-        )}
       </div>
     </main>
   );

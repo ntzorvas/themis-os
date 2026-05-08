@@ -10,7 +10,6 @@
  */
 
 import { Suspense } from 'react';
-import { headers } from 'next/headers';
 import type { Metadata } from 'next';
 import { MattersFilterBar } from '@/components/matters/matters-filter-bar';
 import { MattersTable } from '@/components/matters/matters-table';
@@ -22,6 +21,7 @@ import {
   type MatterStatus,
   type MatterType,
 } from '@/types/matters';
+import { serverFetch } from '@/lib/api-client-server';
 
 export const metadata: Metadata = {
   title: 'Υποθέσεις',
@@ -33,69 +33,9 @@ export const metadata: Metadata = {
 
 const PER_PAGE = 20;
 
-// Fallback mock data — χρησιμοποιείται αν το backend δεν είναι ακόμα διαθέσιμο
-const MOCK_RESPONSE: MattersListResponse = {
-  data: [
-    {
-      id: '10000000-0000-0000-0000-000000000001',
-      matter_number: 'MAT-2026-001',
-      title: 'Αγωγή Παπαδόπουλου κατά ΑΛΦΑ ΑΕ',
-      matter_type: 'litigation',
-      status: 'active',
-      opened_at: new Date('2026-01-15').toISOString(),
-      closed_at: null,
-      lead_attorney_user_id: null,
-      practice_area: 'Εμπορικό Δίκαιο',
-      court: 'Πρωτοδικείο Αθηνών',
-      court_case_number: '1234/2026',
-      privilege_level: 'standard',
-      estimated_value_eur_cents: null,
-      billing_method: 'hourly',
-      retainer_balance_eur_cents: 0,
-      statute_of_limitations: null,
-      legal_hold: false,
-      ethical_wall: false,
-      notes: null,
-      custom_fields: {},
-      tags: [],
-      department_id: null,
-      created_at: new Date().toISOString(),
-      updated_at: new Date().toISOString(),
-      party_count: 3,
-    },
-    {
-      id: '10000000-0000-0000-0000-000000000002',
-      matter_number: 'MAT-2026-002',
-      title: 'Σύμβαση Εξαγοράς ΒΗΤΑ ΑΕ',
-      matter_type: 'transactional',
-      status: 'prospective',
-      opened_at: new Date('2026-03-01').toISOString(),
-      closed_at: null,
-      lead_attorney_user_id: null,
-      practice_area: null,
-      court: null,
-      court_case_number: null,
-      privilege_level: 'standard',
-      estimated_value_eur_cents: 50000000,
-      billing_method: 'fixed',
-      retainer_balance_eur_cents: 0,
-      statute_of_limitations: null,
-      legal_hold: false,
-      ethical_wall: false,
-      notes: null,
-      custom_fields: {},
-      tags: [],
-      department_id: null,
-      created_at: new Date().toISOString(),
-      updated_at: new Date().toISOString(),
-      party_count: 2,
-    },
-  ],
-  meta: {
-    total: 2,
-    page: 1,
-    per_page: PER_PAGE,
-  },
+const EMPTY_RESPONSE: MattersListResponse = {
+  data: [],
+  meta: { total: 0, page: 1, per_page: PER_PAGE },
 };
 
 // ---------------------------------------------------------------------------
@@ -108,13 +48,12 @@ interface FetchMattersOptions {
   assigned_to_user_id?: string;
   offset?: number;
   limit?: number;
-  firmSlug: string | null;
 }
 
 async function fetchMatters(
   opts: FetchMattersOptions
 ): Promise<MattersListResponse> {
-  const { firmSlug, offset = 0, limit = PER_PAGE, ...filters } = opts;
+  const { offset = 0, limit = PER_PAGE, ...filters } = opts;
 
   const params = new URLSearchParams();
   if (filters.status) params.set('status', filters.status);
@@ -124,32 +63,14 @@ async function fetchMatters(
   params.set('limit', String(limit));
   params.set('offset', String(offset));
 
-  const apiUrl =
-    process.env['INTERNAL_API_URL'] ?? 'http://localhost:4000';
-
-  const requestHeaders = new Headers();
-  requestHeaders.set('Content-Type', 'application/json');
-  if (firmSlug !== null) {
-    requestHeaders.set('x-firm-slug', firmSlug);
-  }
-
   try {
-    const response = await fetch(
-      `${apiUrl}/api/v1/matters?${params.toString()}`,
-      {
-        headers: requestHeaders,
-        next: { revalidate: 30 },
-      }
-    );
-
-    if (!response.ok) {
-      throw new Error(`API responded ${response.status}`);
-    }
-
-    return response.json() as Promise<MattersListResponse>;
+    const res = await serverFetch(`/api/v1/matters?${params.toString()}`, {
+      next: { revalidate: 30 },
+    });
+    if (!res.ok) throw new Error(`API responded ${res.status}`);
+    return res.json() as Promise<MattersListResponse>;
   } catch {
-    // Backend παρατηρεί ακόμα — graceful degradation με mock data
-    return MOCK_RESPONSE;
+    return EMPTY_RESPONSE;
   }
 }
 
@@ -193,9 +114,6 @@ export default async function MattersPage({ searchParams }: MattersPageProps) {
 
   const offset = Math.max(0, parseInt(params.offset ?? '0', 10) || 0);
 
-  const requestHeaders = await headers();
-  const firmSlug = requestHeaders.get('x-firm-slug');
-
   const mattersResponse = await fetchMatters({
     ...(status !== undefined && { status }),
     ...(matterType !== undefined && { matter_type: matterType }),
@@ -204,7 +122,6 @@ export default async function MattersPage({ searchParams }: MattersPageProps) {
     }),
     offset,
     limit: PER_PAGE,
-    firmSlug,
   });
 
   return (
@@ -240,12 +157,6 @@ export default async function MattersPage({ searchParams }: MattersPageProps) {
         >
           <MattersTable response={mattersResponse} perPage={PER_PAGE} />
         </Suspense>
-
-        {process.env['NODE_ENV'] !== 'production' && (
-          <p className="text-center text-xs text-gray-400">
-            * Mock data — backend integration pending
-          </p>
-        )}
       </div>
     </main>
   );

@@ -63,7 +63,7 @@ const nextConfig = {
 
   // Rewrites για API proxy στο Fastify (development)
   async rewrites() {
-    const apiUrl = process.env['INTERNAL_API_URL'] ?? 'http://localhost:4000';
+    const apiUrl = process.env['INTERNAL_API_URL'] ?? 'http://localhost:4100';
     return [
       {
         source: '/api/v1/:path*',

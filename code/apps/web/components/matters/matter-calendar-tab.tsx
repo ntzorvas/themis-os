@@ -10,7 +10,6 @@ import { useState, useEffect } from 'react';
 import { NewEventDialog } from '@/components/calendar/new-event-dialog';
 import { EventPill } from '@/components/calendar/event-pill';
 import {
-  MOCK_EVENTS,
   EVENT_TYPE_LABELS,
   GREEK_DAYS_FULL,
   GREEK_MONTHS_GEN,
@@ -81,8 +80,7 @@ export function MatterCalendarTab({ matterId, matterTitle }: MatterCalendarTabPr
         );
         setEvents(res.data);
       } catch {
-        // Mock fallback — filter mock by null matter_id as placeholder
-        setEvents(MOCK_EVENTS.slice(0, 3));
+        setEvents([]);
       } finally {
         setLoading(false);
       }

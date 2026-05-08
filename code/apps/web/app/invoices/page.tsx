@@ -6,7 +6,6 @@
  */
 
 import { Suspense } from 'react';
-import { headers } from 'next/headers';
 import type { Metadata } from 'next';
 import { InvoicesClient } from './invoices-client';
 import {
@@ -15,6 +14,7 @@ import {
   type InvoiceStatus,
 } from '@/types/billing';
 import { formatEur } from '@/lib/currency';
+import { serverFetch } from '@/lib/api-client-server';
 
 export const metadata: Metadata = {
   title: 'Τιμολόγια',
@@ -22,54 +22,9 @@ export const metadata: Metadata = {
 
 const PER_PAGE = 20;
 
-// ---------------------------------------------------------------------------
-// Mock data
-// ---------------------------------------------------------------------------
-
-const MOCK_RESPONSE: InvoicesListResponse = {
-  data: [
-    {
-      id: 'inv-0000-0000-0000-000000000001',
-      invoice_number: 'INV-2026-001',
-      matter_id: '10000000-0000-0000-0000-000000000001',
-      bill_to_party_id: 'p-0000-0000-0000-000000000001',
-      status: 'issued',
-      invoice_date: '2026-04-01',
-      due_date: '2026-05-01',
-      subtotal_eur_cents: 49500,
-      vat_rate_pct: 24,
-      vat_amount_eur_cents: 11880,
-      total_eur_cents: 61380,
-      paid_eur_cents: 0,
-      notes: null,
-      created_at: new Date().toISOString(),
-      updated_at: new Date().toISOString(),
-      matter_title: 'Αγωγή Παπαδόπουλου κατά ΑΛΦΑ ΑΕ',
-      matter_number: 'MAT-2026-001',
-      party_display_name: 'Παπαδόπουλος Κωνσταντίνος',
-    },
-    {
-      id: 'inv-0000-0000-0000-000000000002',
-      invoice_number: 'INV-2026-002',
-      matter_id: '10000000-0000-0000-0000-000000000002',
-      bill_to_party_id: 'p-0000-0000-0000-000000000002',
-      status: 'paid',
-      invoice_date: '2026-03-15',
-      due_date: '2026-04-15',
-      subtotal_eur_cents: 120000,
-      vat_rate_pct: 24,
-      vat_amount_eur_cents: 28800,
-      total_eur_cents: 148800,
-      paid_eur_cents: 148800,
-      notes: null,
-      created_at: new Date().toISOString(),
-      updated_at: new Date().toISOString(),
-      matter_title: 'Σύμβαση Εξαγοράς ΒΗΤΑ ΑΕ',
-      matter_number: 'MAT-2026-002',
-      party_display_name: 'ΑΛΦΑ ΑΕ',
-    },
-  ],
-  meta: { total: 2, page: 1, per_page: PER_PAGE },
+const EMPTY_RESPONSE: InvoicesListResponse = {
+  data: [],
+  meta: { total: 0, page: 1, per_page: PER_PAGE },
 };
 
 // ---------------------------------------------------------------------------
@@ -77,23 +32,16 @@ const MOCK_RESPONSE: InvoicesListResponse = {
 // ---------------------------------------------------------------------------
 
 async function fetchInvoices(
-  params: URLSearchParams,
-  firmSlug: string | null
+  params: URLSearchParams
 ): Promise<InvoicesListResponse> {
-  const apiUrl = process.env['INTERNAL_API_URL'] ?? 'http://localhost:4000';
-  const reqHeaders = new Headers();
-  reqHeaders.set('Content-Type', 'application/json');
-  if (firmSlug) reqHeaders.set('x-firm-slug', firmSlug);
-
   try {
-    const res = await fetch(
-      `${apiUrl}/api/v1/invoices?${params.toString()}`,
-      { headers: reqHeaders, next: { revalidate: 30 } }
-    );
+    const res = await serverFetch(`/api/v1/invoices?${params.toString()}`, {
+      next: { revalidate: 30 },
+    });
     if (!res.ok) throw new Error(`API ${res.status}`);
     return res.json() as Promise<InvoicesListResponse>;
   } catch {
-    return MOCK_RESPONSE;
+    return EMPTY_RESPONSE;
   }
 }
 
@@ -127,19 +75,17 @@ export default async function InvoicesPage({
       ? (statusRaw as InvoiceStatus)
       : undefined;
 
-  const requestHeaders = await headers();
-  const firmSlug = requestHeaders.get('x-firm-slug');
-
   const urlParams = new URLSearchParams();
   if (params.matter_id) urlParams.set('matter_id', params.matter_id);
-  if (params.bill_to_party_id) urlParams.set('bill_to_party_id', params.bill_to_party_id);
+  if (params.bill_to_party_id)
+    urlParams.set('bill_to_party_id', params.bill_to_party_id);
   if (status) urlParams.set('status', status);
   if (params.from) urlParams.set('from', params.from);
   if (params.to) urlParams.set('to', params.to);
   urlParams.set('limit', String(PER_PAGE));
   urlParams.set('offset', String(offset));
 
-  const response = await fetchInvoices(urlParams, firmSlug);
+  const response = await fetchInvoices(urlParams);
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">

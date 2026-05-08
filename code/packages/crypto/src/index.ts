@@ -3,12 +3,12 @@
 // Internal helpers (wrapVaultError, etc.) are NOT exported.
 
 // Vault client
-export { VaultClient, vault } from './vault-client.js';
-export type { VaultConfig } from './vault-client.js';
+export { VaultClient, vault } from './vault-client';
+export type { VaultConfig } from './vault-client';
 
 // Envelope encryption
-export { envelopeEncrypt, envelopeDecrypt } from './envelope.js';
-export type { EnvelopeEncrypted, AuditContext } from './envelope.js';
+export { envelopeEncrypt, envelopeDecrypt } from './envelope';
+export type { EnvelopeEncrypted, AuditContext } from './envelope';
 
 // Document-level helpers (R2 upload/download)
 export {
@@ -16,11 +16,11 @@ export {
   decryptDocumentFromR2,
   toJsonEnvelope,
   fromJsonEnvelope,
-} from './document-cipher.js';
-export type { JsonEnvelope } from './document-cipher.js';
+} from './document-cipher';
+export type { JsonEnvelope } from './document-cipher';
 
 // Firm provisioning
-export { provisionFirmKeys } from './firm-provisioning-hook.js';
+export { provisionFirmKeys } from './firm-provisioning-hook';
 
 // Typed errors
 export {
@@ -31,4 +31,4 @@ export {
   VaultOperationError,
   AuditFailureError,
   DekVersionNotFoundError,
-} from './errors.js';
+} from './errors';

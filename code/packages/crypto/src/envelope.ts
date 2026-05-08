@@ -27,11 +27,11 @@ import {
   type CipherGCM,
   type DecipherGCM,
 } from 'node:crypto';
-import { vault } from './vault-client.js';
+import { vault } from './vault-client';
 import {
   PrivilegeKeyNotConfiguredError,
   AuditFailureError,
-} from './errors.js';
+} from './errors';
 
 // ---------------------------------------------------------------------------
 // Public types

@@ -46,10 +46,7 @@ function todayIso(): string {
   return new Date().toISOString().split('T')[0] ?? '';
 }
 
-const MOCK_MATTERS = [
-  { id: '10000000-0000-0000-0000-000000000001', title: 'Αγωγή Παπαδόπουλου κατά ΑΛΦΑ ΑΕ', matter_number: 'MAT-2026-001' },
-  { id: '10000000-0000-0000-0000-000000000002', title: 'Σύμβαση Εξαγοράς ΒΗΤΑ ΑΕ', matter_number: 'MAT-2026-002' },
-];
+type MatterOption = { id: string; title: string; matter_number: string };
 
 // ---------------------------------------------------------------------------
 // New Expense Dialog (inline)
@@ -63,7 +60,7 @@ interface NewExpenseDialogProps {
 function NewExpenseDialog({ open, onClose }: NewExpenseDialogProps) {
   const router = useRouterForRefresh();
   const dialogRef = useRef<HTMLDialogElement>(null);
-  const [matters, setMatters] = useState(MOCK_MATTERS);
+  const [matters, setMatters] = useState<MatterOption[]>([]);
   // amount display as euros (user input), store as cents internally
   const [amountEurDisplay, setAmountEurDisplay] = useState('');
 
@@ -81,9 +78,9 @@ function NewExpenseDialog({ open, onClose }: NewExpenseDialogProps) {
 
   useEffect(() => {
     if (!open) return;
-    clientFetch<{ data: typeof MOCK_MATTERS[0][] }>('/api/v1/matters?limit=100&status=active')
-      .then((r) => setMatters(r.data ?? MOCK_MATTERS))
-      .catch(() => setMatters(MOCK_MATTERS));
+    clientFetch<{ data: MatterOption[] }>('/api/v1/matters?limit=100&status=active')
+      .then((r) => setMatters(r.data ?? []))
+      .catch(() => setMatters([]));
   }, [open]);
 
   useEffect(() => {

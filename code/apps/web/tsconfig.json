@@ -4,19 +4,49 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [{ "name": "next" }],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "paths": {
-      "@/*": ["./*"],
-      "@themisos/db": ["../../packages/db/src/index.ts"],
-      "@themisos/types": ["../../packages/types/src/index.ts"],
-      "@themisos/ui": ["../../packages/ui/src/index.ts"],
-      "@themisos/greek-utils": ["../../packages/greek-utils/src/index.ts"],
-      "jose": ["../../node_modules/.pnpm/jose@6.2.3/node_modules/jose/dist/types/index.d.ts"]
-    }
+      "@/*": [
+        "./*"
+      ],
+      "@themisos/db": [
+        "../../packages/db/src/index.ts"
+      ],
+      "@themisos/types": [
+        "../../packages/types/src/index.ts"
+      ],
+      "@themisos/ui": [
+        "../../packages/ui/src/index.ts"
+      ],
+      "@themisos/greek-utils": [
+        "../../packages/greek-utils/src/index.ts"
+      ],
+      "jose": [
+        "../../node_modules/.pnpm/jose@6.2.3/node_modules/jose/dist/types/index.d.ts"
+      ]
+    },
+    "allowJs": true,
+    "noEmit": true,
+    "resolveJsonModule": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

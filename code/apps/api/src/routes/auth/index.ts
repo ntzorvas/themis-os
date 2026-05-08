@@ -149,7 +149,7 @@ async function provisionFirm(
         (slug, legal_name, afm, status, tier, schema_name, billing_email, trial_ends_at)
       VALUES
         (${input.slug}, ${input.legalName}, ${input.afm}, 'trial', ${input.tier},
-         ${schemaName}, ${input.billingEmail}, ${trialEndsAt})
+         ${schemaName}, ${input.billingEmail}, ${trialEndsAt.toISOString()})
       RETURNING id, slug, schema_name, status, tier, legal_name, trial_ends_at
     `;
 
@@ -437,6 +437,7 @@ const authRoutes: FastifyPluginAsync = async (fastify) => {
           sub: user.id,
           firm: firm.id,
           firm_slug: firm.slug,
+          tier: firm.tier,
           role: user.role,
           jti,
           iat: now,
@@ -461,7 +462,7 @@ const authRoutes: FastifyPluginAsync = async (fastify) => {
             VALUES
               (${jti}::uuid, ${user.id}::uuid, ${jti},
                ${request.ip}::inet, ${request.headers['user-agent'] ?? null},
-               ${expiresAt})
+               ${expiresAt.toISOString()})
           `;
 
           // INSERT audit_log
@@ -640,13 +641,13 @@ const authRoutes: FastifyPluginAsync = async (fastify) => {
           email: user.email,
           fullName: user.full_name,
           role: user.role,
-          lastLoginAt: user.last_login_at?.toISOString() ?? null,
+          lastLoginAt: user.last_login_at ? String(user.last_login_at) : null,
         },
         firm: {
           slug: firm.slug,
           legalName: firm.legal_name,
           tier: firm.tier,
-          trialEndsAt: firm.trial_ends_at?.toISOString() ?? null,
+          trialEndsAt: firm.trial_ends_at ? String(firm.trial_ends_at) : null,
         },
       });
     }
@@ -729,7 +730,7 @@ const authRoutes: FastifyPluginAsync = async (fastify) => {
             INSERT INTO password_reset_tokens
               (user_id, token_hash, expires_at, ip_requested_from)
             VALUES
-              (${user.id}::uuid, ${tokenHash}, ${expiresAt}, ${request.ip}::inet)
+              (${user.id}::uuid, ${tokenHash}, ${expiresAt.toISOString()}, ${request.ip}::inet)
           `;
         });
 
