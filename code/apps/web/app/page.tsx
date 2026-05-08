@@ -111,16 +111,18 @@ const productName = process.env['PRODUCT_NAME'] ?? 'ΘΕΜΙΣ OS';
 
 export default async function DashboardPage() {
   // Ensure authenticated — redirects to /login if not
-  const session = await requireAuth();
-  const displayName = session.payload.name ?? session.payload.email ?? 'Χρήστη';
-  const firstName = displayName.split(' ')[0] ?? displayName;
+  await requireAuth();
 
-  // Fetch counts in parallel
-  const [mattersTotal, partiesTotal, eventsTotal] = await Promise.all([
+  // Fetch user info + counts in parallel
+  const [fullName, mattersTotal, partiesTotal, eventsTotal] = await Promise.all([
+    fetchUserFullName(),
     fetchCount('/api/v1/matters'),
     fetchCount('/api/v1/parties'),
     fetchCount('/api/v1/calendar/events'),
   ]);
+
+  const displayName = fullName ?? 'Χρήστη';
+  const firstName = displayName.split(' ')[0] ?? displayName;
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
