@@ -16,7 +16,8 @@ COPY packages/greek-utils/package.json packages/greek-utils/
 COPY packages/rules-engine/package.json packages/rules-engine/
 COPY packages/ui/package.json packages/ui/
 
-# Install all deps (including dev for tsc builds)
+# Ensure dev deps (typescript) are installed — override any injected NODE_ENV
+ENV NODE_ENV=development
 RUN pnpm install --frozen-lockfile
 
 # SOURCE_COMMIT is injected by Coolify — busts cache on new commits
