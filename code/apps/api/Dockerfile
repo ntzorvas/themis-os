@@ -1,5 +1,9 @@
 FROM node:22-slim
+
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable && corepack prepare pnpm@latest --activate
+
 WORKDIR /app
 
 # Copy workspace config + all package.json files
@@ -12,11 +16,8 @@ COPY packages/greek-utils/package.json packages/greek-utils/
 COPY packages/rules-engine/package.json packages/rules-engine/
 COPY packages/ui/package.json packages/ui/
 
-# Install all deps (including dev for build + tsx)
+# Install all deps (including dev — tsx needed at runtime for TS package imports)
 RUN pnpm install --frozen-lockfile
-
-# Install tsx globally so it's available from any WORKDIR
-RUN pnpm add -g tsx
 
 # Copy all source
 COPY . .
@@ -27,5 +28,6 @@ RUN pnpm --filter=@themisos/api build
 ENV NODE_ENV=production
 EXPOSE 4100
 
-# tsx registers TS loader so @themisos/* packages (which export .ts source) resolve correctly
-CMD ["node", "--import=tsx", "apps/api/dist/apps/api/src/server.js"]
+# Run via pnpm exec so tsx (devDep of @themisos/api) is resolvable
+WORKDIR /app/apps/api
+CMD ["pnpm", "exec", "node", "--import=tsx", "/app/apps/api/dist/apps/api/src/server.js"]
