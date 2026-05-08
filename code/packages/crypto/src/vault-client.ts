@@ -12,7 +12,7 @@ import {
   VaultConnectionError,
   VaultOperationError,
   DekVersionNotFoundError,
-} from './errors';
+} from './errors.js';
 
 // ---------------------------------------------------------------------------
 // Config schema — validated at construction time

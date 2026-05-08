@@ -31,7 +31,7 @@ import { vault } from './vault-client.js';
 import {
   PrivilegeKeyNotConfiguredError,
   AuditFailureError,
-} from './errors';
+} from './errors.js';
 
 // ---------------------------------------------------------------------------
 // Public types
