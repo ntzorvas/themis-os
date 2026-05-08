@@ -18,7 +18,12 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY --from=deps /app/apps/api/node_modules ./apps/api/node_modules
 COPY --from=deps /app/packages/ ./packages/
 COPY . .
-RUN pnpm --filter=@themisos/api build
+RUN pnpm --filter=@themisos/types build && \
+    pnpm --filter=@themisos/greek-utils build && \
+    pnpm --filter=@themisos/rules-engine build && \
+    pnpm --filter=@themisos/crypto build && \
+    pnpm --filter=@themisos/db build && \
+    pnpm --filter=@themisos/api build
 
 FROM base AS runner
 ENV NODE_ENV=production
