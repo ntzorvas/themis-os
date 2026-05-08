@@ -110,6 +110,13 @@ else: print('')
   echo "  Deployment queued: ${dep_uuid}"
   echo "  Watching..."
   cmd_watch "$dep_uuid"
+
+  # Auto-update Traefik config with new container names
+  echo ""
+  echo "  Updating Traefik config..."
+  ssh -o StrictHostKeyChecking=no root@89.167.110.132 \
+    'bash /root/scripts/post-deploy-traefik.sh' 2>/dev/null || \
+    echo "  WARNING: Could not auto-update Traefik. Run manually on server."
 }
 
 cmd_restart() {
